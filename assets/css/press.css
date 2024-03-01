@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.brand_logo_resize{
+    height: 60px;
+}
+
+#media_kit .row .card:hover{
+    transform: translateY(-15px);
+}
+.first_row_box{
+    max-width: 325px;
+    min-width: 320px;
+}
+.overflow_x_scroll{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-color: red;
+}
+.overflow_x_scroll .first_row_box{
+    gap: 35px;
+}
+.img_resize_inside_scroll{
+    height: 85px;
+    width: 185px
+}
+.industry_news .main_img{
+    height: 260px;
+    object-fit: cover;
+}
+
+.industry_news .main_img:hover{
+    transform: scale(1.07);
+}
+
+
+
+/* ----------------PRODUCT DELIVERY CSS ---------------- */
+
+/* --------------- first section ----------------  */
+#first_img_section .container .text_bg{
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background: rgba(0, 0, 0, 0.349);
+    padding: 0 10px;
+    line-height: 55px;
+    color: #ebe7e7;
+}
+
+#first_img_section .container .text_bg_p{
+    padding: 3px 10px;
+}
+/* contact Now- button bg-white for hover */
+.btn_contact_now:hover{
+    background: #fff !important;
+    color: black !important;
+}
+.bg_theme{
+    background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)) !important;
+}
+.font_color{
+    color: #17C1E8;
+}
+.font_color:hover{
+    color: black;
+}
+.line_height{
+    line-height: 1.6em;
+}
+/* ------------------------------------------------------------- */
+
+
+/* ------------------ CUSTOMER CSS ---------------------------  */
+
+/* #company_logo_section .container .row{
+    row-gap: 30px;
+} */
+
+#company_logo_section .company_logo_box img{
+    height: 85px;
+    width: 185px
+    
+}
+#company_logo_section .company_logo_box .company_logo_invisible_part{
+    top: calc(100% - 20px);
+    visibility: hidden;
+    opacity: 0;
+}
+#company_logo_section .company_logo_box .last_invisible_box{
+    top: calc(-50%);
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+#company_logo_section .company_logo_box:hover .company_logo_invisible_part , #company_logo_section .company_logo_box:hover .last_invisible_box{
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+#company_logo_section .company_logo_box:hover .company_logo_invisible_part , .last_invisible_box{
+    border: 1px solid #17C1E8;
+}
+
+.border_theme{
+    border: 1px solid #17C1E8;
+}
+
+
+/* -----------------------------END ------------------------ */

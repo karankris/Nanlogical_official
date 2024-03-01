@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.blog_catogories .btn-outline-primary{
+    border-radius: 0px !important;
+    border:1px solid #e0e0e0;
+    color: #000000;
+}
+.btn-outline-primary:hover,.btn-outline-primary:active{
+    background-color: #fff !important;
+    border:1px solid #17c1e8;
+    color: #17c1e8 !important;
+    outline: none !important;
+}
+.btn-outline-primary:focus{
+    background-color: #fff !important;
+    border:1px solid #17c1e8 !important; 
+    color: #17c1e8 !important;  
+    outline: none !important;
+}
+/* //owl coursel styling if needed */
+/* .owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot span:hover{
+    background-color:white !important;
+    border: 2px solid #ffdd11 !important;
+    font-size: 25px;
+
+}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot.active span:hover{
+    background-color: #ffdd11 !important;
+    border: none !important;
+    font-size: 25px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute !important;
+    bottom: 50px !important;
+}
+.owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{
+    border: none !important;
+    bottom: 50px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    padding-right: 120px !important;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: white;
+    border-color: white;
+} */

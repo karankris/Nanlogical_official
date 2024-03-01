@@ -1,0 +1,170 @@
+
+.bg_color2{
+    background-color:#f6f6f6 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+flex-direction: row;
+}
+.theme_font_color{
+    color: #17c1e8;
+}
+.bg_theme{
+    background-image:linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+    border-radius: 3px;
+}
+.contact_top_section1 .container .row .right .serv_right a .fa-house:hover,.contact_top_section1 .container .row .right .serv_right a .fa-house{
+    color:#17c1e8;
+}
+.maps_nanlogical{
+    height: 300px;
+    width: 100%;
+}
+/*-------------------- how we start section----------------- */
+.we_start_sec .start_box{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+    justify-content: space-between;
+    margin: auto;
+}
+.we_start_sec .start_box .icons_container{
+    width: 150px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.we_start_sec .start_box .icons_container:after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    top: 89px;
+    left: 10px;
+    height: 4px;
+    background: linear-gradient(90deg,#344767 0%,#344767 15%,#344767 32%,#344767 52%,#344767 60%,rgba(75,176,228,1) 65%,75.5%,rgba(75,176,228,1) 69%,rgba(55,150,199,1) 100%);
+}
+
+.we_start_sec .start_box .icons_container .icon_circle{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    margin: 21px 0 25px 0;
+    background-color: #344767;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.we_start_sec .start_box .icons_container .icon_circle_blue{
+    background-color: rgba(55,150,199,1);
+}
+.we_start_sec .start_box .icons_container .color_blue2{
+    background-color:rgb(72, 172, 222) !important;
+}
+.we_start_sec .start_box .icons_container .color_blue1{
+    background-color: rgba(157,212,237,1) !important;
+}
+.we_start_sec .start_box .icons_container i{
+    font-size: 30px !important;
+    z-index:9;
+}
+
+/* -----------------------------awards section in contact us---------------------------------- */
+.bg_light_grey{
+    background-color: #f6f6f6;
+}
+
+.achievements_container .achievements_container_div img{
+    height: 150px;
+    width: 150px;
+}
+/*--------------------------------- you will get section ---------------------------------------- */
+.text_ic{
+    line-height: 1.2em;
+    font-weight: 600;
+    font-family: "Lato";
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/* -------------------------------------owl carousel in contact us --------------------------------- */
+.owl-carousel .item,.owl-carousel{
+    position: relative;
+    overflow: hidden;
+}
+.owl-carousel-item{
+    display: block;
+}
+.img_logo{
+    width: 200px !important;
+    height: 35px;
+    object-fit: cover;
+}
+.img_text{
+    line-height: 35px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.owl-carousel .card{
+    border: none !important;
+}
+
+.owl-theme .owl-dots{
+    text-align: left !important;
+    margin-left: 10px !important;
+}
+
+.owl-theme .owl-nav{
+    display: none;
+}
+.owl-carousel .item .card{
+    width:100%
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+}
+
+/* ----------------------------places--------------------------------------------- */
+.places .container .row .places_col{
+padding: 50px 100px !important;
+}
+.modal-content{
+    background-color: transparent !important;
+    border: none; 
+    background: transparent !important;
+}
+
+#videoModal .modal-body {
+    position: relative;
+    padding: 0;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+}
+
+.close,.close:hover{
+    color: white !important;
+    outline: none !important;
+}
+#videoModal iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .owl-carousel .item .card{
+        margin-top: 50px !important;
+    }
+    .img_text{
+        line-height:37px;
+        text-align:left;
+        margin-left:1px;
+        font-size:15px;
+    }
+}

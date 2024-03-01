@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+    /* border: 1px solid black; */
+}
+#technologies_body{
+    background: url(../images/technologies/Expertise_large.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* should change below 1225px  */
+    background-repeat: no-repeat;
+}
+
+
+/* ----------------- ABOUT CSS --------------------  */
+/* Tell Us About Your Project - Add file btn  */
+#add_file:hover{
+    color: white !important;
+    border: 1px solid #17C1E8;
+    background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)) !important;
+}
+#add_file i{
+    color: #17C1E8;
+}
+#add_file:hover i{
+    color: white !important;
+}
+#btn_send:hover{
+    background: white !important;
+    color: #17C1E8 !important;
+}
+textarea {
+    resize: none;
+}
+.border_theme{
+    border: 1px solid #17C1E8;
+}
+
+/* --------------- Achievemns------------  */
+.achievements_container .achievements_container_div img{
+    height: 150px;
+    width: 150px;
+}
+/* ------------------------------------------  */
+
+
+/* ----------------PRODUCT DELIVERY CSS ---------------- */
+
+/* --------------- first section ----------------  */
+#first_img_section .container .text_bg{
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background: rgba(0, 0, 0, 0.349);
+    padding: 0 10px;
+    line-height: 55px;
+    color: #ebe7e7;
+}
+
+#first_img_section .container .text_bg_p{
+    padding: 3px 10px;
+}
+/* contact Now- button bg-white for hover */
+.btn_contact_now:hover{
+    background: white !important;
+    color: black !important;
+}
+.bg_theme{
+    background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)) !important;
+}
+.font_color{
+    color: #17C1E8;
+}
+.font_color:hover{
+    color: #000;
+}
+.line_height{
+    line-height: 1.6em;
+}
+/* ------------------------------------------------------------- */
+
+/* ---------------- TESTIMONIAL CSS ---------------------  */
+#testimonial_main_section .testimonial_development_hub .testimonial_development p{
+    font-size: 1.6rem;
+} 
+
+#testimonial_main_section .list_items{
+    list-style: inside; 
+    list-style-type: none;
+} 
+/* -------------------------------------------- */
+
+
+
+/* ---------------- SOLUTIONS CSS ------------ */
+/*-------------------- how we start section----------------- */
+.bg_color_grey{
+    width:100% !important;
+    background-color: #f6f6f6;
+    margin: 0 !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.we_start_sec .start_box{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+    justify-content: space-between;
+    margin: auto;
+}
+.we_start_sec .start_box .icons_container{
+    width: 150px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.we_start_sec .start_box .icons_container:after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    top: 89px;
+    left: 10px;
+    height: 4px;
+    background: linear-gradient(90deg,#17C1E8 0%,#17C1E8 15%,#17C1E8 32%,#17C1E8 52%,#17C1E8 60%,rgba(75,176,228,1) 65%,75.5%,rgba(75,176,228,1) 69%,rgba(55,150,199,1) 100%);
+}
+
+.we_start_sec .start_box .icons_container .icon_circle{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    margin: 21px 0 25px 0;
+    background-color: #17C1E8;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.we_start_sec .start_box .icons_container .icon_circle_blue{
+    background-color: rgba(55,150,199,1);
+}
+.we_start_sec .start_box .icons_container .color_blue2{
+    background-color:rgb(72, 172, 222) !important;
+}
+.we_start_sec .start_box .icons_container .color_blue1{
+    background-color: rgba(157,212,237,1) !important;
+}
+.we_start_sec .start_box .icons_container i{
+    font-size: 30px !important;
+    z-index:9;
+}
+/* --------------------------------------------------------- */
+
+
+/* ------------------------WEB DEVELOPMENT CSS ------------------ */
+/* ----------------selected cases sec------------------------- */
+.bg_color2{
+    background-color:#f6f6f6 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.selected_cases .container .owl-carousel .item a{
+    position: relative;
+    overflow: hidden;
+}
+.selected_cases .container .owl-carousel-item a {
+    display: block;
+}
+
+.selected_cases .container .owl-carousel .item a img {
+    transition: transform 0.10s ease-in-out;
+}
+.selected_cases .container .owl-carousel .item:hover  a img {
+    transform: scale(1.2);
+}
+.selected_cases .container .owl-carousel .item .flag_icon{
+    background-image: url(../images/india-flag-icon.svg);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    border-radius: 60%;
+}
+.owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot span:hover{
+    background-color:white !important;
+    border: 2px solid #17C1E8 !important;
+}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot.active span:hover{
+    background-color: #17C1E8 !important;
+    border: none !important;
+}
+.owl-theme .owl-nav{
+    display: none;
+}
+.owl-theme .owl-dots{
+    margin-top: 10px !important;
+}
+.selected_cases .container .owl-carousel .item_box:hover img {
+    transform: rotate(5deg) scale(1.2);
+}
+/* ---------end selected cases sec------------- */
+
+/* ------------tech stach---------- */
+.tech_stack i{
+    font-size: 60px !important;
+  }
+.tech_stack i:hover{
+    font-size: 60px !important;
+    color: #17C1E8;
+    transition: 1s;
+    cursor:pointer;
+  }
+
+.tech_stack_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px 2px;
+}
+/* ------------end tech stack------------------  */
+
+
+/* ---------------end WEB DEVELOPMENT CSS ---------------------------------  */

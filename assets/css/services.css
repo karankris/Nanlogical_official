@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color:rgb(103, 116, 142) !important;
+}
+.services_top_section1{
+    width:100%;
+}
+.services_top_section2{
+    height: 400px !important;
+    width: 100%;
+}
+.services_top_section3 .services_top_section4, .we_start_sec, .contact_us, .ready_to_start,.selected_cases,.off_on_site_sec,.serv_last_sec{
+        display: flex;
+        flex-direction: column;   
+        padding-bottom:22px;   
+        width: 100%;
+}
+
+.software_d_p{
+  aspect-ratio: 16/9;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.bg_color_white{
+    width:100% !important;
+    background-color: rgb(252, 251, 251);
+    margin: 0 !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.bg_color2{
+    background-color:#f6f6f6 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.theme_font_color{
+    color: #17c1e8;
+}
+.bg_theme{
+    background:linear-gradient(310deg, rgb(20, 23, 39), rgb(58, 65, 111));
+}
+
+/* --------------------------background image for services page----------------------------- */
+.services_bg_image1{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/sec1_bg.webp);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover !important;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+/*---------------------------- services_top_section1----------------------------------*/
+.services_top_section1 .container .row .right .serv_right a .fa-house:hover{
+color:rgb(52, 71, 103);
+}
+/*---------------------------- services_top_section2 --------------------------------*/
+.services_top_section2{
+    height:350px;
+}
+
+.services_top_section2 .padding_top{
+    padding: 35px !important;
+    align-items: center;
+}
+.services_top_section2 .padding_top .text_bg{
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background: rgba(0,0,0,.4);
+    padding: 3px 15px 3px;
+    line-height:55px;
+    color: #ebe7e7;
+}
+
+.services_top_section2 .padding_top .text_bg_p{
+  line-height: 30px;
+}
+
+/*------------------------- services_top_section4---------------------------------- */
+.services_top_section4 .container .row .bg_video_img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.services_top_section4 .container .row .bg_video_img .overlaycontent{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width:27%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.services_top_section4 .container .row .bg_video_img .icon{
+    color: #ebe7e7;
+    font-size: 60px;
+}
+.services_top_section4 .container .row .playicon{
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(103, 116, 142);
+}
+
+.services_top_section4 .container .row .col .text_bg{
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background: rgba(0,0,0,.4);
+    padding: 3px 15px 3px;
+    line-height: 30px;
+    color: #ebe7e7;
+}
+ /*---------------------------- products section ----------------------------*/
+.products .container p{
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+.products .col-sm-4,.business .col-sm-4,.why_us .col-sm-4{
+    height: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px auto !important;
+   
+}
+/* .products .col-sm-4{
+    box-shadow: rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem;
+    border: 0px solid rgba(0, 0, 0, 0.125)
+} */
+.products .btn,.business .btn{
+    margin-bottom: 30px;
+}
+
+/*-------------------------------------- business-------------------- */
+.business .container .row .col-sm-4 i ,.why_us .container .row .col-sm-4 i{
+    font-size: 24px;
+    color:rgb(33, 82, 255);
+}
+.business .container .row .col-sm-4 h4{
+    font-size: 22px !important;
+    font-weight: lighter;
+}
+
+/*-------------------- how we start section----------------- */
+/*-------------------- how we start section----------------- */
+.we_start_sec .start_box{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+    justify-content: space-between;
+    margin: auto;
+}
+.we_start_sec .start_box .icons_container{
+    width: 150px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.we_start_sec .start_box .icons_container:after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    top: 89px;
+    left: 10px;
+    height: 4px;
+    background: linear-gradient(90deg,#344767 0%,#344767 15%,#344767 32%,#344767 52%,#344767 60%,rgba(75,176,228,1) 65%,75.5%,rgba(75,176,228,1) 69%,rgba(55,150,199,1) 100%);
+}
+
+.we_start_sec .start_box .icons_container .icon_circle{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    margin: 21px 0 25px 0;
+    background-color: #344767;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.we_start_sec .start_box .icons_container .icon_circle_blue{
+    background-color: rgba(55,150,199,1);
+}
+.we_start_sec .start_box .icons_container .color_blue2{
+    background-color:rgb(72, 172, 222) !important;
+}
+.we_start_sec .start_box .icons_container .color_blue1{
+    background-color: rgba(157,212,237,1) !important;
+}
+.we_start_sec .start_box .icons_container i{
+    font-size: 30px !important;
+    z-index:9;
+}
+/* ----------------contact_us section------------------------- */
+.contact_us .btn-outline-primary1,.ready_to_start .btn-outline-primary1{
+    border-radius: 0 !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+    background:transparent !important;
+
+
+}
+.contact_us .btn-outline-primary1:hover,.ready_to_start .btn-outline-primary1:hover{
+    background-color: #fff;
+    background:transparent !important;
+}
+/* -----------------off on site work section------------------ */
+.container_bg_transparent{
+background:rgba(0,0,0,.4) !important;
+line-height: 28px !important;
+display: flex;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+/* ----------------selected cases sec------------------------- */
+.selected_cases .container .owl-carousel .item a{
+    position: relative;
+    overflow: hidden;
+}
+.selected_cases .container .owl-carousel-item a {
+    display: block;
+}
+
+.selected_cases .container .owl-carousel .item a img {
+    transition: transform 0.10s ease-in-out;
+}
+.selected_cases .container .owl-carousel .item:hover  a img {
+    transform: scale(1.2);
+}
+.selected_cases .container .owl-carousel .item .flag_icon{
+    background-image: url(../images/india-flag-icon.svg);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    border-radius: 60%;
+}
+/* ----------------software development section-------------------- */
+.software_d_p .container .all_gears .gears{
+    border-radius: 50%;
+    background-color: #383838;
+    position: absolute;
+    transform: rotate(0deg);
+    animation: gear_animation 10s linear infinite;
+}
+.software_d_p .container .all_gears .gear_1{
+    width: 200px;
+    height: 200px;
+    top: 0px;
+    right: 191px;
+    background:linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+}
+.software_d_p .container .all_gears .inner_circle{
+    border-radius: 50%;
+    background-color: #fff;
+    line-height: 100px;
+    font-size: 20px;
+    z-index:9;
+    position: absolute;
+} 
+.software_d_p .container .all_gears .inner_circle1{
+    top: 26px;
+    right: 218px;
+    width: 150px;
+    height: 150px ;
+} 
+
+.software_d_p .container .all_gears .gear_1 .handle_r{
+    width: 60px;
+    height: 224px;
+    position: absolute;
+    top: -12px;
+    left: 70px;
+    background:linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+}
+.software_d_p .container .all_gears  .gear_1 .handle_l{
+    width: 224px;
+    height:60px;
+    position: absolute;
+    top: 68px;
+    left:-10px;
+    background:linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+}
+
+.software_d_p .container .all_gears .gear_2{
+    top: 260px;
+    right:820px;
+    width: 150px;
+    height: 150px;
+    background:linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+}
+.software_d_p .container .all_gears .gear_2 .handle_l{
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: 48px;
+    left: -13px;
+    background:linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+}
+.software_d_p .container .all_gears .gear_2 .handle_r{
+    width: 60px;
+    height: 180px;
+    position: absolute;
+    top: -13px;
+    left: 48px;
+    background:linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+
+}
+.software_d_p .container .all_gears .inner_circle2{
+    width: 115px;
+    height: 115px;
+    top: 280px;
+    right: 837px
+}  
+
+.software_d_p .container .all_gears .gear_3{
+    position: absolute;
+    top: 60px;
+    right: 430px;
+    width: 340px;
+    height: 340px;
+}
+.software_d_p .container .all_gears .gear_3 .handle_l{
+    width: 391px;
+    height: 90px;
+    position: absolute;
+    top: 128px;
+    left: -23px;
+}
+
+.software_d_p .container .all_gears .gear_3 .handle_rotate{
+    transform: rotate(45deg);
+}
+
+.software_d_p .container .all_gears .gear_3 .handle_r{
+    width: 90px;
+    height: 391px;
+    position: absolute;
+    top: -23px;
+    left: 128px;
+}
+.software_d_p .container .all_gears .inner_circle3{
+    width: 245px;
+    height: 245px;
+    top: 105px;
+    right: 480px;
+}
+.software_d_p .container .all_gears .gear_3 .gear_text1{
+    position: absolute;
+    top: 48px;
+    left: 212px;
+    transform: rotate(48deg);
+}  
+
+.software_d_p .container .all_gears .gear_3 .gear_text2{
+    position: absolute;
+    top: 48px;
+    left: 12px;
+    transform: rotate(-48deg);
+}  
+.software_d_p .container .all_gears .gear_3 .gear_text3{
+    position: absolute;
+    top: 250px;
+    left: 212px;
+    transform: rotate(134deg);
+}  
+.software_d_p .container .all_gears .gear_3 .gear_text4{
+    position: absolute;
+    top: 251px;
+    left: 13px;
+    transform: rotate(-134deg);
+}
+ @keyframes gear_animation {
+    0% {
+      transform: rotate(-45deg);
+    }
+    100% {
+      transform: rotate(315deg); 
+    }
+} 
+.owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot span:hover{
+    background-color:#fff !important;
+    border: 2px solid   rgb(33, 82, 255) !important;
+}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot.active span:hover{
+    background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+    border: none !important;
+}
+.owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{
+    display: none;
+}

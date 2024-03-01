@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    /* border: 1px solid black; */
+}
+#about_body{
+    background: url(../images/abc12.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* should change below 1225px  */
+    background-repeat: no-repeat;
+}
+#company_logo_section .container .row{
+    row-gap: 30px;
+}
+#company_logo_section .company_logo_box img{
+    height: 95px;
+    
+}
+#company_logo_section .company_logo_box .company_logo_invisible_part{
+    top: calc(100% - 20px);
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+#company_logo_section .company_logo_box:hover .company_logo_invisible_part{
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+/* ------------------- ABOUT US CSS--------------- */
+
+/* contact Now- button bg-white for hover */
+.btn_contact_now:hover{
+    background: #fff !important;
+    color: black !important;
+}
+
+.bg_black_transparent{
+    background-color: rgb(17 17 17 / 36%);
+}
+.bg_light_grey{
+    background-color: #f6f6f6;
+}
+
+/* Tell Us About Your Project - Add file btn  */
+#add_file:hover{
+    color: white !important;
+    border: 1px solid #17C1E8;
+    background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)) !important;
+}
+#add_file i{
+    color: #17C1E8;
+}
+#add_file:hover i{
+    color: #fff !important;
+}
+#btn_send:hover{
+    background: white !important;
+    color: #17C1E8 !important;
+}
+textarea {
+    resize: none;
+}
+
+/* -------- common css ------------- */
+
+.font_color{
+    color: #17C1E8;
+}
+.font_color:hover{
+    color: #000;
+}
+.line_height{
+    line-height: 1.6em;
+}
+.bg_theme{
+    background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)) !important;
+}
+.border_theme{
+    border: 1px solid #17C1E8;
+}
+
+/* -------------- end of about css ---------------- */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+    .achievements_container_div{
+        gap: 15px;
+    }
+    .achievements_container .achievements_container_div img{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+    .achievements_container .achievements_container_div img{
+        height: 90px;
+        width: 90px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .achievements_container .achievements_container_div img{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+   
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    .about_content h2{
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+}

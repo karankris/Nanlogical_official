@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <!-- bootstrap file -->
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"> -->
+    <!-- <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+     -->
+    <!-- <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png"> -->
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Orelega+One&family=Roboto+Condensed:ital,wght@1,300&family=Yeseva+One&display=swap"
+        rel="stylesheet" />
+    <!-- owl-carousel file -->
+    <link rel="stylesheet" href="assets/owl/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/owl/css/owl.theme.default.min.css" />
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- css file -->
+    <link rel="stylesheet" href="assets/css/contact_us.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/header-footer.css" />
+    <!-- media query file -->
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
+
+    <!-- ------------- aos animation ------------ -->
+    <link rel="stylesheet" type="text/css" href="assets/aos/css/aos.css">
+ 
+
+</head>
+<body>
+<!-- -------------------------------- new navbar section  ------------------------------- -->
+  <!--------------------------- scroll arrow------------- -->
+  <div class="scroll_container">
+    <div class="scroll_rotate"></div>
+      <div class="scroll_arrow"><i class="fa-solid fa-arrow-up"></i></div>
+    </div>
+
+<header>
+    <section class="navbar_section">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container ">
+                <div class="d-flex align-items-center justify-content-center flex-column mx-auto pb-2">
+                    <a class="h2 navbar_brand font-weight-normal m-0" href="index.html"><span
+                            class="l_logo">NAN</span><span class="r_logo">LOGICAL</span> </a>
+
+                    <div class="d-flex " style="gap: 15px;">
+                        <a id="add_file"
+                            class="navbar-toggler mt-2 px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme rounded-0"
+                            data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation"><i
+                                class="fa-solid fa-bars px-3 py-1 d-inline-block text-white"></i>&nbsp;<span
+                                class="font-weight-light text-white">Menus</span></a>
+                        <a href="contact_us.html"
+                            class="navbar-toggler mt-2 px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme rounded-0"><span
+                                class="font-weight-light px-sm-3 px-1 py-1 text-white">Contact
+                                Us</span></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item dropdown">
+                            <a href="about.html" class="nav-link dropdown-toggle nav_color">
+                                About Us
+                            </a>
+                            <div class="dropdown-menu drop_style about_down">
+                                <a class="dropdown-item" href="project_delivery.html" >Project
+                                    Delivery</a>
+                                <div class="dropdown-divider p-0 m-0"></div>
+                                <a class="dropdown-item" href="customers.html" >Customers</a>
+                                <div class="dropdown-divider  p-0 m-0"></div>
+                                <a class="dropdown-item" href="technologies.html" >Technologies</a>
+                                <div class="dropdown-divider  p-0 m-0"></div>
+                                <a class="dropdown-item" href="press.html" >Press</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  nav_color font-weight-light" href="services.html">
+                                Services
+                            </a>
+                            <div class="dropdown-menu drop_style ser_down" style="width: 500px;"
+                                aria-labelledby="navbarDropdown">
+                                <div class="container inner_nav">
+                                    <div class="row w-100 pr-2">
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="web_development.html">Web Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="saas_development.html">SaaS Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="mobile_app_development.html">Mobile
+                                                Applications</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="desktop_app_development.html">Desktop
+                                                Applications</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="code_review.html">Code Review</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="augmented_reality.html">Augmented Reality</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item"
+                                                href="machine_learning_development services.html">ML, AI, and Data
+                                                Science</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="business_process_outsourcing.html">Business
+                                                Process
+                                                Outsourcing</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="dev_ops.html">DevOps</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="metaverse.html">Metaverse Development</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="product_development.html">Product
+                                                Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item"
+                                                href="enterprise_software_development.html">Enterprise Software</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="ui_ux_design.html">UI/UX Design</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="qa_services.html">Quality Assurance</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="software_development_audit.html">Software
+                                                Development Audit</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="software_maintenance.html">Software
+                                                Maintenance</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="functional_specification.html">Functional
+                                                Specification</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="legacy_application.html">Legacy Code
+                                                Modernization</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="chatbot.html">Chatbot Development</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  nav_color" href="solutions.html">
+                                Solutions
+                            </a>
+                            <div class="dropdown-menu drop_style sol_down" style="width: 500px;"
+                                aria-labelledby="navbarDropdown">
+                                <div class="container ">
+                                    <div class="row w-100 pr-2">
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="startup_innovation.html">Startups &
+                                                Innovation</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="business_process_automation.html">Business
+                                                Process Automation</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="e_commerce.html">E-Commerce</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="data_mining.html">Data Mining</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="elearning.html">E-Learning</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="e_government.html">E-Government</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="healthcare.html">Healthcare</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="media _entertainment.html">Media &
+                                                Entertainment</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="game_development.html">Game Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="open_source.html">Open Source</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item active ml-1">
+                            <a class="nav-link nav_color" href="case_study.html">Case Studies</a>
+                        </li>
+                        <li class="nav-item active ml-1">
+                            <a class="nav-link nav_color" href="testimonial.html">Testimonials</a>
+                        </li>
+                        <li class="nav-item active ml-1">
+                            <a class="nav-link nav_color" href="blogs.html">Blog</a>
+                        </li>
+                        <div class="ml-5 mt-1 contact_btn d-lg-block d-none">
+                            <a id="nav_contact" href="contact_us.html"
+                                class=" text-decoration-none font-weight-light px-4 py-2 cursor_pointer m-0 nav_contact_btn_border"
+                                type="submit">Contact Us</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+</header>
+     <!-- ------------------------------- contact top section  ------------------------ -->
+     <section class="contact_top_section1 pt-2 pb-2 bg_color2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 text-center text-md-left left">
+                        <div class="serv_left p-2 font-weight-normal">
+                            <h2>Contact Us</h2>
+                        </div>
+                </div>
+                <div class="col-xs-12 col-md-4 text-center right">
+                    <div class="serv_right p-2">
+                        <div class="text-center text-sm-left text-lg-left float-none float-md-right">
+                        <small><a href="#" class="theme_font_color"><i class="fa-solid fa-house"></i></a></small>
+                        <small class="d-inline-block"><i class="fa-solid fa-angle-right"></i></small>
+                        <small class="d-inline-block font-weight-light">Contact Us</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+
+
+     <!-- ------modal------------------------ -->
+     <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document" style="width: 50%; height: 50%;">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <!-- Close button -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- Use the YouTube embed link -->
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rteZ6iTFUGs" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- ------------------------------contact form----------------------------------------- -->
+   
+    <section class="py-5 bg-white">
+        <div class="container-sm container-fluid">
+            <div class="row pb-4">
+                <div class="col-md-6 col-12 pb-3 pb-sm-5">
+                    <h3 class="pb-4 font-weight-normal d-block d-xl-none">Let’s do something great together</h3>
+                    <h1 class="pb-4 d-none d-xl-block font-weight-normal">Let’s do something great together</h1>
+                </div>
+                <div class="col-md-6 col-12"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 px-3">
+                            <input type="text" class="w-100 px-2 py-1" placeholder="Name">
+                        </div>
+                        <div class="col-lg-6 col-12 px-3 mt-xl-0 mt-4">
+                            <div class="w-100 px-2 py-1 disabled text-success font-weight-light text-center border border-success"><i class="fa-solid fa-shield-halved mr-1" style="color: #28a745;"></i> Your privacy is protected</div>
+                        </div>
+                        <div class="col-lg-6 col-12 px-3 mt-4">
+                            <input type="email" class="w-100 px-2 py-1 border border-secondary" placeholder="Enter business email">
+                        </div>
+                        <div class="col-lg-6 col-12 px-3 mt-4">
+                            <input type="text" class="w-100 px-2 py-1" placeholder="Phone / Skype">
+                        </div>
+                        <div class="col-12">
+                            <textarea name="" class="w-100 mt-4" id="" cols="30" rows="7"></textarea>
+                        </div>
+                        <div class="col-12 d-flex justify-content-between mt-4">
+                            <input type="file" id="actual-btn" hidden/>
+                            <label for="actual-btn" class="choose_file px-4 py-2 bg_theme text-white cursor_pointer m-0">Add File <i class="fa-solid fa-file-arrow-up ml-2" style="color: #ffffff;"></i> </label>
+                            <a class="text-decoration-none text-white cursor_pointer px-5  py-2 border  bg_theme m-0">Send</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="owl-carousel w-100 owl-theme">
+                        <div class="item py-2">
+                            <div class="card pt-2 pl-2">
+                                <img class="img_logo ml-4" src="./assets/images/contactus/logo_image.png"/>
+                                <div class="card-body">
+                                <p class="card-text img_text">I have nothing but great things to say. The quality of work is great, it’s very very fast and the team always come up with suggestions on how to improve things.</p><br>
+                                <p class="font-weight-light ml-3">Barry Hudson, <span style="font-style: italic;">CEO at Killer Bee</span> </p>
+                                </div>
+                                <div class="play ml-5 pb-5">
+                                    <i class="fa-solid fa-circle-play theme_font_color" onclick="openVideoModal()" style="font-size: 72px; cursor: pointer;"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="card pt-2 pl-2">
+                                <img class="img_logo ml-4" src="./assets/images/contactus/OpenTeams.svg"/>
+                                <div class="card-body">
+                                <p class="card-text img_text w-100">I really enjoyed it, I think that the team worked really well together. They were diligent and considering not just what I had asked for but what we were trying to accomplish with the product.</p><br>
+                                <p class="font-weight-light ml-3">David Charboneau, <span style="font-style: italic;">CTO at Open Teams</span></p>
+                                </div>
+                                <div class="play ml-5 pb-5">
+                                    <i class="fa-solid fa-circle-play theme_font_color" onclick="openVideoModal()" style="font-size: 72px; cursor: pointer;"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item py-2">
+                            <div class="card pt-2 pl-2">
+                                <img class="img_logo ml-4" src="./assets/images/contactus/logo3.svg"/>
+                                <div class="card-body">
+                                <p class="card-text img_text w-100">There's a real commitment to get the task done in a timeframe that is expected. The quality of the work is very high. I would certainly recommend working with Redwerk's team.</p><br>
+                                <p class="font-weight-light ml-3">Robert Severn, <span style="font-style: italic;"> VP of Engineering at Evolv Technologies</span></p>
+                                </div>
+                                <div class="play ml-5 pb-5">
+                                    <i class="fa-solid fa-circle-play theme_font_color" onclick="openVideoModal()" style="font-size: 72px; cursor: pointer;"></i>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ----------------------------------you will get section-------------------------------- -->
+<section class="you_will_get bg_light_grey pb-3">
+    <div class="container p-3">
+        <h1 class="pt-3 pb-5">You Will Get</h1>
+        <div class="row">
+            <div class="container">
+            <div class="col d-flex flex-wrap">
+                <div class="ic d-flex m-3"><i class="fa-solid fa-clock theme_font_color" style="font-size: 35px;"></i>
+                <p class="text_ic p-1">15 Minutes <br> of Consultation</p>
+            </div>
+                <div class="ic d-flex m-3">
+                    <i class="fa-solid fa-shield-halved theme_font_color" style="font-size: 35px;"></i>
+                    <p class="text_ic p-1">Strict<br>non-disclosure policy </p>
+                </div>
+                <div class="ic d-flex m-3">
+                    <i class="fa-solid fa-file-lines theme_font_color" style="font-size: 35px;"></i>
+                    <p class="text_ic p-1">Timeline and<br>cost evaluation </p>
+                </div>
+                <div class="ic d-flex m-3">
+                    <i class="fa-solid fa-layer-group theme_font_color" style="font-size: 35px;"></i>
+                    <p class="text_ic p-1">Suggestions in<br>terms of the tech stack </p>
+                </div>
+                <div class="ic d-flex m-3">
+                    <i class="fa-solid fa-diagram-project theme_font_color" style="font-size: 35px;"></i>
+                    <p class="text_ic p-1">Action plan to<br>kick-start your project</p>
+                </div>
+            </div></div>
+        </div>
+
+    </div>
+</section>
+<!-------------------------------- How we start section -------------------------------------->
+<section class="we_start_sec pb-5 bg_color_white">
+    <div class="container">
+        <h1 class="pt-3 pb-5">How We Start</h1>
+        <div class="start_box">
+            <div class="icons_container">
+                <div class="icon_head ml-sm-3 font-weight-bolder">Now</div>
+               <div class="icon_circle"> <i class="fa-regular fa-message"></i></div>
+               <div class="icon_step pb-4">Tell us about your project</div>
+            </div>
+            <div class="icons_container">
+                <div class="icon_head font-weight-bolder">in 24 hours</div>
+               <div class="icon_circle"><i class="fa-solid fa-phone-volume"></i></div>
+               <div class="icon_step pb-4">We will contact you and help plan development effort</div>
+            </div>
+            <div class="icons_container">
+                <div class="icon_head font-weight-bolder">in 1 week</div>
+                <div class="icon_circle"><i class="fa-solid fa-pen"></i></div>
+                <div class="icon_step pb-4">Sign master service agreement, schedule team allocation</div>
+            </div>
+            <div class="icons_container">
+               <div class="icon_head font-weight-bolder">in 10 days</div>
+               <div class="icon_circle color_blue2"> <i class="fa-solid fa-circle-check"></i></div>
+               <div class="icon_step pb-4">Setup communication, prioritize tasks, set milestones</div>
+            </div>
+            <div class="icons_container">
+                <div class="icon_head font-weight-bolder">in 1 month</div>
+               <div class="icon_circle_blue icon_circle"><i class="fa-solid fa-lightbulb"></i></div>
+               <div class="icon_step pb-4">First tangible results</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- -------------------------------places section---------------------------------------------------- -->
+<section class="places bg_light_grey pt-5 pb-5">
+<div class="container d-flex justify-content-center flex-wrap flex-row">
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-4 places_col d-flex justify-content-center align-items-center flex-column w-100">
+<img src="./assets/images/flags/in.svg" class="mb-1 pb-0" height="18px" width="130px">
+  <p class="font-weight-light  lh-base mb-1">India</p>
+<p class="font-weight-light lh-base mb-1">Nungambakkam,Chennai</p>
+<p class="font-weight-light theme_font_color">nanlogical@gmail.com</p>
+        </div>
+   
+        <div class="col-sm-4 places_col d-flex justify-content-center align-items-center flex-column w-100">
+            <img src="./assets/images/flags/in.svg" class="mb-1 pb-0" height="18px" width="130px">
+              <p class="font-weight-light  lh-base mb-1">India</p>
+            <p class="font-weight-light lh-base mb-1">Nungambakkam,Chennai</p>
+            <p class="font-weight-light theme_font_color">nanlogical@gmail.com</p>
+                    </div>
+
+                    <div class="col-sm-4 places_col d-flex justify-content-center align-items-center flex-column w-100">
+                        <img src="./assets/images/flags/in.svg" class="mb-1 pb-0" height="18px" width="130px">
+                          <p class="font-weight-light  lh-base mb-1">India</p>
+                        <p class="font-weight-light lh-base mb-1">Nungambakkam,Chennai</p>
+                        <p class="font-weight-light theme_font_color">nanlogical@gmail.com</p>
+                                </div>
+    </div>
+</div>
+</section>
+<!-- --------------------------------maps---------------------------------------------------------------- -->
+    <section class="maps_nanlogical">    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.608981595229!2d80.23771937454794!3d13.060543212923147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52666706f4f133%3A0x31a746b7d6f3638a!2sNanlogical%20Consultancy%20Services%20Pvt.%20Ltd.%2C!5e0!3m2!1sen!2sin!4v1704865974250!5m2!1sen!2sin" height="100%" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+<!----------------------------------- awards section in contact form--------------------------- -->
+<section id="awards2" class="bg_light_grey py-5 ">
+    <div class="container achievements_container">         
+        <div class="achievements_container_div d-flex w-100 flex-wrap align-items-center justify-content-between">
+            <div class="d-flex align-items-center justify-content-center ">
+                <img src="./assets/images/awards2/award1.png" class="img-fluid" alt="">
+            </div>
+            <div class="d-flex align-items-center justify-content-center ">
+                <img src="./assets/images/awards2/award2.webp" class="img-fluid" alt="">
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/awards2/award3.webp" class="img-fluid" alt="">
+            </div>
+            <div class="d-flex align-items-center justify-content-center ">
+                <img src="./assets/images/awards2/award4.png" class="img-fluid" alt="">
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/awards2/award5.svg" class="img-fluid" alt="">
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/awards2/award6.svg" class="img-fluid" alt="">
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/awards2/award7.svg" class="img-fluid"d alt="">
+            </div>
+        </div>
+    </div>
+  </section>
+<!-- ----------- new footer section  ----------------->
+<section class="footer foot_cont w-100 ">
+    <div class="container w-100 ">
+        <div class="row foot_row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <p class="foot_hero">NANLOGICAL</p>
+                <div class="row mt-3 ml-0">
+                    <i class="fa-solid fa-location-dot" style="color: #fff;">&nbsp;Address</i>
+                </div>
+                <div class="container flex_cont mt-2 font-weight-light mr-5">
+                    Ukraine, Kyiv<br>
+                    Ivana Franka St 20b, 01030<br>
+                    Estonia, Tallinn<br>
+                    Tornimae 7-36, 10145
+                </div>
+                <div class="mt-5"> <i class="fa-solid fa-envelope mb-2" style="color: #fff;">&nbsp Email</i></div>
+                <div class="font-weight-light px-2 foot_mail">&nbsp sales@NanLogical.com </div>
+                <div class="mt-5 font-weight-light foot_mail"><i class="fa-solid fa-phone mb-2"
+                        style="color: #fff;">&nbsp Contact</i><br>
+                </div>
+                <div class="container flex_cont font-weight-light mr-5">
+                    Skype<br>
+                    WhatsApp<br>
+                    + 372 617 0338<br>
+                    +1 347-3291444</div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Services</p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="web_development.html">Web Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="saas_development.html">SaaS Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="mobile_app_development.html">Mobile Applications</a>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="desktop_app_development.html">Desktop
+                                Applications</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="code_review.html">Code Review</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="augmented_reality.html">Augmented Reality</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="machine_learning_development services.html">ML, AI,
+                                and Data Science</a></li>
+                        <li class="mt-4"><a class="flist_clr" class="flist_clr"
+                                href="business_process_outsourcing.html">Business Process Outsourcing</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="dev_ops.html">DevOps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Solutions</p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="startup_innovation.html">Startups & Innovation</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="business_process_automation.html">Business Process
+                                Automation</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="e_commerce.html">E-Commerce</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="data_mining.html">Data Mining</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="elearning.html">E-Learning</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="e_government.html">E-Government</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="healthcare.html">Healthcare</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="media _entertainment.html">Media & Entertainment</a>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="game_development.html">Game Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="open_source.html">Open Source</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> About us </p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="project_delivery.html">Project Delivery</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="customers.html">Customers</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="technologies.html">Technologies</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="press.html">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Blog</p>
+                <div class="ser_box">
+                    <ul class="ser_items mt-3">
+                        <li><a class="flist_clr" href="#web-development">Top Tech Events in 2024: Quarter 1 Ultimate
+                                Guide &nbsp
+                            </a><a class="new_highlight px-1">New</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#saas-development">IT Traveler with Carlos Sirias,
+                                CEO at
+                                Pernix Solutions &nbsp</a><a class="new_highlight px-1">New</a></li>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="#mobile-applications">Corporate Social
+                                Responsibility Report
+                                2023</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#desktop-applications">Metaverse Use Cases: 15
+                                Real-Life
+                                Examples Across Industries</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#code-review">Top Tech Events in 2023: Quarter 4
+                                Ultimate
+                                Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ----------- new social media section  ----------------->
+<section class="social_media">
+    <div class="container">
+        <div class="social_items mt-5">
+            <ul class="social_elememts">
+                <li><a><img class="soc_img" src="./assets/images/social1.webp" alt=""></a></li>
+            </ul>
+            <ul class="lgo_container d-flex justify-content-md-around flex-wrap">
+                <li class="d-inline-block"><a href="#"><i class="fa-brands fa-facebook social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-instagram social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-pinterest social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-linkedin social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-youtube social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-github social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-stack-overflow social_fnt "></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="social_items">
+            <div class="end_items">
+                <div class=""><a href="https://www.flaticon.com/free-icons/india" title="india icons"></a></div>
+                <div style="opacity: 0.5; color: #fff;" class="pb-3">© 2024 Nanlogical
+                </div>
+                <ul class="end_elements">
+                    <li class="d-inline-block"><a href="#">Privacy Policy</a></li>
+                    <li class="d-inline-block"><a href="#">Our Locations</a></li>
+                </ul>
+            </div>
+        </div>
+</section>
+  
+
+   <!-- ------------ scrop bottom to top -------->
+   <a href="#" id="scroll" style="display: none;"><span></span></a>
+   <!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+   <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script> -->
+   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+   <script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+   <script type="text/javascript" src="assets/owl/js/owl.carousel.min.js"></script>
+   <script type="text/javascript" src="assets/owl/js/owl.carousel.js"></script>
+   <!-- ----------- light-box------------ -->
+   <script src="assets/lightbox2-dev/dist/js/lightbox.js"></script>
+   <!-- --------------- aos script ------------------- -->
+   <script src="assets/aos/js/aos.js"></script>
+   <script>
+    // scroll arrow script
+    document.addEventListener("DOMContentLoaded", function() {
+    var scrollContainer = document.querySelector('.scroll_container');
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > window.innerHeight / 2) {
+        scrollContainer.style.display = 'flex';
+      } else {
+        scrollContainer.style.display = 'none';
+      }
+    });
+    scrollContainer.addEventListener('click', function() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  });
+  </script>
+   <script>
+    function openVideoModal() {
+        $('#videoModal').modal('show');
+    }
+</script>
+   <script>
+    // selected cases section
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+    loop:true,
+    nav:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+     0:{
+      items:1,
+      nav:true
+    },
+    600:{
+     items:1,
+     nav:false
+     },
+    1000:{
+    items:1,
+    nav:true,
+    loop:false
+ }
+}
+});
+
+</script>
+</body>
+</html>

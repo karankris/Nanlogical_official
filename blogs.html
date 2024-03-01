@@ -1,0 +1,1830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Software Development Blog</title>
+    <!-- bootstrap file -->
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"> -->
+    <!-- <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+     -->
+    <!-- <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png"> -->
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Orelega+One&family=Roboto+Condensed:ital,wght@1,300&family=Yeseva+One&display=swap"
+        rel="stylesheet" />
+    <!-- owl-carousel file -->
+    <link rel="stylesheet" href="assets/owl/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/owl/css/owl.theme.default.min.css" />
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- css file -->
+    <link rel="stylesheet" href="assets/css/blog.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/header-footer.css" />
+    <!-- media query file -->
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
+
+    <!-- ------------- aos animation ------------ -->
+    <link rel="stylesheet" type="text/css" href="assets/aos/css/aos.css">
+
+</head>
+<body>
+<!-- -------------------------------- new navbar section  ------------------------------- -->
+ <!--------------------------- scroll arrow------------- -->
+ <div class="scroll_container">
+    <div class="scroll_rotate"></div>
+      <div class="scroll_arrow"><i class="fa-solid fa-arrow-up"></i></div>
+    </div>
+
+<header>
+    <section class="navbar_section">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container ">
+
+                <div class="d-flex align-items-center justify-content-center flex-column mx-auto pb-2">
+                    <a class="h2 navbar_brand font-weight-normal m-0" href="index.html"><span
+                            class="l_logo">NAN</span><span class="r_logo">LOGICAL</span> </a>
+
+                    <div class="d-flex " style="gap: 15px;">
+                        <a id="add_file"
+                            class="navbar-toggler mt-2 px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme rounded-0"
+                            data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation"><i
+                                class="fa-solid fa-bars px-3 py-1 d-inline-block text-white"></i>&nbsp;<span
+                                class="font-weight-light text-white">Menus</span></a>
+                        <a href="contact_us.html"
+                            class="navbar-toggler mt-2 px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme rounded-0"><span
+                                class="font-weight-light px-sm-3 px-1 py-1 text-white">Contact
+                                Us</span></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item dropdown">
+                            <a href="about.html" class="nav-link dropdown-toggle nav_color">
+                                About Us
+                            </a>
+                            <div class="dropdown-menu drop_style about_down">
+                                <a class="dropdown-item" href="project_delivery.html" >Project
+                                    Delivery</a>
+                                <div class="dropdown-divider p-0 m-0"></div>
+                                <a class="dropdown-item" href="customers.html" >Customers</a>
+                                <div class="dropdown-divider  p-0 m-0"></div>
+                                <a class="dropdown-item" href="technologies.html" >Technologies</a>
+                                <div class="dropdown-divider  p-0 m-0"></div>
+                                <a class="dropdown-item" href="press.html" >Press</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  nav_color font-weight-light" href="services.html">
+                                Services
+                            </a>
+                            <div class="dropdown-menu drop_style ser_down" style="width: 500px;"
+                                aria-labelledby="navbarDropdown">
+                                <div class="container inner_nav">
+                                    <div class="row w-100 pr-2">
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="web_development.html">Web Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="saas_development.html">SaaS Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="mobile_app_development.html">Mobile
+                                                Applications</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="desktop_app_development.html">Desktop
+                                                Applications</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="code_review.html">Code Review</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="augmented_reality.html">Augmented Reality</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item"
+                                                href="machine_learning_development services.html">ML, AI, and Data
+                                                Science</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="business_process_outsourcing.html">Business
+                                                Process
+                                                Outsourcing</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="dev_ops.html">DevOps</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="metaverse.html">Metaverse Development</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="product_development.html">Product
+                                                Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item"
+                                                href="enterprise_software_development.html">Enterprise Software</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="ui_ux_design.html">UI/UX Design</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="qa_services.html">Quality Assurance</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="software_development_audit.html">Software
+                                                Development Audit</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="software_maintenance.html">Software
+                                                Maintenance</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="functional_specification.html">Functional
+                                                Specification</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="legacy_application.html">Legacy Code
+                                                Modernization</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="chatbot.html">Chatbot Development</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  nav_color" href="solutions.html">
+                                Solutions
+                            </a>
+                            <div class="dropdown-menu drop_style sol_down" style="width: 500px;"
+                                aria-labelledby="navbarDropdown">
+                                <div class="container ">
+                                    <div class="row w-100 pr-2">
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="startup_innovation.html">Startups &
+                                                Innovation</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="business_process_automation.html">Business
+                                                Process Automation</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="e_commerce.html">E-Commerce</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="data_mining.html">Data Mining</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="elearning.html">E-Learning</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="e_government.html">E-Government</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="healthcare.html">Healthcare</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="media _entertainment.html">Media &
+                                                Entertainment</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="game_development.html">Game Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="open_source.html">Open Source</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item active ml-1">
+                            <a class="nav-link nav_color" href="case_study.html">Case Studies</a>
+                        </li>
+                        <li class="nav-item active ml-1">
+                            <a class="nav-link nav_color" href="testimonial.html">Testimonials</a>
+                        </li>
+                        <li class="nav-item active ml-1">
+                            <a class="nav-link nav_color" href="blogs.html">Blog</a>
+                        </li>
+                        <div class="ml-5 mt-1 contact_btn d-lg-block d-none">
+                            <a id="nav_contact" href="contact_us.html"
+                                class=" text-decoration-none font-weight-light px-4 py-2 cursor_pointer m-0 nav_contact_btn_border"
+                                type="submit">Contact Us</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+</header>
+
+<!-- -------------------------------- Blogs section---------------------------------------------->
+<section class="blog_sec" class=" py-xl-2 py-0"  style="background: #f6f6f6;">
+        <div class="container p-xl-4 p-3">
+            <div class="row">
+                <div class="col-md-6 col-xs-12 d-flex align-items-center justify-content-center justify-content-xl-start my-2 my-xl-0">
+                    <div class="">
+                        <h2 class="m-0">Software Development Blog</h2>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 d-flex align-items-center justify-content-center justify-content-xl-end">
+                    <div class="">
+                        <small><a href="#"><i class="fa fa-home theme_font_color" aria-label="Home page" title="Home page"></i></a></small>
+
+                   <small><i class="fa-solid fa-angle-right"></i></small>
+                        <small>Blog</small>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- --------------------------Blog Catogories---------------------------------------->
+
+    <section class="blog_catogories ">
+    <div class="container w-100 p-xl-4 p-3 bg-white">
+  <div class="d-flex  flex-wrap justify-content-center mt-5 tab">
+            <div class="pl-2 mt-1"><button type="button" class="btn btn-outline-primary tablinks" onclick="openTab('tab1')">All</button>
+            </div>
+                   <div class="pl-2 mt-1">   <button type="button" class="btn btn-outline-primary tablinks" onclick="openTab('tab2')">India Nanlogical</button>
+                </div>
+                   <div class="pl-2 mt-1"><button type="button" class="btn btn-outline-primary" onclick="openTab('tab3')">Tech Talk</button>
+                </div>
+                  <div class="pl-2 mt-1"><button type="button" class="btn btn-outline-primary"onclick="openTab('tab4')">Programming</button></a>
+                </div>
+               <div class="pl-2 mt-1"> <button type="button" class="btn btn-outline-primary" onclick="openTab('tab5')">Customers</button>
+            </div>
+          
+    </div>
+    </section>
+        <!-- --------------------------Blog Content---------------------------------------->
+<!-- <div class="owl-carousel owl-theme d-flex justify-content-center"> -->
+    <!-- ------------------------item 1----------------------------------------------- -->
+<div id="tab1" class="blog_content item mt-2 tab-content active-content" >
+    <div class="container w-100 item">   
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog1.webp" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                            <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp january 2, 2024</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers.<br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  
+                                </p>      
+                            </div>
+                        </div>  
+                    </div>
+                </div>     
+            </div>
+   <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog2.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog3.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog4.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog5.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog6.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog7.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog8.webp" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog9.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog10.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+     </div>
+    </div>
+
+    <!-- --------------------------------item 2------------------------------------------------------ -->
+<div id="tab2" class="blog_content item mt-2 tab-content active-content" >
+        <div class="container w-100 item">   
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12 ">
+                        <div class="d-flex align-items-center justify-content-center ">
+                            <img src="./assets/images/blogs/blog11.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                        </div>
+                        <div class="container pt-5 px-md-4 px-0">
+                            <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                                <div class="d-flex justify-content-between">
+                                    <p><i class="fa-solid fa-calendar"></i> &nbsp january 2, 2024</p>
+                                    <p class="text-weight-lighter"> 11 min read</p>
+                                </div>
+                            <div class="row mt-3 ">
+                                <div class="col px-3">
+                                    <p class="mb-5 pb-5 font-weight-light"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dignissimos neque iste? Consectetur minima rerum consequatur numquam pariatur iusto, beatae quia, suscipit voluptates tenetur esse excepturi rem! Quis, repudiandae deleniti..<br><br>
+                                      <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  
+                                    </p>      
+                                </div>
+                            </div>  
+                        </div>
+                    </div>     
+                </div>
+       <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12 ">
+                        <div class="d-flex align-items-center justify-content-center ">
+                            <img src="./assets/images/blogs/blog12.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                        </div>
+                        <div class="container pt-5 px-md-4 px-0">
+                            <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                               <div class="d-flex justify-content-between">
+                                    <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                    <p class="text-weight-lighter"> 11 min read</p>
+                                </div>
+                            <div class="row mt-3 ">
+                                <div class="col px-3">
+                                    <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                        software development companies operate in our region. However, we were curious about
+                                        business practices in other parts of the world. To explore this, we initiated
+                                        interviews with successful CEOs and industry experts to gain fresh insights and
+                                        share them with our readers. <br><br>
+                                      <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12 ">
+                        <div class="d-flex align-items-center justify-content-center ">
+                            <img src="./assets/images/blogs/blog13.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                        </div>
+                        <div class="container pt-5 px-md-4 px-0">
+                            <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                               <div class="d-flex justify-content-between">
+                                    <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                    <p class="text-weight-lighter"> 11 min read</p>
+                                </div>
+                            <div class="row mt-3 ">
+                                <div class="col px-3">
+                                    <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                        software development companies operate in our region. However, we were curious about
+                                        business practices in other parts of the world. To explore this, we initiated
+                                        interviews with successful CEOs and industry experts to gain fresh insights and
+                                        share them with our readers. <br><br>
+                                      <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12 ">
+                        <div class="d-flex align-items-center justify-content-center ">
+                            <img src="./assets/images/blogs/blog14.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                        </div>
+                        <div class="container pt-5 px-md-4 px-0">
+                            <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                               <div class="d-flex justify-content-between">
+                                    <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                    <p class="text-weight-lighter"> 11 min read</p>
+                                </div>
+                            <div class="row mt-3 ">
+                                <div class="col px-3">
+                                    <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                        software development companies operate in our region. However, we were curious about
+                                        business practices in other parts of the world. To explore this, we initiated
+                                        interviews with successful CEOs and industry experts to gain fresh insights and
+                                        share them with our readers. <br><br>
+                                      <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12 ">
+                        <div class="d-flex align-items-center justify-content-center ">
+                            <img src="./assets/images/blogs/blog15.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                        </div>
+                        <div class="container pt-5 px-md-4 px-0">
+                            <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                               <div class="d-flex justify-content-between">
+                                    <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                    <p class="text-weight-lighter"> 11 min read</p>
+                                </div>
+                            <div class="row mt-3 ">
+                                <div class="col px-3">
+                                    <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                        software development companies operate in our region. However, we were curious about
+                                        business practices in other parts of the world. To explore this, we initiated
+                                        interviews with successful CEOs and industry experts to gain fresh insights and
+                                        share them with our readers. <br><br>
+                                      <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12 ">
+                        <div class="d-flex align-items-center justify-content-center ">
+                            <img src="./assets/images/blogs/blog16.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                        </div>
+                        <div class="container pt-5 px-md-4 px-0">
+                            <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                               <div class="d-flex justify-content-between">
+                                    <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                    <p class="text-weight-lighter"> 11 min read</p>
+                                </div>
+                            <div class="row mt-3 ">
+                                <div class="col px-3">
+                                    <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                        software development companies operate in our region. However, we were curious about
+                                        business practices in other parts of the world. To explore this, we initiated
+                                        interviews with successful CEOs and industry experts to gain fresh insights and
+                                        share them with our readers. <br><br>
+                                      <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12 ">
+                        <div class="d-flex align-items-center justify-content-center ">
+                            <img src="./assets/images/blogs/blog17.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                        </div>
+                        <div class="container pt-5 px-md-4 px-0">
+                            <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                               <div class="d-flex justify-content-between">
+                                    <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                    <p class="text-weight-lighter"> 11 min read</p>
+                                </div>
+                            <div class="row mt-3 ">
+                                <div class="col px-3">
+                                    <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                        software development companies operate in our region. However, we were curious about
+                                        business practices in other parts of the world. To explore this, we initiated
+                                        interviews with successful CEOs and industry experts to gain fresh insights and
+                                        share them with our readers. <br><br>
+                                      <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12 ">
+                        <div class="d-flex align-items-center justify-content-center ">
+                            <img src="./assets/images/blogs/blog18.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                        </div>
+                        <div class="container pt-5 px-md-4 px-0">
+                            <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                               <div class="d-flex justify-content-between">
+                                    <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                    <p class="text-weight-lighter"> 11 min read</p>
+                                </div>
+                            <div class="row mt-3 ">
+                                <div class="col px-3">
+                                    <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                        software development companies operate in our region. However, we were curious about
+                                        business practices in other parts of the world. To explore this, we initiated
+                                        interviews with successful CEOs and industry experts to gain fresh insights and
+                                        share them with our readers. <br><br>
+                                      <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12 ">
+                        <div class="d-flex align-items-center justify-content-center ">
+                            <img src="./assets/images/blogs/blog19.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                        </div>
+                        <div class="container pt-5 px-md-4 px-0">
+                            <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                               <div class="d-flex justify-content-between">
+                                    <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                    <p class="text-weight-lighter"> 11 min read</p>
+                                </div>
+                            <div class="row mt-3 ">
+                                <div class="col px-3">
+                                    <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                        software development companies operate in our region. However, we were curious about
+                                        business practices in other parts of the world. To explore this, we initiated
+                                        interviews with successful CEOs and industry experts to gain fresh insights and
+                                        share them with our readers. <br><br>
+                                      <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12 ">
+                        <div class="d-flex align-items-center justify-content-center ">
+                            <img src="./assets/images/blogs/blog20.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                        </div>
+                        <div class="container pt-5 px-md-4 px-0">
+                            <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                               <div class="d-flex justify-content-between">
+                                    <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                    <p class="text-weight-lighter"> 11 min read</p>
+                                </div>
+                            <div class="row mt-3 ">
+                                <div class="col px-3">
+                                    <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                        software development companies operate in our region. However, we were curious about
+                                        business practices in other parts of the world. To explore this, we initiated
+                                        interviews with successful CEOs and industry experts to gain fresh insights and
+                                        share them with our readers. <br><br>
+                                      <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         </div>
+        </div>
+<!-- ---------------------------------item 3------------------------------------------------------------ -->
+ <div id="tab3" class="blog_content item mt-2 tab-content active-content" >
+    <div class="container w-100 item">   
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog13.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                            <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp january 2, 2024</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers.<br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  
+                                </p>      
+                            </div>
+                        </div>  
+                    </div>
+                </div>     
+            </div>
+   <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog14.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog3.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog4.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog5.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog6.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog7.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog8.webp" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog9.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog10.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+    </div>
+ <!-- --------------------------------item 4------------------------------------------------------ -->
+<div id="tab4" class="blog_content item mt-2 tab-content active-content" >
+    <div class="container w-100 item">   
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog15.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                            <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp january 2, 2024</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers.<br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  
+                                </p>      
+                            </div>
+                        </div>  
+                    </div>
+                </div>     
+            </div>
+   <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog16.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog3.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog4.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog5.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog6.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog7.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog8.webp" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog9.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog10.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+    </div>
+
+ <!-- --------------------------------item 5------------------------------------------------------ -->
+<div id="tab5" class="blog_content item mt-2 tab-content active-content" >
+    <div class="container w-100 item">   
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog19.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                            <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp january 2, 2024</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers.<br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  
+                                </p>      
+                            </div>
+                        </div>  
+                    </div>
+                </div>     
+            </div>
+   <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog20.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog3.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog4.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog5.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog6.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog7.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog8.webp" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog9.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-9 col-md-10 col-12 ">
+                    <div class="d-flex align-items-center justify-content-center ">
+                        <img src="./assets/images/blogs/blog10.png" class="img-fluid px-md-4 px-0 w-100" d alt="">
+                    </div>
+                    <div class="container pt-5 px-md-4 px-0">
+                        <h4 class="pb-4 font-weight-light" style="color: #17c1e8" >Top Tech Events in 2024: Quarter 1 Ultimate Guide</h4>
+                           <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar"></i> &nbsp December 13, 2023</p>
+                                <p class="text-weight-lighter"> 11 min read</p>
+                            </div>
+                        <div class="row mt-3 ">
+                            <div class="col px-3">
+                                <p class="mb-5 pb-5 font-weight-light"> As a Ukraine-based company, we have a good understanding of how
+                                    software development companies operate in our region. However, we were curious about
+                                    business practices in other parts of the world. To explore this, we initiated
+                                    interviews with successful CEOs and industry experts to gain fresh insights and
+                                    share them with our readers. <br><br>
+                                  <span > <a href="#" class="text-decoration-none" style="color: #17c1e8">Read More</a></span>  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+    </div>
+
+<!-- ----------- new footer section  ----------------->
+<section class="footer foot_cont w-100 ">
+    <div class="container w-100 ">
+        <div class="row foot_row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <p class="foot_hero">NANLOGICAL</p>
+                <div class="row mt-3 ml-0">
+                    <i class="fa-solid fa-location-dot" style="color: #fff;">&nbsp;Address</i>
+                </div>
+                <div class="container flex_cont mt-2 font-weight-light mr-5">
+                    Ukraine, Kyiv<br>
+                    Ivana Franka St 20b, 01030<br>
+                    Estonia, Tallinn<br>
+                    Tornimae 7-36, 10145
+                </div>
+                <div class="mt-5"> <i class="fa-solid fa-envelope mb-2" style="color: #fff;">&nbsp Email</i></div>
+                <div class="font-weight-light px-2 foot_mail">&nbsp sales@NanLogical.com </div>
+                <div class="mt-5 font-weight-light foot_mail"><i class="fa-solid fa-phone mb-2"
+                        style="color: #fff;">&nbsp Contact</i><br>
+                </div>
+                <div class="container flex_cont font-weight-light mr-5">
+                    Skype<br>
+                    WhatsApp<br>
+                    + 372 617 0338<br>
+                    +1 347-3291444</div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Services</p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="web_development.html">Web Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="saas_development.html">SaaS Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="mobile_app_development.html">Mobile Applications</a>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="desktop_app_development.html">Desktop
+                                Applications</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="code_review.html">Code Review</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="augmented_reality.html">Augmented Reality</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="machine_learning_development services.html">ML, AI,
+                                and Data Science</a></li>
+                        <li class="mt-4"><a class="flist_clr" class="flist_clr"
+                                href="business_process_outsourcing.html">Business Process Outsourcing</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="dev_ops.html">DevOps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Solutions</p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="startup_innovation.html">Startups & Innovation</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="business_process_automation.html">Business Process
+                                Automation</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="e_commerce.html">E-Commerce</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="data_mining.html">Data Mining</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="elearning.html">E-Learning</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="e_government.html">E-Government</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="healthcare.html">Healthcare</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="media _entertainment.html">Media & Entertainment</a>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="game_development.html">Game Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="open_source.html">Open Source</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> About us </p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="project_delivery.html">Project Delivery</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="customers.html">Customers</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="technologies.html">Technologies</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="press.html">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Blog</p>
+                <div class="ser_box">
+                    <ul class="ser_items mt-3">
+                        <li><a class="flist_clr" href="#web-development">Top Tech Events in 2024: Quarter 1 Ultimate
+                                Guide &nbsp
+                            </a><a class="new_highlight px-1">New</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#saas-development">IT Traveler with Carlos Sirias,
+                                CEO at
+                                Pernix Solutions &nbsp</a><a class="new_highlight px-1">New</a></li>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="#mobile-applications">Corporate Social
+                                Responsibility Report
+                                2023</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#desktop-applications">Metaverse Use Cases: 15
+                                Real-Life
+                                Examples Across Industries</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#code-review">Top Tech Events in 2023: Quarter 4
+                                Ultimate
+                                Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ----------- new footer section  ----------------->
+<section class="footer foot_cont w-100 ">
+    <div class="container w-100 ">
+        <div class="row foot_row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <p class="foot_hero">NANLOGICAL</p>
+                <div class="row mt-3 ml-0">
+                    <i class="fa-solid fa-location-dot" style="color: #fff;">&nbsp;Address</i>
+                </div>
+                <div class="container flex_cont mt-2 font-weight-light mr-5">
+                    Ukraine, Kyiv<br>
+                    Ivana Franka St 20b, 01030<br>
+                    Estonia, Tallinn<br>
+                    Tornimae 7-36, 10145
+                </div>
+                <div class="mt-5"> <i class="fa-solid fa-envelope mb-2" style="color: #fff;">&nbsp Email</i></div>
+                <div class="font-weight-light px-2 foot_mail">&nbsp sales@NanLogical.com </div>
+                <div class="mt-5 font-weight-light foot_mail"><i class="fa-solid fa-phone mb-2"
+                        style="color: #fff;">&nbsp Contact</i><br>
+                </div>
+                <div class="container flex_cont font-weight-light mr-5">
+                    Skype<br>
+                    WhatsApp<br>
+                    + 372 617 0338<br>
+                    +1 347-3291444</div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Services</p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="web_development.html">Web Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="saas_development.html">SaaS Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="mobile_app_development.html">Mobile Applications</a>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="desktop_app_development.html">Desktop
+                                Applications</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="code_review.html">Code Review</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="augmented_reality.html">Augmented Reality</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="machine_learning_development services.html">ML, AI,
+                                and Data Science</a></li>
+                        <li class="mt-4"><a class="flist_clr" class="flist_clr"
+                                href="business_process_outsourcing.html">Business Process Outsourcing</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="dev_ops.html">DevOps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Solutions</p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="startup_innovation.html">Startups & Innovation</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="business_process_automation.html">Business Process
+                                Automation</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="e_commerce.html">E-Commerce</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="data_mining.html">Data Mining</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="elearning.html">E-Learning</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="e_government.html">E-Government</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="healthcare.html">Healthcare</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="media _entertainment.html">Media & Entertainment</a>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="game_development.html">Game Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="open_source.html">Open Source</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> About us </p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="project_delivery.html">Project Delivery</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="customers.html">Customers</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="technologies.html">Technologies</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="press.html">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Blog</p>
+                <div class="ser_box">
+                    <ul class="ser_items mt-3">
+                        <li><a class="flist_clr" href="#web-development">Top Tech Events in 2024: Quarter 1 Ultimate
+                                Guide &nbsp
+                            </a><a class="new_highlight px-1">New</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#saas-development">IT Traveler with Carlos Sirias,
+                                CEO at
+                                Pernix Solutions &nbsp</a><a class="new_highlight px-1">New</a></li>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="#mobile-applications">Corporate Social
+                                Responsibility Report
+                                2023</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#desktop-applications">Metaverse Use Cases: 15
+                                Real-Life
+                                Examples Across Industries</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#code-review">Top Tech Events in 2023: Quarter 4
+                                Ultimate
+                                Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ----------- new social media section  ----------------->
+<section class="social_media">
+    <div class="container">
+        <div class="social_items mt-5">
+            <ul class="social_elememts">
+                <li><a><img class="soc_img" src="./assets/images/social1.webp" alt=""></a></li>
+            </ul>
+            <ul class="lgo_container d-flex justify-content-md-around flex-wrap">
+                <li class="d-inline-block"><a href="#"><i class="fa-brands fa-facebook social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-instagram social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-pinterest social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-linkedin social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-youtube social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-github social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-stack-overflow social_fnt "></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="social_items">
+            <div class="end_items">
+                <div class=""><a href="https://www.flaticon.com/free-icons/india" title="india icons"></a></div>
+                <div style="opacity: 0.5; color: #fff;" class="pb-3">© 2024 Nanlogical
+                </div>
+                <ul class="end_elements">
+                    <li class="d-inline-block"><a href="#">Privacy Policy</a></li>
+                    <li class="d-inline-block"><a href="#">Our Locations</a></li>
+                </ul>
+            </div>
+        </div>
+</section>
+ 
+    <!-- ------------ scrop bottom to top ------  -->
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script> -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="assets/owl/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/owl/js/owl.carousel.js"></script>
+    <!-- ----------- light-box------------ -->
+    <script src="assets/lightbox2-dev/dist/js/lightbox.js"></script>
+    <!-- --------------- aos script ------------------- -->
+    <script src="assets/aos/js/aos.js"></script>
+    <script>
+        // scroll arrow script
+        document.addEventListener("DOMContentLoaded", function() {
+        var scrollContainer = document.querySelector('.scroll_container');
+        window.addEventListener('scroll', function() {
+          if (window.scrollY > window.innerHeight / 2) {
+            scrollContainer.style.display = 'flex';
+          } else {
+            scrollContainer.style.display = 'none';
+          }
+        });
+        scrollContainer.addEventListener('click', function() {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        });
+      });
+      </script>
+    <script>
+        // selected cases section
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+        loop:true,
+        nav:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+         0:{
+          items:1,
+          nav:true
+        },
+        600:{
+         items:1,
+         nav:false
+         },
+        1000:{
+        items:1,
+        nav:true,
+        loop:false
+     }
+    }
+    });
+//     function blog(evt,tabName) {
+//   // Declare all variables
+//   var i, tabcontent, tablinks;
+
+//   // Get all elements with class="tabcontent" and hide them
+//   tabcontent = document.getElementsByClassName("tabcontent");
+//   for (i = 0; i < tabcontent.length; i++) {
+//     tabcontent[i].style.display = "none";
+//   }
+
+//   // Get all elements with class="tablinks" and remove the class "active"
+//   tablinks = document.getElementsByClassName("tablinks");
+//   for (i = 0; i < tablinks.length; i++) {
+//     tablinks[i].className = tablinks[i].className.replace(" active", "");
+//   }
+
+//   // Show the current tab, and add an "active" class to the button that opened the tab
+//   document.getElementById(tabName).style.display = "block";
+//   evt.currentTarget.classList.add("active");
+// }
+    </script>
+    <script>
+           function openTab(tabId) {
+        // Hide all tab contents
+        var tabContents = document.getElementsByClassName('tab-content');
+        for (var i = 0; i < tabContents.length; i++) {
+            tabContents[i].style.display = 'none';
+        }
+
+        // Remove 'active-tab' class from all tabs
+        var tabs = document.getElementsByClassName('tab');
+        for (var i = 0; i < tabs.length; i++) {
+            tabs[i].classList.remove('active-tab');
+        }
+
+        // Show the selected tab content and mark it as active
+        document.getElementById(tabId).style.display = 'block';
+        document.querySelector('[onclick="openTab(\'' + tabId + '\')"]').classList.add('active-tab');
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ---------------section colours------------------ */
+.bg_ar
+{
+    color: #17c1e8;
+}
+.bg_w{
+    background-color: #fff;
+}
+.bg_y{
+    background:linear-gradient(310deg, rgb(20, 23, 39), rgb(58, 65, 111));
+}
+.bg_color2{
+    background-color:#f6f6f6 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.services_bg_image1{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/chatbot_banner.webp);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover !important;
+    background-attachment: fixed;
+    z-index: -1;
+}
+/* -------------------- .services_top_section2----------------------- */
+.services_top_section2{
+    height:350px;
+}
+.services_top_section2 .padding_top{
+    padding: 35px !important;
+    align-items: center;
+}
+.services_top_section2 .padding_top .text_bg{
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background: rgba(0,0,0,.4);
+    padding: 3px 15px 3px;
+    line-height: 55px;
+    color: #ebe7e7;
+}
+
+.services_top_section2 .padding_top .text_bg_p{
+  line-height: 30px;
+}
+.why_us i{
+    font-size: 24px;
+}
+/* ------------- Technologies ------------- */
+.tech_stack i{
+    font-size: 60px !important;
+  }
+.tech_stack i:hover{
+    font-size: 60px !important;
+    color: #17c1e8;
+    transition: 1s;
+    cursor:pointer;
+  }
+
+.tech_stack_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px 2px;
+}
+/* ---------out source-------------- */
+
+ 
+ .case_btn{
+    margin-top: 1rem !important;
+}
+.case_study .case_img{
+    background-image: url(../images/outsource1.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 500px !important;
+    width: 100% !important;
+  
+  }
+/* ------------- ML form --------- */
+.bg_light_grey{
+    background-color: #f6f6f6;
+}
+
+.achievements_container .achievements_container_div img{
+    height: 150px;
+    width: 150px;
+}
+/* ------------- Selected cases SM--------------------------- */
+/* ---------------selected case-blog---------------------- */
+.selected_cases_blogs .card{
+    border: none !important;
+    }
+    /* ----------------selected cases sec------------------------- */
+    .selected_cases .container .owl-carousel .item a{
+        position: relative;
+        overflow: hidden;
+    }
+    .selected_cases .container .owl-carousel-item a {
+        display: block;
+    }
+    
+    .selected_cases .container .owl-carousel .item a img {
+        transition: transform 0.10s ease-in-out;
+    }
+    .selected_cases .container .owl-carousel .item:hover  a img {
+        transform: scale(1.2);
+    }
+    .selected_cases .container .owl-carousel .item .flag_icon{
+        background-image: url(../images/india-flag-icon.svg);
+        background-size: cover;
+        height: 30px;
+        width: 30px;
+        background-position: center;
+        border-radius: 60%;
+    }
+  /* ------------coursel------------------   */
+  .solution_top_section4{
+    display: flex;
+    flex-direction: column;   
+    padding-bottom:20px;   
+}
+.solution_top_section4 .sol_logo{
+    height: auto;
+    width: auto;
+    max-height: 60px;
+    max-width: 179px;
+    margin: auto auto 0;
+}
+.solution_top_section4 .sol_logo1{
+    height: 60px;
+    width: 70px;
+    margin: auto auto 0;
+}
+.solution_top_section4 .sol_video .playicon{
+    font-size: 60px;
+    position: relative;
+    top: 34%;
+    left: 48%;
+}
+.solution_top_section4 .sol_video{
+    max-width: 465px;
+    width: 100%;
+    aspect-ratio: 465/290;
+     background-size: cover;
+}
+.solution_top_section4 .quote{
+    margin: 20px 0 0;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.solution_top_section4 blockquote::before {
+    content:  "🙷";
+    color:#a8a8a8;
+    font-size: xx-large !important;
+    padding:3px;
+}
+
+.solution_top_section4 blockquote::after {
+    content:  "🙷";
+    color:#a8a8a8;
+    font-size: xx-large !important;
+    padding-left: 2px !important;
+}
+
+ /* --------------- customers--------------- */
+ .ml_customers .cus_img{
+    width: 285px;
+    height: 127px;
+ }

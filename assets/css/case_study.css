@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg_color2{
+    background-color:#f6f6f6 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bg_theme{
+    background-color: #ffdd11 !important;
+}
+
+.case_study_section2 .card{
+border: none !important;
+border-radius: none !important;
+}
+.case_study_section2 .container .card .flag_icon{
+background-size: cover;
+height: 30px;
+width: 30px;
+background-position: center;
+border-radius: 75%;
+}
+.case_study_section2 .container a{
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.case_study_section2 .container a .img1{
+    object-fit: cover;
+    transition: transform 0.15s ease-in-out;
+}
+.case_study_section2 .container .card:hover a .img1 {
+    transform: scale(1.1);
+}
+.casestudy_top_section2 .container .bg_gray {
+    width: 20rem;
+    height: 500px;
+    background-color: #f6f6f6;
+    overflow: hidden !important;
+    position: absolute;
+    left: 32px;
+    transition: transform 0.3s;
+    margin-left: 10px;
+}
+.bg_gray:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.bg_gray i{
+    display: inline-block;
+    font-size: 100px;
+    color: #17c1e8;
+    margin-top: 15%; 
+    overflow: hidden !important;
+}
+.bg_gray2 {
+    background-color: #c8c5c5;
+    height: 60px;
+    opacity: 0;
+    width: 80% !important;
+    position: absolute;
+    bottom: 0;
+    left: 32px;
+    transition: opacity 0.3s; /* Add a transition for opacity */
+}
+.bg_gray:hover .bg_gray2 {
+    opacity: 0.8;
+}
+@media only screen and (max-device-width: 820px) {
+    .casestudy_top_section1 .container .card {
+        width: 22rem !important;
+        height: auto !important;
+    }
+}
+@media only screen and (max-device-width: 360px) { 
+    .case_study .case_btn{
+    margin-top: 1rem !important;
+}
+}

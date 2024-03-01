@@ -1,0 +1,342 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+/* hero section   */
+.hero_section .container .card_1{
+    width: 320px !important;
+    position: absolute;
+    z-index: 9;
+    top: 20px;
+    right: 200px;
+    box-shadow: 0 16px 64px 0 rgba(43,49,59,.3019607843) !important;
+}
+.hero_section .hero1_img {
+    position: absolute;
+    left:197px;
+    top: 30px;
+    width: 290px;
+    height: 234px;
+    box-shadow: 0 16px 64px 0 rgba(43,49,59,.3019607843) !important;
+}
+.hero_section .hero2_img
+{
+    width: 250px;
+    height: 246px;
+    position: absolute;
+    z-index: 0;
+    right: 269px;
+    top: 184px;
+} 
+.hero_section .container .card_2{
+    width: 325px;
+    gap: 0.5rem;
+    position: absolute;
+    z-index: 9;
+    padding: 7px;
+    top: 257px;
+    left: 198px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}   
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+
+    /* /solution */
+    .solution_top_section2 .padding_top br{
+        display: none;
+    }
+    .solution_top_section2{
+        height:550px !important;
+    }
+    
+ /* navbar */
+ .navbar_section .contact_btn{
+    margin-left: 20rem !important;
+    }
+  /* /form section  */
+  .awards2 .achievements_container_div{
+    gap: 15px;
+}
+/* ------------------------------------------------ */
+/* /serivices page */
+.services_top_section2 .padding_top br{
+    display: none;
+}
+.services_top_section2{
+    height:550px !important;
+}
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .services_top_section2 .padding_top{
+        padding: 35px 0px !important;
+    }
+    .font_size_30px{
+        font-size: 30px;
+    }
+    .scroll_container {
+        right: 5px;
+    }
+    /* /solution */
+    .solution_bg_image1{
+        background-position: center center !important;
+    }
+    .solution_top_section2 .padding_top br{
+        display: none;
+    }
+    .solution_top_section2{
+        height:550px !important;
+    }
+    .solution_top_section4 .container .row .playicon{
+        font-size: 40px;
+    }
+    /* /solution */
+    .we_start_sec .start_box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .we_start_sec .start_box .icons_container{
+        width: 60% !important;
+        padding: 0;
+        padding: 0 10px 30px;
+        align-items: center;
+        text-align: center;
+    }
+    .we_start_sec .start_box .icons_container:after{
+        display: none !important;
+    }
+
+   /* we start index  */
+   .we_start_sec1 .start_box{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.we_start_sec1 .start_box .icons_container{
+    width: 60% !important;
+    padding: 0;
+    padding: 0 10px 30px;
+    align-items: center;
+    text-align: center;
+}
+.we_start_sec1 .start_box .icons_container:before{
+    display: none !important;
+}
+    /* navbar section */
+  .navbar_section .navbar-brand{
+      margin-left: 6rem !important;
+  }
+ 
+  .navbar_section .navtog_btn{
+    margin-left: 9rem !important;
+  }
+
+  .navbar_section .contact_btn{
+  margin-left: 5rem !important;
+  }
+    .navbar_section .about_down {
+        width: auto !important;
+        font-size: 10px !important;
+    }   
+    .navbar_section .about_down a{
+        font-size: 10px !important;
+    }
+    .navbar_section .ser_down {
+     width: auto !important;
+    }
+    .navbar_section .ser_down a{
+        font-size: 10px !important;
+    }
+    .navbar_section .sol_down{       
+        width: auto !important;
+       }
+       .navbar_section .sol_down a{
+        font-size: 10px;
+       }
+
+    /* hero section */
+    .hero_section .container .hero_tit_1{
+    text-align: center !important;
+    line-height: 26px !important;
+    }
+    .hero_section .container .hero_tit_3{
+        text-align: center !important;
+    line-height: 26px !important;
+    font-size: 16px !important;
+    line-height:22px !important; 
+    }
+    .hero_section .container .hero_tit_2{
+        text-align: center !important;
+        font-family: Bitter;
+        font-size: 34px !important;
+        font-weight: 400 !important;
+        line-height: 36px !important;
+    }
+
+    /* indexpage */
+    .awards_title,.how_software_title , .our_service_title , .how_we_start_title , .form_title , .cus_title {
+        font-size: 30px;
+    }
+   
+/* solutions section  */
+.solution_top_section4 .container .row .playicon{
+    font-size: 40px;
+}
+/* ------------------------------------------------ */
+/* /serivices page */
+.services_bg_image1{
+    background-position: center center !important;
+}
+.services_top_section2 .padding_top br{
+    display: none;
+}
+.services_top_section2{
+    height:550px !important;
+}
+.services_top_section4 .container .row .playicon{
+    font-size: 40px;
+}
+/* --------- social media footer------------ */
+.social_media  .social_fnt{
+  
+    font-size: 12px !important; 
+    height: 20px !important;
+    width: 20px !important;
+    text-align: center !important;
+    padding: 4px 1px 10px !important;
+  border-radius: 20px !important;
+  color: #fff !important;
+   background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)) !important;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .solution_top_section2{
+        height:670px !important;
+    }
+   .awards2 .achievements_container .achievements_container_div img{
+        height: 100px;
+        width: 100px;
+    }
+   /* ------------------------------------------------ */
+/* /serivices page */
+.services_top_section2{
+    height:450px !important;
+}
+    
+}
+
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+    /* /solutions-section */
+    .solution_top_section2{
+        height:700px !important;
+    }
+    .solution_top_section4 .container .playicon{
+        font-size: 40px;
+    }
+/* ------------------------------------------------ */
+/* /serivices page */
+.services_top_section2{
+    height:680px !important;
+}
+.services_top_section4 .container .row .playicon{
+    font-size: 30px;
+}
+
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+   
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    /* navbar section */
+    .navbar_section .navbar-brand{
+        margin-left: 5rem !important;
+    }
+    .navbar_section .navtog_btn{
+      margin-left: 8rem !important;
+    }
+    
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    /* /solutions section */
+    .solution_top_section2{
+        height:760px !important;
+    }
+/* ------------------------------------------------ */
+/* /serivices page */
+.services_top_section2{
+    height:650px !important;
+}
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+    /* /solutions */
+    .solution_top_section2{
+        height:1150px !important;
+    } 
+    /* navbar section */
+    .navbar_section .navbar-brand{
+        margin-left: 3rem !important;
+    }
+    .navbar_section .contact_btn{
+        margin-left: 3rem !important;
+        }
+    .navbar_section .navtog_btn{
+      margin-left: 6rem !important;
+    }
+ 
+    /* case study */
+    .case_study .case_btn{
+        margin-top: 1rem !important;
+    }
+/* ------------------------------------------------ */
+/* /serivices page */
+.services_top_section2{
+    height:600px !important;
+}
+   /* -----navbar----- */
+   .navbar_section .navbar .container .font_color {
+    height: 45px !important;
+    width: 95px !important;
+    margin-right: 5px !important;
+  }
+  .navbar_section .navbar a {
+   
+      padding: 10px 8px!important ;
+  }
+   .navbar_section .navbar .container .fa-bars{
+      font-size: 15px !important;
+      padding: 0px !important;
+  }
+  .navbar_section .navbar .container .text-white {
+        font-size: 15px !important;
+       position: relative;
+    
+ 
+  } 
+ 
+}
+
+@media only screen and (max-device-width: 300px) {
+    .services_top_section2{
+        height:700px !important;
+    }  
+ 
+}

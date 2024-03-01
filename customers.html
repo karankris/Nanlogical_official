@@ -1,0 +1,2403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nanlogical Official</title>
+    <!-- bootstrap file -->
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"> -->
+    <!-- <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+     -->
+    <!-- <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png"> -->
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Orelega+One&family=Roboto+Condensed:ital,wght@1,300&family=Yeseva+One&display=swap"
+        rel="stylesheet" />
+    <!-- owl-carousel file -->
+    <link rel="stylesheet" href="assets/owl/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/owl/css/owl.theme.default.min.css" />
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- css file -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/header-footer.css" />
+    <link rel="stylesheet" href="assets/css/customer.css">
+    <!-- <link rel="stylesheet" href="assets/css/about.css"> -->
+    <!-- media query file -->
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
+
+    <!-- ------------- aos animation ------------ -->
+    <link rel="stylesheet" type="text/css" href="assets/aos/css/aos.css">
+
+ 
+
+    <script id="c74d45eb09e8423e80523ba607f50b47-1" type="nitropack/inlinescript" class="nitropack-inline-script">
+        let instaPosts=document.querySelectorAll("#insta-slider div.insta-post");var i=0;jQuery("#control_prev").click(function(){jQuery(instaPosts[i]).toggleClass("show-iframe");i--;if(i<0){i=instaPosts.length-1}jQuery(instaPosts[i]).toggleClass("show-iframe")});jQuery("#control_next").click(function(){jQuery(instaPosts[i]).toggleClass("show-iframe");i++;if(i>=instaPosts.length){i=0}jQuery(instaPosts[i]).toggleClass("show-iframe")});
+    </script>
+    <style>
+      
+        .clientmap-svg-and-ttips path.USA,
+        .clientmap-svg-and-ttips path.DEU,
+        .clientmap-svg-and-ttips path.NLD,
+        .clientmap-svg-and-ttips path.GBR,
+        .clientmap-svg-and-ttips path.DNK,
+        .clientmap-svg-and-ttips path.FIN,
+        .clientmap-svg-and-ttips path.GEO,
+        .clientmap-svg-and-ttips path.GRC,
+        .clientmap-svg-and-ttips path.ITA,
+        .clientmap-svg-and-ttips path.PRT,
+        .clientmap-svg-and-ttips path.ROU,
+        .clientmap-svg-and-ttips path.ESP,
+        .clientmap-svg-and-ttips path.CHE,
+        .clientmap-svg-and-ttips path.AUT,
+        .clientmap-svg-and-ttips path.FRA,
+        .clientmap-svg-and-ttips path.IRL,
+        .clientmap-svg-and-ttips path.CAN,
+        .clientmap-svg-and-ttips path.ISR,
+        .clientmap-svg-and-ttips path.SAU,
+        .clientmap-svg-and-ttips path.ARE,
+        .clientmap-svg-and-ttips path.NGA,
+        .clientmap-svg-and-ttips path.KEN,
+        .clientmap-svg-and-ttips path.ZMB,
+        .clientmap-svg-and-ttips path.NZL,
+        .clientmap-svg-and-ttips path.AUS,
+        .clientmap-svg-and-ttips path.JPN {
+            fill: #6ba2c0;
+        }
+        
+        .clientmap-svg-and-ttips {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .clientmap-tooltip {
+            position: ABSOLUTE;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            background: #fff;
+            border: 1px solid #d8d8d8;
+            width: 280px;
+            z-index: 2;
+        }
+        
+        .clientmap-tooltip h5 {
+            display: block;
+            position: relative;
+            padding: 22px 15px;
+            margin: 0;
+            background: #f0f2f1;
+            border: 0;
+            font-size: 25px;
+            line-height: 1;
+            color: #6c6e6d;
+            font-family: "Lato";
+            z-index: 2;
+        }
+        
+        .donut {
+            width: 100px;
+        }
+        
+        .donut-ring {
+            stroke: #ddd;
+        }
+        
+        .donut-segment {
+            transform-origin: center;
+            stroke: #69b3da;
+        }
+        
+        .tooltip-charge {
+            width: 100px;
+            margin: 10px auto 0;
+            position: relative;
+        }
+        
+        .tooltip-charge span {
+            color: #3b5860;
+            font-weight: 700;
+            font-size: 24px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate3d(-50%, -64%, 0);
+            line-height: 1;
+        }
+        
+        .clientmap-tooltip ul {
+            list-style: none;
+            padding: 20px;
+            margin: 0;
+        }
+        
+        .clientmap-tooltip ul li {
+            position: relative;
+            padding: 9px;
+            margin-bottom: 2px;
+            background: #f0f2f1;
+            font-size: 14px;
+            color: #3b5860;
+            line-height: 1;
+            display: flex;
+            align-items: center;
+            height: 40px;
+        }
+        
+        .clientmap-tooltip ul li span {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .clientmap-tooltip ul li span:first-child {
+            max-width: calc(100% - 40px);
+            line-height: 1;
+            text-align: start;
+        }
+        
+        .clientmap-tooltip ul li span:nth-child(2) {
+            margin-left: 10px;
+            color: #d33;
+        }
+        
+        .clientmap-tooltip ul li span.range {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            background: #ddd;
+            z-index: 1;
+        }
+        
+        .clientmap-tooltip.tooltip-large {
+            width: 360px;
+        }
+        
+        .clientmap-tooltip.tooltip-large ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .clientmap-tooltip.tooltip-large ul li {
+            width: calc(50% - 5px);
+        }
+        
+        @media (max-width: 991px) {
+            .clientmap-tooltip {
+                text-align: center;
+                border: none;
+            }
+        
+            .clientmap-tooltip h5 {
+                display: inline-block;
+                padding: 15px;
+            }
+        
+            .clientmap-tooltip ul li {
+                font-size: 12px;
+                padding: 3px 9px;
+                height: 28px;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .clientmap-tooltip[data-slug="usa"] {
+                top: 4%;
+                left: 36%;
+            }
+        
+            .clientmap-tooltip[data-slug="europe"] {
+                top: 8%;
+                left: auto;
+                right: 54%;
+            }
+        
+            .clientmap-tooltip[data-slug="canada"] {
+                top: 3%;
+                left: 37%;
+            }
+        
+            .clientmap-tooltip[data-slug="middle_east"] {
+                top: 28%;
+                left: auto;
+                right: 41%;
+            }
+        
+            .clientmap-tooltip[data-slug="africa"] {
+                top: 43%;
+                left: 64%;
+            }
+        
+            .clientmap-tooltip[data-slug="australia"] {
+                top: 49%;
+                left: auto;
+                right: 20%;
+            }
+        
+            .clientmap-tooltip[data-slug="asia"] {
+                top: 23%;
+                left: auto;
+                right: 16%;
+            }
+        }
+          </style>
+</head>
+
+<body id="about_body">
+<!-- -------------------------------- new navbar section  ------------------------------- -->
+<header>
+    <section class="navbar_section">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container ">
+
+                <div class="d-flex align-items-center justify-content-center flex-column mx-auto pb-2">
+                    <a class="h2 navbar_brand font-weight-normal m-0" href="index.html"><span
+                            class="l_logo">NAN</span><span class="r_logo">LOGICAL</span> </a>
+
+                    <div class="d-flex " style="gap: 15px;">
+                        <a id="add_file"
+                            class="navbar-toggler mt-2 px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme rounded-0"
+                            data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation"><i
+                                class="fa-solid fa-bars px-3 py-1 d-inline-block text-white"></i>&nbsp;<span
+                                class="font-weight-light text-white">Menus</span></a>
+                        <a href="contact_us.html"
+                            class="navbar-toggler mt-2 px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme rounded-0"><span
+                                class="font-weight-light px-sm-3 px-1 py-1 text-white">Contact
+                                Us</span></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item dropdown">
+                            <a href="about.html" class="nav-link dropdown-toggle nav_color">
+                                About Us
+                            </a>
+                            <div class="dropdown-menu drop_style about_down">
+                                <a class="dropdown-item" href="project_delivery.html" >Project
+                                    Delivery</a>
+                                <div class="dropdown-divider p-0 m-0"></div>
+                                <a class="dropdown-item" href="customers.html" >Customers</a>
+                                <div class="dropdown-divider  p-0 m-0"></div>
+                                <a class="dropdown-item" href="technologies.html" >Technologies</a>
+                                <div class="dropdown-divider  p-0 m-0"></div>
+                                <a class="dropdown-item" href="press.html" >Press</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  nav_color font-weight-light" href="services.html">
+                                Services
+                            </a>
+                            <div class="dropdown-menu drop_style ser_down" style="width: 500px;"
+                                aria-labelledby="navbarDropdown">
+                                <div class="container inner_nav">
+                                    <div class="row w-100 pr-2">
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="web_development.html">Web Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="saas_development.html">SaaS Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="mobile_app_development.html">Mobile
+                                                Applications</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="desktop_app_development.html">Desktop
+                                                Applications</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="code_review.html">Code Review</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="augmented_reality.html">Augmented Reality</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item"
+                                                href="machine_learning_development services.html">ML, AI, and Data
+                                                Science</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="business_process_outsourcing.html">Business
+                                                Process
+                                                Outsourcing</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="dev_ops.html">DevOps</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="metaverse.html">Metaverse Development</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="product_development.html">Product
+                                                Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item"
+                                                href="enterprise_software_development.html">Enterprise Software</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="ui_ux_design.html">UI/UX Design</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="qa_services.html">Quality Assurance</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="software_development_audit.html">Software
+                                                Development Audit</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="software_maintenance.html">Software
+                                                Maintenance</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="functional_specification.html">Functional
+                                                Specification</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="legacy_application.html">Legacy Code
+                                                Modernization</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="chatbot.html">Chatbot Development</a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  nav_color" href="solutions.html">
+                                Solutions
+                            </a>
+                            <div class="dropdown-menu drop_style sol_down" style="width: 500px;"
+                                aria-labelledby="navbarDropdown">
+                                <div class="container ">
+                                    <div class="row w-100 pr-2">
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="startup_innovation.html">Startups &
+                                                Innovation</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="business_process_automation.html">Business
+                                                Process Automation</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="e_commerce.html">E-Commerce</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="data_mining.html">Data Mining</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="elearning.html">E-Learning</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="dropdown-item" href="e_government.html">E-Government</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="healthcare.html">Healthcare</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="media _entertainment.html">Media &
+                                                Entertainment</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="game_development.html">Game Development</a>
+                                            <div class="dropdown-divider p-0 m-0"></div>
+                                            <a class="dropdown-item" href="open_source.html">Open Source</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item active ml-1">
+                            <a class="nav-link nav_color" href="case_study.html">Case Studies</a>
+                        </li>
+                        <li class="nav-item active ml-1">
+                            <a class="nav-link nav_color" href="testimonial.html">Testimonials</a>
+                        </li>
+                        <li class="nav-item active ml-1">
+                            <a class="nav-link nav_color" href="blogs.html">Blog</a>
+                        </li>
+                        <div class="ml-5 mt-1 contact_btn d-lg-block d-none">
+                            <a id="nav_contact" href="contact_us.html"
+                                class=" text-decoration-none font-weight-light px-4 py-2 cursor_pointer m-0 nav_contact_btn_border"
+                                type="submit">Contact Us</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+</header>
+
+    <!-- -------------------about nav section---------------- -->
+    <section id="about_nav_section" class="bg-white py-xl-2 py-0">
+        <div class="container p-xl-4 p-3">
+            <div class="row">
+                <div
+                    class="col-md-6 col-xs-12 d-flex align-items-center justify-content-center justify-content-xl-start my-2 my-xl-0">
+                    <div class="">
+                        <h3 class="m-0">Customers</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 d-flex align-items-center justify-content-center justify-content-xl-end">
+                    <div class="">
+                        <small><a href="index.html"><i class="fa fa-home font_color"  aria-label="Home page" title="Home page"></i></a></small>
+                        <small class="delimiter"><i class="fa-solid fa-angle-right"></i></small>
+                        <small class="">Customers</small>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------ Trusted by Businesses ---  -->
+    <section id="about_section">
+        <div id="about_top_img_section" class="px-4 bg_black_transparent">
+            <div class="container p-xl-0 p-xl-4 px-4 py-0 pb-xl-5 pb-0 ">
+                <div class="row pt-3 pb-4 d-flex align-items-center justify-content-center flex-column ">
+                    <div class="about_content">
+                        <p class=" my-5 text-white text-center h1 font-weight-normal">Trusted by Businesses</p>
+                        <h6 class="text-center text-white mb-3">from all around the world since 2005</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- world map --- --------  -->
+    <section class="bg-white py-5">
+        <div class="container">
+
+
+            <div class="section-type-feature-content">
+                <p></p>
+                <div class="global-tpl-clientmap" data-wmap>
+                    <h2>Redwerk's Clients Around the World</h2>
+                    <div class="clientmap-svg-and-ttips">
+                        <div class="clientmap-tooltip tooltip-large" data-slug="usa" data-trigers="[&quot;USA&quot;]">
+                            <h5>United States</h5>
+                            <div class="tooltip-charge">
+                                <svg viewbox="0 0 40 40" class="donut donut-usa" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="transparent">
+                                    </circle>
+                                    <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent"
+                                        stroke-width="3.5"></circle>
+                                    <circle class="donut-segment" cx="20" cy="20" r="15.91549430918954"
+                                        fill="transparent" stroke-width="3.5" stroke-dasharray="53 47"
+                                        stroke-dashoffset="25"></circle>
+                                </svg>
+                                <span>53%</span>
+                            </div>
+                            <ul>
+                                <li data-target="USA">
+                                    <span>New York</span>
+                                    <span>11 %</span>
+                                    <span class="range" style="width:11%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Kansas</span>
+                                    <span>5 %</span>
+                                    <span class="range" style="width:5%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Massachusetts</span>
+                                    <span>10 %</span>
+                                    <span class="range" style="width:10%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Washington</span>
+                                    <span>3 %</span>
+                                    <span class="range" style="width:3%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>California</span>
+                                    <span>9 %</span>
+                                    <span class="range" style="width:9%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Missouri</span>
+                                    <span>4 %</span>
+                                    <span class="range" style="width:4%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Arizona</span>
+                                    <span>8 %</span>
+                                    <span class="range" style="width:8%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>New Jersey</span>
+                                    <span>4 %</span>
+                                    <span class="range" style="width:4%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Texas</span>
+                                    <span>8 %</span>
+                                    <span class="range" style="width:8%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Pennsylvania</span>
+                                    <span>3 %</span>
+                                    <span class="range" style="width:3%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Colorado</span>
+                                    <span>8 %</span>
+                                    <span class="range" style="width:8%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>South Carolina</span>
+                                    <span>3 %</span>
+                                    <span class="range" style="width:3%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Delaware</span>
+                                    <span>7 %</span>
+                                    <span class="range" style="width:7%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Louisiana</span>
+                                    <span>2 %</span>
+                                    <span class="range" style="width:2%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Florida</span>
+                                    <span>7 %</span>
+                                    <span class="range" style="width:7%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>North Carolina</span>
+                                    <span>2 %</span>
+                                    <span class="range" style="width:2%;"></span>
+                                </li>
+                                <li data-target="USA">
+                                    <span>Illinois</span>
+                                    <span>6 %</span>
+                                    <span class="range" style="width:6%;"></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clientmap-tooltip tooltip-large" data-slug="europe"
+                            data-trigers="[&quot;DEU&quot;,&quot;NLD&quot;,&quot;GBR&quot;,&quot;DNK&quot;,&quot;FIN&quot;,&quot;GEO&quot;,&quot;GRC&quot;,&quot;ITA&quot;,&quot;PRT&quot;,&quot;ROU&quot;,&quot;ESP&quot;,&quot;CHE&quot;,&quot;AUT&quot;,&quot;FRA&quot;,&quot;IRL&quot;]">
+                            <h5>Europe</h5>
+                            <div class="tooltip-charge">
+                                <svg viewbox="0 0 40 40" class="donut donut-europe" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="transparent">
+                                    </circle>
+                                    <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent"
+                                        stroke-width="3.5"></circle>
+                                    <circle class="donut-segment" cx="20" cy="20" r="15.91549430918954"
+                                        fill="transparent" stroke-width="3.5" stroke-dasharray="33 67"
+                                        stroke-dashoffset="25"></circle>
+                                </svg>
+                                <span>33%</span>
+                            </div>
+                            <ul>
+                                <li data-target="DEU" data-target-hover="DEU">
+                                    <span>Germany</span>
+                                    <span>12 %</span>
+                                    <span class="range" style="width:12%;"></span>
+                                </li>
+                                <li data-target="ITA" data-target-hover="ITA">
+                                    <span>Malta</span>
+                                    <span>5 %</span>
+                                    <span class="range" style="width:5%;"></span>
+                                </li>
+                                <li data-target="NLD" data-target-hover="NLD">
+                                    <span>Netherlands</span>
+                                    <span>11 %</span>
+                                    <span class="range" style="width:11%;"></span>
+                                </li>
+                                <li data-target="PRT" data-target-hover="PRT">
+                                    <span>Portugal</span>
+                                    <span>5 %</span>
+                                    <span class="range" style="width:5%;"></span>
+                                </li>
+                                <li data-target="GBR" data-target-hover="GBR">
+                                    <span>UK</span>
+                                    <span>11 %</span>
+                                    <span class="range" style="width:11%;"></span>
+                                </li>
+                                <li data-target="ROU" data-target-hover="ROU">
+                                    <span>Romania</span>
+                                    <span>4 %</span>
+                                    <span class="range" style="width:4%;"></span>
+                                </li>
+                                <li data-target="DNK" data-target-hover="DNK">
+                                    <span>Denmark</span>
+                                    <span>10 %</span>
+                                    <span class="range" style="width:10%;"></span>
+                                </li>
+                                <li data-target="ESP" data-target-hover="ESP">
+                                    <span>Spain</span>
+                                    <span>3 %</span>
+                                    <span class="range" style="width:3%;"></span>
+                                </li>
+                                <li data-target="FIN" data-target-hover="FIN">
+                                    <span>Finland</span>
+                                    <span>9 %</span>
+                                    <span class="range" style="width:9%;"></span>
+                                </li>
+                                <li data-target="CHE" data-target-hover="CHE">
+                                    <span>Switzerland</span>
+                                    <span>3 %</span>
+                                    <span class="range" style="width:3%;"></span>
+                                </li>
+                                <li data-target="GEO" data-target-hover="GEO">
+                                    <span>Georgia</span>
+                                    <span>8 %</span>
+                                    <span class="range" style="width:8%;"></span>
+                                </li>
+                                <li data-target="AUT" data-target-hover="AUT">
+                                    <span>Austria</span>
+                                    <span>2 %</span>
+                                    <span class="range" style="width:2%;"></span>
+                                </li>
+                                <li data-target="GRC" data-target-hover="GRC">
+                                    <span>Greece</span>
+                                    <span>7 %</span>
+                                    <span class="range" style="width:7%;"></span>
+                                </li>
+                                <li data-target="FRA" data-target-hover="FRA">
+                                    <span>France</span>
+                                    <span>2 %</span>
+                                    <span class="range" style="width:2%;"></span>
+                                </li>
+                                <li data-target="ITA" data-target-hover="ITA">
+                                    <span>Italy</span>
+                                    <span>6 %</span>
+                                    <span class="range" style="width:6%;"></span>
+                                </li>
+                                <li data-target="IRL" data-target-hover="IRL">
+                                    <span>Ireland</span>
+                                    <span>2 %</span>
+                                    <span class="range" style="width:2%;"></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clientmap-tooltip " data-slug="canada" data-trigers="[&quot;CAN&quot;]">
+                            <h5>Canada</h5>
+                            <div class="tooltip-charge">
+                                <svg viewbox="0 0 40 40" class="donut donut-canada" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="transparent">
+                                    </circle>
+                                    <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent"
+                                        stroke-width="3.5"></circle>
+                                    <circle class="donut-segment" cx="20" cy="20" r="15.91549430918954"
+                                        fill="transparent" stroke-width="3.5" stroke-dasharray="6 94"
+                                        stroke-dashoffset="25"></circle>
+                                </svg>
+                                <span>6%</span>
+                            </div>
+                            <ul>
+                                <li data-target="CAN">
+                                    <span>Quebec</span>
+                                    <span>60 %</span>
+                                    <span class="range" style="width:60%;"></span>
+                                </li>
+                                <li data-target="CAN">
+                                    <span>British Columbia</span>
+                                    <span>21 %</span>
+                                    <span class="range" style="width:21%;"></span>
+                                </li>
+                                <li data-target="CAN">
+                                    <span>Ontario</span>
+                                    <span>19 %</span>
+                                    <span class="range" style="width:19%;"></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clientmap-tooltip " data-slug="middle_east"
+                            data-trigers="[&quot;ISR&quot;,&quot;SAU&quot;,&quot;ARE&quot;]">
+                            <h5>Middle East</h5>
+                            <div class="tooltip-charge">
+                                <svg viewbox="0 0 40 40" class="donut donut-middle_east"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="transparent">
+                                    </circle>
+                                    <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent"
+                                        stroke-width="3.5"></circle>
+                                    <circle class="donut-segment" cx="20" cy="20" r="15.91549430918954"
+                                        fill="transparent" stroke-width="3.5" stroke-dasharray="5 95"
+                                        stroke-dashoffset="25"></circle>
+                                </svg>
+                                <span>5%</span>
+                            </div>
+                            <ul>
+                                <li data-target="ISR" data-target-hover="ISR">
+                                    <span>Israel</span>
+                                    <span>70 %</span>
+                                    <span class="range" style="width:70%;"></span>
+                                </li>
+                                <li data-target="SAU" data-target-hover="SAU">
+                                    <span>Saudi Arabia</span>
+                                    <span>17 %</span>
+                                    <span class="range" style="width:17%;"></span>
+                                </li>
+                                <li data-target="ARE" data-target-hover="ARE">
+                                    <span>United Arab Emirates</span>
+                                    <span>13 %</span>
+                                    <span class="range" style="width:13%;"></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clientmap-tooltip " data-slug="africa"
+                            data-trigers="[&quot;NGA&quot;,&quot;KEN&quot;,&quot;ZMB&quot;]">
+                            <h5>Africa</h5>
+                            <div class="tooltip-charge">
+                                <svg viewbox="0 0 40 40" class="donut donut-africa" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="transparent">
+                                    </circle>
+                                    <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent"
+                                        stroke-width="3.5"></circle>
+                                    <circle class="donut-segment" cx="20" cy="20" r="15.91549430918954"
+                                        fill="transparent" stroke-width="3.5" stroke-dasharray="5 95"
+                                        stroke-dashoffset="25"></circle>
+                                </svg>
+                                <span>5%</span>
+                            </div>
+                            <ul>
+                                <li data-target="NGA" data-target-hover="NGA">
+                                    <span>Nigeria</span>
+                                    <span>50 %</span>
+                                    <span class="range" style="width:50%;"></span>
+                                </li>
+                                <li data-target="KEN" data-target-hover="KEN">
+                                    <span>Kenya</span>
+                                    <span>25 %</span>
+                                    <span class="range" style="width:25%;"></span>
+                                </li>
+                                <li data-target="ZMB" data-target-hover="ZMB">
+                                    <span>Zambia</span>
+                                    <span>25 %</span>
+                                    <span class="range" style="width:25%;"></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clientmap-tooltip " data-slug="australia"
+                            data-trigers="[&quot;NZL&quot;,&quot;AUS&quot;]">
+                            <h5>Australia and Oceania</h5>
+                            <div class="tooltip-charge">
+                                <svg viewbox="0 0 40 40" class="donut donut-australia"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="transparent">
+                                    </circle>
+                                    <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent"
+                                        stroke-width="3.5"></circle>
+                                    <circle class="donut-segment" cx="20" cy="20" r="15.91549430918954"
+                                        fill="transparent" stroke-width="3.5" stroke-dasharray="2 98"
+                                        stroke-dashoffset="25"></circle>
+                                </svg>
+                                <span>2%</span>
+                            </div>
+                            <ul>
+                                <li data-target="NZL" data-target-hover="NZL">
+                                    <span>New Zealand</span>
+                                    <span>80 %</span>
+                                    <span class="range" style="width:80%;"></span>
+                                </li>
+                                <li data-target="AUS" data-target-hover="AUS">
+                                    <span>Australia</span>
+                                    <span>20 %</span>
+                                    <span class="range" style="width:20%;"></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clientmap-tooltip " data-slug="asia" data-trigers="[&quot;JPN&quot;]">
+                            <h5>Asia</h5>
+                            <div class="tooltip-charge">
+                                <svg viewbox="0 0 40 40" class="donut donut-asia" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="transparent">
+                                    </circle>
+                                    <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent"
+                                        stroke-width="3.5"></circle>
+                                    <circle class="donut-segment" cx="20" cy="20" r="15.91549430918954"
+                                        fill="transparent" stroke-width="3.5" stroke-dasharray="1 99"
+                                        stroke-dashoffset="25"></circle>
+                                </svg>
+                                <span>1%</span>
+                            </div>
+                            <ul>
+                                <li data-target="JPN" data-target-hover="JPN">
+                                    <span>Japan</span>
+                                    <span>100 %</span>
+                                    <span class="range" style="width:100%;"></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <svg class="worldmap" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 900 610">
+                            <path data-wmap="AFG"
+                                d="m603 346 3 2 2-1v-1l2-1 2-1v-2l2-1 1-1 1 1h2l2 1h1l1-1 1 1 1-2h2v-1l1-1h2l-1 1h1v3l1 1 1-1h1l1-1h5v1h-1l-2 1h-2l-3 1-2 1 1 1v2l-1 1v1l-1 2-2-1 1 2-2 1-1 2 1 2-1 1-1-1-2 1h-2l-2 2v3l-3 1h-6l-5-1 3-3-1-2h-1l-1-2v-2l1-2-1-1v-2Z"
+                                class="AFG"></path>
+                            <path data-wmap="AGO"
+                                d="M510 470v5h-5v8l1 2 2 2-5 1-6-1-1-1h-11l-1-1h-2l-1 1h-2v-2l1-2v-2l1-1v-3l1-1 1-1 1-2v-3l-1-1v-1l-1-2 1-1-1-3v-2l-1-1v-1h10v2l1 1 1 1 1 1h4l1-2h1l2-1-1 1h3v2l1 1v3l1 1-1 3h2l2-1Zm-29-13-1-2 1-1 1-1v2h-1v1Z"
+                                class="AGO"></path>
+                            <path data-wmap="ALB" d="M501 327v1l1 1 1 1v1h-1v1l-2 2v-1l-1-1-1-2 1-2v-2l-1-1 1-1h1l1 1Z"
+                                class="ALB"></path>
+                            <path data-wmap="ARE" d="M579 379h1v1h5l2-2 2-2 1-2 1 1v3h-1v2h-1v1l-1 2v1l-8-1-1-3Z"
+                                class="ARE"></path>
+                            <path data-wmap="ARG"
+                                d="M282 607h-4v-9l1 1 1 4 4 2 3 1-1 2-2 1Zm11-108 5 5h2l3 2 2 1 1 1-3 5h3l3 1 2-1 2-2v-2l2-1 1 2v2l-2 2-2 1-3 3-3 3-1 3v6h-1v4l3 3-1 2 2 1v2l-2 4-4 1-5 1h-3l1 2-1 2v2l-1 1h-3l-2-1-1 1v3l2 1 1-1 1 2-2 1-2 2-1 4v2h-2l-2 1-1 3 2 3 3 1-1 3-3 2-2 5-2 1-1 2 1 4 1 2h-3l-6-1-1-2v-3h-2l-1-2v-4l2-1 1-3v-2l1-3 1-5v-2h1l-1-2h-1l1-2-1-1-1-4 1-1v-4l1-3v-3l2-1-1-3v-3l2-2v-3l1-3v-3l-2-5 2-3v-3l1-3 1-2 2-2-1-1 1-1v-5l2-1 1-3 2-3 3 1 2 2 1-2h3Z"
+                                class="ARG"></path>
+                            <path data-wmap="ARM" d="M559 329h4l1 1-1 1 2 1-1 1 1 1h1v3h-1l-1-2v-1h-2l-1-1-2-1 1-2Z"
+                                class="ARM"></path>
+                            <path data-wmap="ATF" d="m623 582 1 1h2l1 1-1 2h-4v-4Z" class="ATF"></path>
+                            <path data-wmap="AUS"
+                                d="m814 554 2 1h2l2-1h1v4l-1 1v3l-1-1-1 3-1-1h-1l-2-3v-2l-2-3v-1Zm-5-77 1 2 2-1 1 1 1 1v3l1 2 1 2v3l3 2 2 1 2 1-1 1 2 2 1 2h1l1 1 1 3 1 1 2 1 2 2v6l1 2v4l-1 3v4l-1 2-2 2-1 2-1 2-1 2-1 2v2l-1 2v1l-1 1h-3l-2 2-1 1-2 1-2-1-1-1v-1h-1l-3 3-2-1-1-1h-2l-2-1-2-2v-2l-1-2-1-1h-2l1-2-1-2-1 2-3 1 2-2v-2l1-1v-3l-2 3-2 1-1 2-2-1v-2l-1-2-1-1v-1l-3-1h-2l-2-2h-5l-3 2-3 1-2-1-3 2-2 1-1 1-1 1h-2l-1 1-2-1h-2l-2 1-1 1h-1l-1 1-2 1h-3l-3-2-1-1v-1l1-1 1-1-1-1 1-2v-1l-2-3v-4l-1-2-1-2-1-2-1-2v-1l1 1-1-3 1 1 1 1v-1l-1-2-1-1v-3h1v-3l1-2v2l1-2 2-1 1-1 2-1h2l2-1h1l1-1h2l2-1 2-1v-1l2-2v-2l2-2 1 2 1-1-1-1 1-1h1v-1l2-2v-1h2v-1h1l1-1h1l2 1 1 2h3v-1l1-3h1v-1l1-1 1-1h4v-2l-2-1h1l2 1 1 1h3l2 1 1-1h2l1 1-1 2-1 1h-1l1 1-1 1-1 1v1l2 1 2 1 1 1 2 2h2v1l3 1 2-1v-1l1-1v-2l1-2-1-1v-2l1-2v-3l1-1v-1l1-1v1l1 2v1l1 1v2Z"
+                                class="AUS"></path>
+                            <path data-wmap="AUT"
+                                d="M492 304v2h-1v3l-1 1h-2l-1 1-2-1-4-1-1-1-2 1h-3l-1-1v-1l1-1 1 1v-1l3 1 1-1h2v1l1-1-1-2 1-1 1-2 2 2 1-2h1l2 1h1l1 1Z"
+                                class="AUT"></path>
+                            <path data-wmap="AZE"
+                                d="m565 337-1-1-1-1-1-1h2v1Zm7-10 1 1 1 3h1l1 1h-2v3l-1 1h-1v2l-2-1 1-2-1-1h-1l-3 3v-3h-1l-1-1 1-1-2-1 1-1-1-1v-1l2 1h2l-2-2 1-1 1 1 2 2h1v-1Z"
+                                class="AZE"></path>
+                            <path data-wmap="BDI" d="M523 453v-4h1l1-1h1v1l1 1-1 1-1 1-1 1Z" class="BDI"></path>
+                            <path data-wmap="BEL" d="M458 292h2l2-1 2 2 1 1v3h-1v2l-2-2h-1l-2-1-1-2h-1l-1-1Z"
+                                class="BEL"></path>
+                            <path data-wmap="BEN"
+                                d="m457 426-2 1-1-2v-8l-1-1h-1v-2h1l1-1h1v-1l1-1h1l2 2v1l1 1-1 1v1l-1 1-1 1v3Z"
+                                class="BEN"></path>
+                            <path data-wmap="BFA"
+                                d="m443 418-2-1h-1l-1 1-1-1-2-1v-1l1-2 2-3v-1l1-1h2l1-1 2-1v-1l2-1h4v3l1 1 1 2h2v3h-1l-1 1h-4l-1 1-1-1h-4v2Z"
+                                class="BFA"></path>
+                            <path data-wmap="BGD"
+                                d="M682 385v2h-1v2l-1-1v-3l-1-1-3-1 1 2-1 1-1-1v1h-1l-1-1-1-2v-3l-2-1 1-1 2-1-2-2 1-2 2 2h1v2h6l-1 3h-1l-1 2 2 1v-2h1Z"
+                                class="BGD"></path>
+                            <path data-wmap="BGR"
+                                d="M507 318v2h7l1-1h3l2 1h2l-2 2-1 2 1 2h-2l-3 1v1l-2 1-2-2-2 1h-2v-2l-1-1v-1l1-1 1-1-2-2v-1Z"
+                                class="BGR"></path>
+                            <path data-wmap="BHS" d="M256 381h-1v-2h-1v-2h1l1 2Zm-1-8h-2l-1-1h3Zm2 0v2h-1v-2l-1-1Z"
+                                class="BHS"></path>
+                            <path data-wmap="BIH" d="M498 316v2l1 1v2h-1l-1 1-1 2-2-1-1-2-1-1-1-1v-1l-2-2 1-1 1 1v-1h5Z"
+                                class="BIH"></path>
+                            <path data-wmap="BLR"
+                                d="M509 281h2l3-1v-3l3-1-1-2 2-1 3-2 2 1v2l2-1 2 1 1 2-1 1 2 3 1 1-1 1h2l1 2-1 1-2-1-1 1 1 1 1 3h-3v1l-1 2h-3v-1h-4l-3-1h-5l-1 1h-1v-2l-1-2 2-1v-1l-1-2Z"
+                                class="BLR"></path>
+                            <path data-wmap="BLZ" d="M227 397v-1l1 1 1-2v5l-1 1-1 1v-3Z" class="BLZ"></path>
+                            <path data-wmap="BOL"
+                                d="M282 501h-2l-1-4-1-3 1-2-2-2v-1l-1-2 1-3-1-2 1-1-1-1 1-1v-3l1-1v-1l-2-4h3l1-1 2-1 1-1h3v4l3 3h3l1 1h2l1 1h1l2 1v3h-1l1 3h5v3l2 1v3l-1 2v1l-1 1v-1l-2-2h-2l-5 1-1 3v1l-1 3h-3l-1 2-2-2-3-1Z"
+                                class="BOL"></path>
+                            <path data-wmap="BRA"
+                                d="m306 521 3-3 3-3 2-1 2-2v-2l-1-2-2 1 1-2v-3h-3v-4l-1-1h-5v-4l-1-1 1-1v-1l1-2v-3l-2-1v-3h-5l-1-3h1v-3l-2-1h-1l-1-1h-2l-1-1h-3l-3-3v-4h-3l-1 1-2 1-1 1h-6l1-4-2 1h-3l-1-1h-1v-1l-1-2-1-2 1-1v-1h1v-3l1-1 2-1 2-1h3l1-7v-3h-1v-2l1-1 1 1v-1l-2-1v-1h5l1-1 1 1v1h1l1 1h2v-1h2l1-1 1-1h1v-1h-2v-3l-1-1h2l2 1 1-1h2l2-1 1-1v-1h2v2l1 1-1 1v2l1 1v2l1 1h2v-1h2l1-1h1l2 1v-2h4l1 1v-1h1v1h1l1-1 1-2 2-2h1v1l2 4 1 1v1l-2 2 1 1 4 1v2l2-1h3l5 2 1 1-1 2 3-1 5 1h4l4 2 3 3 2 1h2l1 1 1 3v1l-1 5-1 1-4 4-1 3-2 2h-1v7l-1 4v2l-1 1-1 3-2 4v2l-2 2-1 1h-3l-4 1-1 1-3 1-3 2-2 3-1 2 1 2-1 3v1l-2 2-3 5-2 2-2 1-1 3-2 2v-2l1-1-2-2-2-2-2-2h-1l-3-2Z"
+                                class="BRA"></path>
+                            <path data-wmap="BRN" d="m736 431 1-1 2-2v3h-2v1Z" class="BRN"></path>
+                            <path data-wmap="BTN" d="m679 370 2 1-1 1h-4l-1 1-3-1v-1l2-2 1-1 2 1h1Z" class="BTN"></path>
+                            <path data-wmap="BWA"
+                                d="m524 499-4 2-2 2-1 2-1 1h-1l-1 1v1l-1 1h-2l-2-1-1-1-1 1v1l-2 1-1 2h-2v-3l-1-2-1-1v-8h2v-9l2-1h4l1 1 2-1 2-1 1 2 1 1v1l3 3 1 1 1 2 2 1Z"
+                                class="BWA"></path>
+                            <path data-wmap="CAF"
+                                d="M488 423h4l3-1 1-1 1-1 1-1h2l3-1 1-3 2-1h1l1 1 1 2v3h1l1 1 2 1v1l2 2 1 1v1l2 1 1 1h-6v1h-1l-1-1-3 2-1-1-1 2-2-1h-2l-1-1-2-1-2 1-1 2v1h-3l-2 1-1 2v-1l-1-1-1-2h-1l-1-2v-4h1Z"
+                                class="CAF"></path>
+                            <path data-wmap="CAN"
+                                d="m291 310 1 1h3l-1 1h-1l-4-1v-2l1-1Zm4-9h-1l-3-2-3-1 1-1 4 1 2 2Zm-154 2h-1l-5-1v-2l-2-1-1-1-2-1-1-2v-1l2 1 2 1h2l1 1 1 2 3 2Zm168-9-1 4 1-1h2l-1 2 3 1 1-1 2 1-1 3 2-1v2l1 2-1 4h-1l-2-1 1-3h-1l-3 3h-1l2-2-3-1h-7l-1-1 2-1-1-1 2-3 2-6 2-2 2-1h1v1Zm-191-13 2-1v5l2 3h-1l-2-1-1-2-1-2v-3Zm134-39-1 3-1-1-1-1v-1l1-1h1Zm-7-3-3 3h-2v-2l2-2h3Zm-8-17v3l2-1 1 1 3 2 3 2v3h2l2 1-3 2-4-1-1-3-2 3-4 3-1-3h-3l2-2v-5l1-5Zm23-9h-3v-3l1-4 2-1 2 2v4Zm-49-13-2 2-3-2-2 1-4-3 2-3 2-3 3 2 1 2 1 1Zm71 115-2-2v-5l-1-1-1 1-1-1-2 3-1 2-1 2-1 1h-1v1h-9l-3 3-1 1h-5l-1 1v2l-3 2h-2l-3 2h-2v-1l1-1 1-2v-5l-1-4-2-1v-1h-1v-1l-1-1v1h-1v-2l-2-1-2-2-3-1-2-1-2 1h-1l-3-1h-2l-3-1-2-1h-3v-2h-1v1h-70l-5-4-1-1-5-2-1-4v-2l-3-2-1-3-3-3v-3l2-2v-3l-5-2-2-6-2-3-2-2-2-2-1-3-3 2-2 3-2-4-2-2-2-1h-3v-57l5 2 4 3 2 1 3-3 3-2 3 1 4-3 4-2 2 3 2-2v-3h2l4 7 4-5v6l3-2 1-2 3 1 4 3 6 2 3 2 3-1 3 4-4 3 5 1h7l2-2 2 4 3-3-2-3 1-2 3-1h2l2 1 3 4 3-1 4 4 4-1h4l-1-5 3-1 3 3v6l2-5h2l1-7-3-4-2-3v-9l3-5 3 1 3 3 3 9-2 3 4 2v7l4-5 3 4-1 5 2 4 3-4 2-6v-8l4 1 3 1 4 3v4l-2 3 2 4-1 3-5 4-3 1-3-2v4l-3 5-1 2-2 4-4 1-2 2v4h-3l-3 5-3 6-1 4v5l4 1 1 5 1 3 4-1 4 2 3 2 1 2 4 1 2 2h4l3 1v8l2 5 4 3 2-1 1-4-1-7-2-2 4-2 3-3 1-3v-3l-2-4-2-4 2-5-1-5v-8l1-1 5 1 2 1 2-1 2 1 4 3v2l5 1v4l1 6 2 1 2 3 3-3 3-5 1-2 2 4 4 6 2 6-1 3 4 2 2 3 4 1 2 1v4h2l1 2 1 5-2 1-2 2-4 1-3 3-4 1-6-1h-6l-2 3-3 2-4 5-3 3h2l4-5 5-4h4l2 2-2 3 1 3 1 3 3 2h4l3-5v3l1 1-3 3-5 2-3 1-3 3h-1l-1-3 5-3h-4ZM164 168l-1 4 6-2 3 4 3-4 2 3 2 8 2-4-2-8 2-2 2 2 3 3 2 8 1 6 4 4 4 3v3l-4 1 1 3v2l-5-1-4-2-3 1-5 2-6 1-5 1-1-4-3-2-3 1-3-6h2l4-2 3 1 4-2-5-1h-9l-1-3 5-3h-3l-5-2 2-6 2-3 7-5Zm24-2-2 6-4-6 1-2h4Zm71 3v2h-5l-3 1-1-1-2-4v-4h1l6 1Zm-26-1 2 5 3-6 6-4 4 9v5l5-2 2-3 6 4 3 4 1 3 4-2 3 5 6 3 2 3 2 7-4 3 6 5 4 1 3 6 4 1-1 4-4 7-3-3-4-5h-3l-1 4 3 3 4 3v2l2 5-1 4-3-1-6-5 3 5 3 3v2l-6-2-6-3-3-3 1-1-4-3-3-3v2l-8 1-2-2 2-5h5l5-1-1-2 1-3 3-6-1-3-1-2-3-4-5-2 1-2-2-4-3-1-2-2-1 2-5 1-9-2-5-2-4-1-2-2 3-4h-4l-1-8 2-8 3-3 6-3Zm-34-6 3 2 4-1 1 2-2 5 3 3v8l-4 3-3-1-1-3-6-6v-3l5 1-3-6Zm18 9-3 7-3-1-1-7v-4l1-4 3-3 5 1 5 2-4 8Zm-68 12-7 3-1-3-6-4 1-4 2-6 2-5-3-6 9-1 3 2h7l2 3 3 3-3 3-6 6-3 5Zm67-31-2 3-3-1-3-2 1-4 4-3 2 3Zm-12-18 1 5v5l-1 7-4 1-3-1 1-6-4 1-1-8h3l4-4 3 1Zm-25 5 1 4 2-2 3 1v5l-1 4-9 2-6 4h-4v-3l5-4-11 1-4-2 4-10 2-3 7 4 5 6 4 1-4-10 3-4 2 1Zm34-9 3 3h5l2 4-1 3 3 3 2 2 3 1 4 1 4-3 5-1 4 1 3 4v4l-1 3-4 2-3-2-7 2h-6l-4-1-6-3-1-5-1-5-2-5-5-1-3-4 1-4Zm-54-7v9l-2 4h-2l-5 5-4 1-3-2 4-8 5-7h4Zm56 2h-1l-5-1v-3h5l1 2Zm-41-2-4 3-4-4 2-4 4-1 3 2Zm2-11-3 2h-5v-2l3-4 1 1Zm34 6-4 3-2-3-1-5v-5l3 1h2l3 5Zm-10-3 1 5-5-1-4-4-5-1 2-3-3-4v-4l5 1 7 5Zm32-18 3 5-3 4-5 10h-4l-5-1-3-5v-5l2-4h-5l-2-4-2-7 2-6 1-5 3-1-1-4 6-1 3 9 4 3 4 3Zm47-58 6 2 6 2 4 6v5l-6 8-6 3-2 4h5l-6 10-4 5-4 12-5 2-2 3-8 1 4 2-2 2 2 6-2 5-4 3-1 5-4 3 1 3 4-1v3l-7 6-6-2-7 1-4-1-5-1v-5l4-2-1-9 2-1 6 6-3-8-4-2 2-5 4-3 1-5-3-6-2-7 7 1 2 1 4-5-5-2-9 1-5-5-2-7-3-4v-7l4-3 2-1 5-2 4-8 3 1 3 6 2-11 3-3 5-2 7-1 1 2 8-4 5 2Z"
+                                class="CAN"></path>
+                            <path data-wmap="CHE"
+                                d="M474 307v1l1 1h1v1l-1 1h-2l-1 1h-1l-2 1h-1l-1-1-1-1h-1v-2l2-2v-1l1 1 1-1h2v-1Z"
+                                class="CHE"></path>
+                            <path data-wmap="CHL"
+                                d="M278 598v9h4v2l-3 1h-2l-2-2h-3l-3-3-2-2-4-5 2 1 4 3 3 2 1-2 1-3 2-2Zm4-97-1 3-2 1v5l-1 1 1 1-2 2-1 2-1 3v3l-2 3 2 5v3l-1 3v3l-2 2v3l1 3-2 1v3l-1 3v4l-1 1 1 4 1 1-1 2h1l1 2h-1v2l-1 5-1 3v2l-1 3-2 1v4l1 2h2v3l1 2 6 1h2-2l-1 1-2 2-1 4h-1l-3-2-2-3-4-2v-5l-1-3v-6l1-4 3-3-4-1 2-3 1-6 3 2 1-8h-2v4l-2-1 1-5 1-6 1-2-1-3v-4h1l1-5 2-5 1-4v-10l2-4v-5l1-6 1-6-1-4v-4l1-1 1-1 1 2v1l2 2-1 2 1 3 1 4Z"
+                                class="CHL"></path>
+                            <path data-wmap="CHN"
+                                d="m726 394-2 2-2-1v-2l1-2h4l1 1-1 1Zm51-69-2-2-1 2-4 1 1 2h-2l-2-1-1 2-3 2-2 2-4 1-1 1-3 1 1-1v-2l2-2-2-1-2 1-3 2-1 2h-3l-1 2 2 2h1l1 2 2 1 2-2 3 1h1l1 1-4 1-1 2-3 2-1 2 3 1 1 3 1 3 2 2v3h-1v2l2 1-1 2v2l-2 1-2 3-2 3-2 4-3 2-4 3h-3l-1 1-1-1-2 1-3 2h-3l-1 3h-1l-1-2 1-1-3-1-2 1-2-1-1-1v-2h-2l-1-1-3 1-2 1h-3l-2 1 1 3h-2v-2l-2 1-1-1-2-1 1-2-2-1v-2h-3l1-3 2-2v-5h-1l-1-2h-4l1-1-1-2-2 1-2-1-3 2-2 2-3 1-1-1h-1l-2-1-1 1-2 2v-2h-4l-3-1-2-1h-2l-1-2h-1l-3-2-2-1-1 1-3-2-3-2-1-3h2v-2l-1-1v-2l-2-4-4-1-1-3-2-1v-1l-1-2v-1l-1-1-1 1-1-3 1-1v-1l2-2h5l1-2h3l1-2 4-1v-3l1-1-2-6 5-1 1-1 2-7 5 1 2-1v-4h2l2-3h1v2l2 3 4 1 2 3-1 4 1 2h3l3 1 3 2h2l1 4 1 2 3-1 5 1h6l4 2h3l1 1 3-1 4-2h3l3-1 2-2 2-1-1-1v-1l1-3 1 1h3l3-2 3-1 2-2 2-1 3-1 2 1 1-2-3-2-1-1-2 1-3-1-1 1-1-2 2-4 1-2 3 1 4-2-1-2 3-4 1-2v-2l-1-1 2-2 3-1h3l4 1 2 2 2 4 1 2 1 2v4l5 1 3 3 1 4h4l2-2 4-1-1 3-1 2-1 4-2 3h-3l-2 1 1 3-1 4h-1Z"
+                                class="CHN"></path>
+                            <path data-wmap="CIV"
+                                d="M443 430h-1l-2-1h-2l-3 1h-1l-3 1v-3l-1-1h-1v-6h1v-2l-1-2 1-1 1 1h2v-1h1l1 1v-1h1l2 1 1 1 1-1h1l2 1 1 3-1 3-1 2 1 3Z"
+                                class="CIV"></path>
+                            <path data-wmap="CMR"
+                                d="M483 436h-1l-1 1-2-1h-5l1-2-1-1-2-1v-1h-1v-1l1-2 1-2h1l1-2h1l2 1h1l1-2v-1l1-1 1-1v-2h1v-2l1-1 2-2v-1l-1-1 1-1 1 1v4l2 2h-4v1l1 2h2v1l1 2h-1l-1 3h-1v4l1 2h1l1 2 1 1v3l-2-1-2-1Z"
+                                class="CMR"></path>
+                            <path data-wmap="COD"
+                                d="M527 433v3l1 1h-1l-1 1-1 1v4l-1 1v1l-1 1v7l1 3v2l2 2 1 3h-5l-1 2 1 1-1 3v3h1l1 1h1v3h-2l-1-2v-1h-2l-1-2-2 1h-2v-1l-2-1h-2l-1-1-2 1h-2l1-3-1-1v-3l-1-1v-2h-3l1-1-2 1h-1l-1 2h-4l-1-1-1-1-1-1v-2h-10v-2h1v-1h1l1-1h1l1 1 1 1 1-2 1-1 1-1v-2l1-3 1-1 2-1v-2l1-1-1-1 1-2v-2l1-1v-3l1-2 2-1 2 1 1 1h2l2 1 1-2 1 1 3-2 1 1h1v-1h6l1 2h4l1 1Z"
+                                class="COD"></path>
+                            <path data-wmap="COG"
+                                d="M482 454v-1l-1 1-1 1-2-3 2-1-1-2 1-1h1v-1l2 1h2l1-1v-4l-1-1 1-3h-3v-3h3l2 1 2 1v-2l1-2 2-1h3v2l-1 1v2l-1 2 1 1-1 1v2l-2 1-1 1-1 3v2l-1 1-1 1-1 2-1-1-1-1h-1l-1 1Z"
+                                class="COG"></path>
+                            <path data-wmap="COL"
+                                d="M261 442h-1l-1-1h-3v-1h-1l-2-1-1-1h1v-2l1-1h1l1-1 1-2h-1v-7l-1-1v-1h1l1-1-1-1v-1h2l2-1 1-1v-3l2-1h3l2-2h1l1-1h1l1 1h-1l-1 1-1 1-1 1v1l-1 2-1 1h2v1l1 1v3l1 1 3-1 2 1 1 2h3l2-1v2l-1 1v2l1 1v1l1 1-2 1 1 1h1l1 3h-1v-1l-1-1-1 1h-5v1l2 1v1l-1-1-1 1v2h1v3l-1 7-1-1-1-1 2-2-2-1h-6l-1-3h-1l-1-2-2-1Z"
+                                class="COL"></path>
+                            <path data-wmap="CRI"
+                                d="M242 421h-1l-1-1h1v-1h-1l-1-1h-1v-1h-1v1l-1-1h-1v-1l1-1h-1v-1h4v1h2v1l1 1 1 1h-1v1l1 1v1Z"
+                                class="CRI"></path>
+                            <path data-wmap="CUB"
+                                d="m244 382 2 1h2l3 1 1 1 2-1 1 1 2 2 1 1h3v1h1l2 1v1h-9l2-1-1-1h-2v-1l-1-1h-1l-3-1h-1l-3-1h-1l1-1h-2l-2 1h-1v1h-3l2-1v-1l1-1h4Z"
+                                class="CUB"></path>
+                            <path d="M532 348v-1h2l3-1-2 2h-3Z" class="-99"></path>
+                            <path data-wmap="CYP" d="M535 348v1l-2 1-2-1v-1h4Z" class="CYP"></path>
+                            <path data-wmap="CZE"
+                                d="m492 303-1-1h-1l-2-1h-1l-1 2-2-2-1-1-2-1v-3l1-1 1-1h2l1-1h2l1 1h2v2h1v-1l2 1v1h2l1 2h-1v1h-1v1l-1 1h-1Z"
+                                class="CZE"></path>
+                            <path data-wmap="DEU"
+                                d="M475 277v1l2 1v2l3-1 1-1 3 2 1 1 1 2-1 1 1 2 1 2v1l1 3h-2l-1 1h-2l-1 1-1 1v3l2 1 1 1-1 2-1 1 1 2-1 1v-1h-2l-1 1-3-1v1l-1-1-1 1-3-2v1h-2v-2l1-3-3-1-2-1 1-2h-1v-7h2v-2l1-4-1-1 1-1h2v1l2-2-1-2v-2h2Z"
+                                class="DEU"></path>
+                            <path data-wmap="DJI" d="M558 410v2h-1l1 1-1 2-1-1h-2v-1l1-1 1-2 1 1Z" class="DJI"></path>
+                            <path data-wmap="DNK"
+                                d="m482 274-2 3-2-2-1-2 4-1Zm-7 3h-4l-1-3v-4l1-2v-1h3v-1l2-2v5l1 1v2l-1-1-2 3Z"
+                                class="DNK"></path>
+                            <path data-wmap="DOM"
+                                d="M271 392v-1h2l1 1h1v1h2v1h1l1 1-1 1-1-1h-2v1h-1l-1-1h-1l-1 2v-2h-1l1-1v-1Z"
+                                class="DOM"></path>
+                            <path data-wmap="DZA"
+                                d="m480 382-9 5-7 5-3 1h-3v-1l-1-1h-2v-2l-9-6-8-6-10-6v-4l4-2 3-1 2-1 1-1 3-1v-2l1-1 1-1h4v-2l-1-3v-2l-1-2 2-2h3l1-2h3l4-1h5l3-1h2l1 1 2-1v5l-1 2-1 2v2l2 2v1l2 1 1 5 1 3v1l-1 3v4l-1 1 2 2v2l1 1h1l2 1Z"
+                                class="DZA"></path>
+                            <path data-wmap="ECU"
+                                d="m249 451 1-2v-1l-1 1-2-1 1-1-1-2 1-1 1-1 1-2v-1h1l2-1 2 1h1v1h3l1 1h1l1 2-1 2-3 3-3 1-1 2-1 1-1 1-1-1h-2v-1Z"
+                                class="ECU"></path>
+                            <path data-wmap="EGY"
+                                d="M537 365v1l-1 2-1 2-1-1-1-1-2-4 1 3 1 3 2 4 1 2 1 1 2 3v3l3 2v1h-29v-21l-1-2v-3l1-1h6l2 1 1 1 2-1 1-1h4l1 2 1-1h5Z"
+                                class="EGY"></path>
+                            <path data-wmap="ERI"
+                                d="M556 410h-1l-1-2-1-1-1-1-2-1h-4l-1-1-1 2h-3v-1l1-4v-2l1-1h2l1-2 2 3v3l2 1 3 2 1 2 2 1 1 1 1 1-1 1Z"
+                                class="ERI"></path>
+                            <path data-wmap="ESP"
+                                d="m427 326 1-2-1-1 3-3 3 1h12l1 2 5 1 1-1 3 2 2-1 1 2-3 3h-3v1l-2 2-1 3 1 2-1 1-1 2-2 1-1 2h-6l-1 1-1 2-2-1-1-1v-2h-3v-1l1-1v-4l-1-2h1v-2h1v-3l1-1-1-2h-1l-1 1h-1l-1-2-1 1Z"
+                                class="ESP"></path>
+                            <path data-wmap="EST" d="M511 264v-3l-1 1-1-2-1-3 4-1 3-1 2 1h3v1l-1 2v5l-1 1h-2l-2-1-1-1Z"
+                                class="EST"></path>
+                            <path data-wmap="ETH"
+                                d="m556 410-1 2-1 1v1h2l1 1v2l1 1 1 1 8 3h3l-7 8h-4l-2 1h-2v1h-2l-1-1-2 1-1 1h-4l-3-2h-1l-1-1v-1l-2-1-1-2-1-1-1-1-1-1h-2l1-2h2v-3l1-3h1v-1l1-2 2-2 1-2v-2h3l1-2 1 1h4l2 1 1 1 1 1 1 2Z"
+                                class="ETH"></path>
+                            <path data-wmap="FIN"
+                                d="m522 200-1 5 4 4-2 5 3 7-2 5 2 5-1 3 4 4-1 3-2 3-6 7h-4l-5 2-4 1-1-3-3-1 1-6-1-4 1-4 2-3 6-6 2-2-1-2-3-3-1-2v-10l-4-5-3-3 1-2 3 4 3-1 3 2 2-3 2-6 3-2 4 3Z"
+                                class="FIN"></path>
+                            <path data-wmap="FJI"
+                                d="m896 486 1 1v1l-2 1-1-1v-1l1-1 1 1Zm5-2-2 1h-2v-1h2l2-1v1ZM0 483v1-1Zm0 0v1Z"
+                                class="FJI"></path>
+                            <path data-wmap="FLK" d="m297 594 3-2 2 1 1-2 2 2v2l-4 1-1-2-2 2Z" class="FLK"></path>
+                            <path data-wmap="FRA"
+                                d="m474 326-1 2-1-1-1-2 1-1 1-1Zm-10-27h1l2 1 3 1-1 3v2l-1 1-1-1v1l-2 2v2h1l1 1v1l1 1-1 2 1 2 1 1v1l-3 2-5-1-3 1-1 2-2 1-3-2-1 1-5-1-1-2 2-2v-7l-3-4-1-2-4-1v-3l3-1 4 1-1-4 3 2 5-3 1-4h2l1 1h1l1 2 2 1h1Z"
+                                class="FRA"></path>
+                            <path data-wmap="GUF" d="M314 436v-2l1-1-1-1v-2l1-2h1l2 1 2 2 1 1-2 2-1 2-1 1h-1v-1h-1v1Z"
+                                class="GUF"></path>
+                            <path data-wmap="GAB"
+                                d="m478 452-3-2-1-3-2-2v-1l1-1v-2l1-1 1-1h3v-3h1l2 1 1-1h1v3h3l-1 3 1 1v4l-1 1h-2l-2-1v1h-1l-1 1 1 2Z"
+                                class="GAB"></path>
+                            <path data-wmap="GBR"
+                                d="M434 281h-3l1-3-1-2h2l3 3Zm8-21-2 5 2-1h3l-1 4-2 4 3 1 2 5 2 1 1 5 1 1 3 1v3l-1 1 1 2-3 2h-3l-4 1-1-1-2 2h-2l-2 1h-1l3-5 2-1h-3l-1-2 2-1-1-2 1-3h3l1-2-2-3-3-1-1-1 1-2-1-1-1 2v-4l-1-2 1-5 1-4h3Z"
+                                class="GBR"></path>
+                            <path data-wmap="GEO"
+                                d="M554 328v-4l-2-1-1-1-1-1h2l4 1 4 1v1h4l1 2h1l-1 1 2 2h-2l-2-1v1h-4l-2-2Z"
+                                class="GEO"></path>
+                            <path data-wmap="GHA"
+                                d="m453 427-4 2-2 1h-4v-1l-1-3 1-2 1-3-1-3v-4h4l1 1 1-1h1v1l1 1v4l1 1-1 2v2l1 1Z"
+                                class="GHA"></path>
+                            <path data-wmap="GIN"
+                                d="M429 423h-1v1h-1l-1-1 1-1-1-1h-2v-1h-1v-2l-1-1h-3v1l-1 1-1 1-1-2-1-1h-1v-1l-1-1-1-1 1-1h2l1-1-1-1h1v-1h1l2 1h2v1h1v-1h1v1h2l1-1h1l1 1 1 1v1l-1 1h1v1h1l-1 1 1 2v2h-1v2Z"
+                                class="GIN"></path>
+                            <path data-wmap="GMB" d="M408 409v-1h3v-1h1l1 1h1l1-1v1l-1 1-1-1h-1l-1 1h-1Z" class="GMB">
+                            </path>
+                            <path data-wmap="GNB" d="m412 414-1-1h-1l-1-1-1-1 2-1h6v1h-1l1 1-1 1h-2Z" class="GNB">
+                            </path>
+                            <path data-wmap="GNQ" d="m474 440-1-1 1-3h4v3h-3Z" class="GNQ"></path>
+                            <path data-wmap="GRC"
+                                d="m509 346 2 1h3v1h2-1l-3 1v-1h-3Zm6-16h-6l2 2-1 1h-2l-1-2v3l1 1v1l1 1 1 1v2l-2-1 1 2h-2l1 3h-2l-2-1-1-3v-2l-1-1-1-2-1-1 2-2v-1h1v-1h1l1-1h2v-1h2l2-1 2 2 2-1v-1h2l-1 3Z"
+                                class="GRC"></path>
+                            <path data-wmap="GRL"
+                                d="m333 49 8-12h9l3-7 9-3 20 3 16 17-5 7-9 1-14 2 1 3 9-2 8 6 5-5 2 6-3 10 6-6 13-7 7 4 1 7-10 11-1 4-8 2 6 1-3 10-2 9v13l3 8h-4l-4 4 4 5 1 9-3 1 3 8-5 1 3 3-1 3-3 2h-4l3 6v3l-5-3-1 2 3 2 4 5 1 6-5 2-2-3-3-5 1 6-3 4h10l-7 7-6 5-8 2h-3l-2 3-4 7-5 4h-2l-3 2-4 1-2 4v4l-1 4-4 4 1 4-1 5-2 5h-3l-4-4h-5l-2-3-2-5-4-7-2-4v-5l-3-6 1-4-2-3 2-7 4-3 1-3 1-5-3 2-2 1-2 1-3-2v-5l1-4h2l5 2-4-5-2-3-3 2-2-2 3-8-1-3-2-6-3-10-4-4v-4l-6-6-6-1-6 1-6 1-3-4-5-7 7-3 5-1-11-3-5-4v-5l9-6 10-7v-5l-6-5 2-6 9-11 3-2-1-7 6-5 8-3h8l2 6 7-11 6 7 3 2 6 5-6-9Z"
+                                class="GRL"></path>
+                            <path data-wmap="GTM"
+                                d="M225 407h-3l-1-1-2-1 1-1-1-1 1-2h4v-1h-1l-1-1-1-1h1v-1h5v5h2l-1 1-1 1v1l-1 1h-1v1Z"
+                                class="GTM"></path>
+                            <path data-wmap="GUY"
+                                d="m300 421 2 1 2 2v1h1l1 1 1 1v2l-2 1v2l1 2h1v1l1 2h-1l-1 1h-2v1h-2l-1-1v-2l-1-1v-2l1-1-1-1v-2h-2l-2-2 1-1v-1h1l1-1-1-1Z"
+                                class="GUY"></path>
+                            <path data-wmap="HND"
+                                d="M231 409v-1h-1v-1h-2v-1h-2l1-1v-1l1-1 1-1h6v-1l1 1h4v1h1l1 1h-1l-1 1h-3v1h-1l-1 1h-2v2h-1Z"
+                                class="HND"></path>
+                            <path data-wmap="HRV"
+                                d="m497 312 1 2 1 1-1 1-2-1h-5v1l-1-1-1 1 2 2v1l1 1 1 1 1 2 2 1-2-1-2-1-2-1-2-3h1l-2-1v-2h-1l-1 1-1-1v-1h2l1-1v1h1v-1h1v-2l2-1 1 1 2 1 2 1Z"
+                                class="HRV"></path>
+                            <path data-wmap="HTI" d="M271 392v2l-1 1h1v1h-6l-1-1h5l-1-2v-1h-2l1-1h1Z" class="HTI">
+                            </path>
+                            <path data-wmap="HUN"
+                                d="M491 309v-3h1v-2l2 1 1 1 2-1v-1h4v-1l1-1 3 2v-1l2 1v1l-2 1-1 2-1 3-2 1h-4l-1 1-2-1-2-1-1-1v-1Z"
+                                class="HUN"></path>
+                            <path data-wmap="IDN"
+                                d="M752 468h-1l-3-2h3l1 1Zm11-4v2l-2 2h-2v-1l1-2Zm-18-2 1 1h1l1 1h-3l-1 1h-2l1-2h1Zm13 0-1 2-4 1-3-1v-1h2l2 1 1-1Zm-36-3h5v-1l5 2 1 1 4 1 3 1-3 1-3-1h-5l-2-1h-3l-2-1-1 1-5-1v-2h-2l1-2h3l2 1h2Zm65-1-1 1v-2l1-1Zm-19-7-1 1-1-1-1-1h3Zm9-1v2l-2-1-2-1-1 1h-2l1-2h3Zm26-1v16l-2-2-3-1v1h-4l2-2 1-1-1-2-1-2-5-3h-2l-3-2-1 1h-1l-1-1v-1l-2-1 3-1h2-4l-1-2h-2l-1-2h3l1-1 4 1 1 1v4l3 1 2-2 3-2h2l2 1 2 1Zm-40-10-2 2h-10l-1 2 3 3 1-2h5l-1 1-1-1-1 2-2 1 3 3-1 1 2 3v1l-1 1-1-1 1-2-2 1h-1v-1l-1-2v-2h-2v7h-2v-5h-1l-1-2 1-2 1-2 1-3v-1l3-2 2 1h6l2-2Zm9 0v2h-1l-1 2 1 1-1-1-1-3v-2l1-1v1h2Zm-48-2 1 2 2 1h3l1-1 1-1 3 1 2-1 1-3 1-1 1-3h3l2 1-1 2 1 2v2l3 2h-3l-1 2v2l-2 2v2l-1 4-1-1-3 1v-1h-2l-2-1-3 1v-1h-2l-2-1v-3l-2-1-1-2v-4Zm-9 20h-3l-2-2-3-2-1-2-2-2-1-2-2-3-3-2v-3l-1-1-2-2-2-2-2-2-2-2-1-2h2l4 1 2 2 2 2 2 1 2 3h2l2 2 2 2 2 1-1 2 1 1h1l1 2 1 1h1l2 2-1 3Z"
+                                class="IDN"></path>
+                            <path data-wmap="IND"
+                                d="m645 347 2 4v2l1 1v2h-2l1 3 3 2 3 2-2 1-1 3 3 1 2 1 3 2h4l1 2h2l3 1 2-1 1-1-1-1 1-2h1v3l3 1 1-1h4l1-1-2-1 3-1 2-2 3-2 2 1 2-1 1 2-1 1h3v1l-1 1v2l-2-1-3 2v2l-1 2v1l-2 3-1-1v3l-1 1v1h-1l-1-4h-1v2l-2-1 1-2h1l1-3h-6v-2h-1l-2-2-1 2 2 2-2 1-1 1 2 1v3l1 2-1 1h-1l-3 1v2l-2 2-3 1-3 3-2 2-2 2v1l-1 1-3 1h-1l-1 2 1 3v2l-1 3v4h-1l-2 2 1 1-2 1-1 1-1 1-2-2-1-4-1-2-1-2-2-2v-3l-1-2-2-3-1-6-1-3v-6l-4 2h-2l-3-4 1-1v-1l-3-2 1-2h6l-1-2-1-2v-2l-2-1 3-3h3l2-3 2-3 2-3v-2l2-1-2-2-1-2v-2l1-2 4 1 2-1Z"
+                                class="IND"></path>
+                            <path data-wmap="IRL" d="m434 281 1 3-2 4-4 3-4-1 2-4-1-5 3-3 2-2 1 2-1 3h2Z" class="IRL">
+                            </path>
+                            <path data-wmap="IRN"
+                                d="m585 342 2-1 2-2h4l3 2h2l3 3h2v2l-1 4v2l1 1-1 2v2l1 2h1l1 2-3 3 2 1 1 2 2 1v3h1v2l-3 1-1 3-5-1h-3l-2-1-1-3-2-1-2 1-2 1-3-1-3-2-2-1-2-2-2-4h-1l-1-1-1 2-2-2v-2h-1l1-2-2-2-3-2-1-2v-3l1-1v-2l-1-1-2-3-1-3v-1l-1-3 2-1 1 1 1 1 1 1h1l3-3h1l1 1-1 2 2 1 1 2 2 1 2 2h4l4-1Z"
+                                class="IRN"></path>
+                            <path data-wmap="IRQ"
+                                d="m572 364-2-1h-2l-1 3h-5l-7-6-4-2-3-1-1-4 6-3 1-3-1-3h2l1-2 1-1h3l1 1h1l2 3 1 1v2l-1 1v3l1 2 3 2 2 2-1 2h1v2Z"
+                                class="IRQ"></path>
+                            <path data-wmap="ISL"
+                                d="m414 217-1 4 3 4-3 5-8 4-2 1-3-1-7-2 3-2-6-3 4-2v-1l-5-2 2-4 4-1 4 5 3-4 3 2 4-3Z"
+                                class="ISL"></path>
+                            <path data-wmap="ISR" d="M539 355v1h-1v3h-1 2v1l-2 5-1-5v-1l1-2v-2l1-1h2v1h-1Z" class="ISR">
+                            </path>
+                            <path data-wmap="ITA"
+                                d="m489 338-1 3v2l-2-1h-1l-4-2v-1h6Zm-16-9 2 2-1 4h-1l-1 1-1-1v-4l-1-1h2Zm12-19-1 2 1 2-2-1-2 1v5l3 2 1 2 3 3h2l1 1-1 1 2 1 2 1 2 1v2l-2-1-2-1-1 2 2 2v1h-1l-2 3h-1v-1l1-1v-1l-1-2v-1l-1-1-1-1-2-1-1-1h-2l-2-2-2-2-2-2v-4h-2l-2-1h-1l-1 2h-1v-1l-1-1-1-2 1-2-1-1v-1l1 1h1l2-1h1l1-1h2l1-1v-1h2l2-1 1 1Z"
+                                class="ITA"></path>
+                            <path data-wmap="JAM" d="M256 395h2l1 1v1h-4l-1-1v-1h1Z" class="JAM"></path>
+                            <path data-wmap="JOR" d="M539 356v-1l3 2 5-4 1 4-5 2 2 3h-1v1l-2 1-1 1-1 1-3-1 2-5v-2Z"
+                                class="JOR"></path>
+                            <path data-wmap="JPN"
+                                d="M787 351v1l-1 2-1-1-1 1-1 1h-2v-2l2-2 1 1 1-2Zm16-9-1 2v2l-1 2-3 1-5 1-3 3-2-1v-2h-4l-3 2h-3l2 2-1 5-2 1-1-1 1-2-2-1-1-2 2-1 2-2 2-2 2-2 5-1 3 1 2-6 2 2 4-3 1-2 2-3-1-4 1-2 3-1 1 5v2l-2 4Zm7-23h2l2-1v4l-3 1-3 3-4-2-1 3h-3v-3l1-3h3l1-5v-2l3 3Z"
+                                class="JPN"></path>
+                            <path data-wmap="KAZ"
+                                d="m628 325-2 1-3 2-1 2h-1l-1-1h-3l-1-3h-1v-3l-3-3h-4l-3 1-2-3-2-2-4-2h-1l-6 2v12l-1 1-2-3-2-1-2 1-2 1v-1l1-1-1-2-2-1-2-3-1-1v-1h2v-2l3-1 2 1v-6h-3l-2-1-3 2-2 1-1-1v-2l-2-2h-2l-2-3 2-3h-1l2-5 3 3v-3l5-5h4l5 3 3 2 3-2h4l3 2 1-1h4v-2l-4-3 3-2-1-1 2-1-1-3 1-1 9-2 1-1 7-1 2-2 4 1 1 4 3-1 3 2v2h2l6-4v1l3 3 5 11 2-2 3 2 4-1 1 1 1 2 2 1 1 1h3l2 2-2 3h-2v4l-2 1-5-1-2 7-1 1-5 1 2 6-1 1v2l-2-1-1-1h-9l-3-1h-2v2l-4-1-2 1Z"
+                                class="KAZ"></path>
+                            <path data-wmap="KEN"
+                                d="m554 446-2 1v1h-1l-1 2v1l-1 2-1 1-4-3v-1l-9-5v-3l1-1 1-2 1-2-1-3-1-1-1-2 2-1 1-2 2 1v1l1 1h1l3 2h4l1-1 2-1 1 1h2l-2 3v9Z"
+                                class="KEN"></path>
+                            <path data-wmap="KGZ"
+                                d="M628 325v-1l2-1 4 1v-2h2l3 1h9l1 1 2 1v1l-4 1-1 2h-3l-1 2h-5l-2 2v1l-1 1h-4l-3-1h-3v-2l3 1 1-1h2l3-2-3-2-2 1-2-1 2-3Z"
+                                class="KGZ"></path>
+                            <path data-wmap="KHM" d="m707 411-1-3 2-2h5l2 1 1-2 3 1v5l-4 2 1 1-3 1-2 1-2-1-1-1Z"
+                                class="KHM"></path>
+                            <path data-wmap="KOR" d="m771 337 2 4 1 2v3l-1 2-2 1-2 1h-2l-1-1 1-3-1-3h1l-1-3h1l1-2h3Z"
+                                class="KOR"></path>
+                            <path d="M501 327v-2l-1-1 1-1 1-1h1v1h1v2h-1l-1 1v1Z" class="-99"></path>
+                            <path data-wmap="KWT" d="m570 363 1 2h-1l1 2-2 1v-2h-2l1-3Z" class="KWT"></path>
+                            <path data-wmap="LAO"
+                                d="m713 406 1-1v-2l-2-3v-2l-2-2-2-1v1h-2l-3 2v-3l1-3h-2v-1l-1-1v-1l2-2v1h2l-1-3 2-1 1 2 1 3h3l1 2-1 1-1 1 3 2 2 3 2 2 2 2v4l-3-1-1 2Z"
+                                class="LAO"></path>
+                            <path data-wmap="LBN" d="M540 354h-2l1-2 1-2h1l1 1-2 1Z" class="LBN"></path>
+                            <path data-wmap="LBR"
+                                d="M431 431h-1l-3-1-2-2-2-1-2-2 1-1 1-2 1-1h2l1 1-1 1 1 1h1v-1h1v4h1l1 1v1Z"
+                                class="LBR"></path>
+                            <path data-wmap="LBY"
+                                d="m487 383-2 1-1-1-4-1-1-2-2-1h-1l-1-1v-2l-2-2 1-1v-4l1-3v-1l-1-3h1v-3l2-1v-1l2-1v-2l3 1h3l3 2 1 2 3 1 3 1 3 2 1-1 1-2v-3l2-2h2l3 1 1 1h2l2 1 1 1-1 1v3l1 2v26h-3v1l-10-5-10-5Z"
+                                class="LBY"></path>
+                            <path data-wmap="LKA" d="m655 423-1 3-1 1h-2l-1-2-1-4 2-4 1 2 2 2Z" class="LKA"></path>
+                            <path data-wmap="LSO" d="m522 518 1 1v1l-1 1h-1l-1 1-1 1-1-3 1-1 1-1 1-1Z" class="LSO">
+                            </path>
+                            <path data-wmap="LTU"
+                                d="M507 279v-2l-1-1h-3v-4l3-1h4l2-1 1 1 1 1 2 2 1 2-3 1v3l-3 1h-2l-1-1Z" class="LTU">
+                            </path>
+                            <path data-wmap="LUX" d="M465 297h1l-1 2h-1v-2Z" class="LUX"></path>
+                            <path data-wmap="LVA"
+                                d="M503 272v-3l1-3 2-2 2 4h2l1-4 2-1 1 1 2 1h2l2 1v3l1 2-3 2-2 1-2-2-1-1-1-1-2 1h-4Z"
+                                class="LVA"></path>
+                            <path data-wmap="MAR"
+                                d="m445 348 1 2v2l1 3v2h-4l-1 1-1 1v2l-3 1-1 1-2 1-3 1-4 2v4l-2 1h-5v2l-1 1-1 3-4 3-1 4-1 1v1h-6l1-1 1-1v-2l1-2 1-2h1l1-2v-1l1-2 2-1 1-3 1-1h3l2-2 1-1 2-3-1-3 1-3 1-1 1-2 3-2 2-1 1-3 1-2h2l2 1h2l2 1Z"
+                                class="MAR"></path>
+                            <path data-wmap="MDA"
+                                d="M517 304v-1h2l2 1h1l1 1v2h1v2l1 1v1h-2v-1l-1 1v1l-1 2-1-2 1-1-1-2-1-2-1-2-1-1Z"
+                                class="MDA"></path>
+                            <path data-wmap="MDG"
+                                d="m574 474 1 1v1l1 3v4l-1-2-1 1 1 2v1l-1 1v2l-1 3-1 3-2 6-1 3-1 4h-2l-2 1h-2l-2-1v-2l-1-2-1-2v-2l1-2 1-1v-1l1-2v-3l-1-1v-3l1-1v-2h3l1-1h1l1-1 2-2 1-1v-1h1l1-2v-1l1-2Z"
+                                class="MDG"></path>
+                            <path data-wmap="MEX"
+                                d="m207 375-1 2-1 2v7l1 1 1 2 1 2 1 2 1 1 3 1 1 1 2-1h2l2-1h1l2-1v-2l1-2v-1h2l2-1h5v2l-2 1v4l-1 2v-1h-1l-1 2-1-1v1h-5v1h-1l1 1 1 1h1v1h-4l-1 2 1 1-1 1-3-3h-1l-2-1h-1l-2 1h-3l-2-1-3-1h-2l-2-2-2-1-1-1h-1l-3-1-1-1-3-1-1-2-1-1h1v-1l1-1v-1l-1-1-1-1v-1l-3-3-2-2-1-2-2-1-1-1v-2h-1l-1-2-1-2h-1l-2-1-1-2v-1l-1-2-1-2v-1l-2-1h-1l-1-1-1 1 1 2v2l1 1 2 2v1l1 1 1 2h1v1l2 2 1 2v2l1 1v1h1l1 2 1 1-1 1-1-1-2-2-1-1-2-1v-3l-1-1-2-2v1l-1-1-2-1-1-1h1l1-1v-2l-2-2h-1l-1-2-1-2-1-2-1-3h3l3-1v1l3 1 6 2h7v-1h4l1 1 2 1 1 1 1 2 1 2h1l2 1 2-2h2l1 1 2 2v2l2 1v2l1 2h2l2 1Z"
+                                class="MEX"></path>
+                            <path data-wmap="MKD" d="M501 327h1v-1l1-1h3l1 1v3h-2l-1 1h-1l-1-1-1-1Z" class="MKD"></path>
+                            <path data-wmap="MLI"
+                                d="M419 405h1l1-2h1l1 1 2-1h11l1-2h-1l-1-12-1-11 4-1 8 6 9 6v2h2l1 1v1h3v6l-2 2v2h-6v1h-6l-2 1v1l-2 1-1 1h-2l-1 1v1l-2 3-1 2v1h-1v1l-1-1h-1v1h-2l-1-1h-1v-1h-1l1-1v-1l-1-1-1-1h-1l-1 1h-2v-1h-1v1h-1v-3l-1-1v-1Z"
+                                class="MLI"></path>
+                            <path data-wmap="MMR"
+                                d="m697 417-1-2 1-2-1-1 1-3-1-1-1-3-1-4-1-2-1 1-3 2h-2l-1-1 1-3-1-2-2-3v-1l-1-1-2-2v-2h1v-2h1v-1l1-1v-3l1 1 2-3v-1l1-2v-2l3-2 2 1v-2l1-1v-1h1l1 2h1v5l-2 2-1 3h3v2l2 1-1 2 2 1 1 1 2-1v1l-2 2v1h-2l-1 2h-2l-1 3h-1l1 2 1 2 2 2-1 2-1 1v1l2 2v3l1 2-1 2Z"
+                                class="MMR"></path>
+                            <path data-wmap="MNE" d="M499 326h-1l-1-1-1-1 1-2 1-1h1v1h1l1 1-1 1h-1l-1 1Z" class="MNE">
+                            </path>
+                            <path data-wmap="MNG"
+                                d="m670 300 2-1 5-3 4-2 2 1h3l1 2h3l3 1 3-2-1-3 2-4 3 2h3l2 1 1 3 3 2 3-1h5l3 2 1 2h8l4-1 3-3 2 1 1 1h3l-1 2-2 4 1 2 1-1 3 1 2-1 1 1 3 2-1 2-2-1-3 1-2 1-2 2-3 1-3 2h-3l-1-1-1 3v1l1 1-2 1-2 2-3 1h-3l-4 2-3 1-1-1h-3l-4-2h-6l-5-1-3 1-1-2-1-4h-2l-3-2-3-1h-3l-1-2 1-4-2-3-4-1-2-3Z"
+                                class="MNG"></path>
+                            <path data-wmap="MOZ"
+                                d="M536 471h2l3 1 1-1h2l1-1h1l3-1 2-1v4l1 2v5l-1 2-1 2-1 2-3 1-2 1-3 3h-1l-2 2-1 1v1l1 3 1 1v6l-1 1-2 1-3 2-1 1v3h-2v-3l-1-1 1-3-1-2-1-4 3-3v-2h1v-9l-1-1-1-1h-1l-1-1h-2v-2l7-3 2 2v-1l1 1v4l2 2v-2l2-1-1-3-1-2-1-1h-1v-3Z"
+                                class="MOZ"></path>
+                            <path data-wmap="MRT"
+                                d="m419 405-1-2-2-2h-1l-1-1h-2l-1 1-1-1-1 1v-3l1-2-1-3v-4l-2-1 1-1h10l-1-3 1-2h2v-7h8v-4l10 6-4 1 1 11 1 12h1l-1 2h-11l-2 1-1-1h-1l-1 2Z"
+                                class="MRT"></path>
+                            <path data-wmap="MWI"
+                                d="M536 471v5h1l1 1 1 2 1 3-2 1v2l-2-2v-4l-1-1v1l-2-2h-1l1-3v-5h1l-1-3-1-1 2 1h1l1 2Z"
+                                class="MWI"></path>
+                            <path data-wmap="MYS"
+                                d="M706 426v1l2 1 1 2v5l1 1 1 2v1h-2l-2-2-3-2-1-1-1-2v-2l-1-1v-2l-1-1 1-1 2 2v1l2-1Zm39 6-2-1h-3l-1 3-1 1-1 3-2 1-3-1-1 1-1 1h-3l-2-1-1-2 2 1 2-1 1-2h1l3-1 2-2 1-1 1 1v-1h2v-3l2-1 1-2h1l1 1 1 1 1 1 2 1-2 1 1 1Z"
+                                class="MYS"></path>
+                            <path data-wmap="NAM"
+                                d="m491 517-2-2-1-2v-3l-1-2-1-4v-5l-1-1-2-2-1-4v-1l-2-3-1-2h2l1-1h2l1 1h11l1 1 6 1 5-1 2-1h2l1 1-2 1-2 1-1-1h-4l-2 1v9h-2v18l-2 2h-3l-2-1v-1l-1-1Z"
+                                class="NAM"></path>
+                            <path data-wmap="NCL" d="m865 496 2 2 1 1-1 1-1-1-2-1-1-2-2-2-1-1h2l1 1 1 1Z" class="NCL">
+                            </path>
+                            <path data-wmap="NER"
+                                d="M455 412v-2h-2l-1-2-1-1v-3h2v-1h6v-2l2-2v-6l3-1 7-5 9-5 4 1 1 1 2-1 1 4 1 1v1l1 1-1 1-1 5v4l-3 2-1 4 1 1v1h2l-1 2-1 1-2-3-2 1-2-1h-1l-1 1h-2l-1 1h-1l-3-2-2 1h-1l-1-1-2-1h-3l-1 1v1l-1 1v3l-2-2h-1Z"
+                                class="NER"></path>
+                            <path data-wmap="NGA"
+                                d="m471 430-2 1h-4l-2-1v-2l-2-2h-4v-7l1-1 1-1v-1l1-1-1-1v-4l1-1v-1l1-1h3l2 1 1 1h1l2-1 3 2h1l1-1h2l1-1h1l2 1 2-1 2 3 1 1v1l-2 2-1 1v2h-1v2l-1 1-1 1v1l-1 2h-1l-2-1h-1l-1 2h-1l-1 2Z"
+                                class="NGA"></path>
+                            <path data-wmap="NIC"
+                                d="M235 414v-1l-2-1v-1h-1l-1-2h2v-2h2l1-1h1v-1h3l1-1h1v2l-1 1v4l-1 1 1 1h-1v1l1 1h-2v-1h-3Z"
+                                class="NIC"></path>
+                            <path data-wmap="NLD" d="m467 283 1 1-1 4v2h-2v4l-1-1-2-2-2 1h-2l2-1 2-6 3-2Z" class="NLD">
+                            </path>
+                            <path data-wmap="NOR"
+                                d="m528 196-4 3-2 1 1-5-4-3-3 2-2 6-2 3-3-2-3 1-3-4-1 2h-2v4l-5-1-1 4h-2l-2 5-2 7-4 8 1 2-1 3h-3l-1 5v7l2 3-1 6-2 3-1 3-2-3-5 5-3 2-4-3-1-5-1-12 3-3 6-5 5-6 5-8 6-13 4-5 7-8 5-4 5 1 3-7 5 1 5-2 7 6-3 2Zm-16-75-6 4-4-2 2-3-2-4 5-2 1 4Zm-16-24 8 10-6 5-2 9-2 2-1 10h-3l-6-7 3-4-4-3-5-11-2-10 7-5 1 4h4l1-5h3Zm18-10 5 5-4 8-7 1-8-2v-4h-4l-3-7 8-4 4 3 2-4Z"
+                                class="NOR"></path>
+                            <path data-wmap="NPL"
+                                d="m671 369-1 2 1 1-1 1-2 1-3-1h-2l-1-2h-4l-3-2-2-1-3-1 1-3 2-1 1-1 2 1 3 2h1l1 2h2l2 1 3 1Z"
+                                class="NPL"></path>
+                            <path data-wmap="NZL"
+                                d="m883 555 1 1 1-1 1 1v1l-1 2-1 2-2 2 1 1h-2l-2 2-1 2-1 4-2 1-1 1h-3l-1-1h-3v-2l1-2 3-4h2l2-2 2-1 1-2 1-3 1-1 1-1 1-2Zm4-16 2 4v-3l1 1v3l2 1h2l2-1h1l-1 3-1 2h-2v3l-1 1-2 3-1 1-1-1h-1l2-3-1-2-3-1v-1l2-1v-5l-1-2v-1l-1-1-2-3-1-2h1l1 2 2 1Z"
+                                class="NZL"></path>
+                            <path data-wmap="OMN"
+                                d="m583 400-1-2-2-4 8-3 1-5-1-2v-1l1-2v-1h1v-2h1l1 1 2 2h3l1 2 1 1h1v1l-1 1-1 1-1 1-1 2h-1l-1 2 1 1-1 1h-1l-1 1-1 1v1h-3v1l-1 1h-1l-2 1Zm8-25-1-1h1v1Z"
+                                class="OMN"></path>
+                            <path data-wmap="PAK"
+                                d="m638 342 2 1 1 3 4 1-3 2-2 1-4-1-1 2v2l1 2 2 2-2 1v2l-2 3-2 3-2 3h-3l-3 3 2 1v2l1 2 1 2h-6l-1 2-2-1-1-2-2-2-4 1h-8l1-3 3-1v-2h-1v-3l-2-1-1-2-2-1 5 1h6l3-1v-3l2-2h2l2-1 1 1 1-1-1-2 1-2 2-1-1-2 2 1 1-2v-1l1-1v-2l-1-1 2-1 3-1h2l2-1Z"
+                                class="PAK"></path>
+                            <path data-wmap="PAN"
+                                d="m255 424-1-1v-2l-1-1-1-1-1 1h-1l-1 1v1l1 1h-1v1h-1l-1-2v1h-1l-1-1h-1v-1h-1v1l-1-1h1v-1l-1-1v-1h1l1 1 1 1v-1l1 1h1l1-1h2l1-1h3l1 1v1h1v1l1 1-1 1h-1Z"
+                                class="PAN"></path>
+                            <path data-wmap="PER"
+                                d="m276 487-1 1-1 1-3-2v-1l-5-2-4-3-2-2-1-2v-1l-2-3-2-5-3-5-1-1-1-2-2-2-1-1v-1l-1-2 1-2 2-1v2h2l1 1 1-1 1-1 1-2 3-1 3-3 1-2-1-2h1l2 1 1 2h1l1 3h6l2 1-2 2 1 1 1 1h-3l-2 1-2 1-1 1v3h-1v1l-1 1 1 2 1 2v1h1l1 1h3l2-1-1 4h3l2 4v1l-1 1v3l-1 1 1 1-1 1 1 2Z"
+                                class="PER"></path>
+                            <path data-wmap="PHL"
+                                d="m766 421 1 2v1l-1 2-1-2-1 1 1 2-1 1-3-1-1-2 1-1-2-2v1h-2l-1 2-1-1 1-2 2-1 1-1 1 1h2v-1h2v-2l2 1v1Zm-6-5-1 1v2h-1l-2-1 1-1v-1l1-1h1v1l2-2Zm-13 3-4 2 2-2 1-1 2-2 1-3 1 3-2 1Zm8-7 2 1h1v1l-1 1-2 1v-3Zm9-1 1 3h-2l1 2-2 1v-2h-1v-2h2v-1l-2-2h2Zm-10-2v2l-2-1-1-2h2Zm0-14 1 1 1-1v2l1 2-1 2-1 1-1 2 1 2h2l3 1v2h1v1l-2-1-1-1-1 1-2-2-2 1-1-1v-1l1-1h-1v1l-2-2v-3h1v-4l1-2Z"
+                                class="PHL"></path>
+                            <path data-wmap="PNG"
+                                d="M840 459h-1l-1-1-1-1v-2l1 1 1 2h1Zm-10-3h-1v1h-2l-1 1h-1l-2-1-2-1h4v-1h1v1h1l1-1 2-1-1-1 2-1v2Zm-27 9v-16l4 1 5 2 2 1 1 1v2l4 1 1 2h-2v2l3 1 1 3h2v1h2l-1 1 2 1v1h-1l-1-1h-5l-2-2-1-1-1-3-4-1-2 1-1 1v2h-3Zm30-12-1 1v-1l-1-1-1-1-1-1-2-1 1-1 1 1 1 1h1l1 1 1 1Z"
+                                class="PNG"></path>
+                            <path data-wmap="POL"
+                                d="m488 293-1-3v-1l-1-2-1-2 1-1-1-2 2-1 4-2 3-2 3 1v1h2l3 1 5-1 1 1 1 1v2l1 2v1l-2 1 1 2v2l1 3v2h-1l-3 3 1 2h-1l-2-2-2 1-1-1-1 1-2-1h-1l-1-2h-2v-1l-2-1v1h-1v-2h-2Z"
+                                class="POL"></path>
+                            <path data-wmap="PRI" d="M284 395h1l1 1h-4v-1Z" class="PRI"></path>
+                            <path data-wmap="PRK"
+                                d="M777 325h-1l-1 1v4h-2v1l-1 1-2 1h-1v2l1 1 1 1v1h-3l-1 2h-1l-1-1-1 1h-1v-1h-1l1-2v-1l1-1v-1h-2l-1-1 2-2 3-2 1-2 2 1h2l-1-2 4-1 1-2Z"
+                                class="PRK"></path>
+                            <path data-wmap="PRT"
+                                d="M427 326h1l1-1 1 2h1l1-1h1l1 2-1 1v3h-1v2h-1l1 2v4l-1 1v1l-1 1-1-1-1 1v-5h-1l-1-1v-2l1-2 1-1v-4Z"
+                                class="PRT"></path>
+                            <path data-wmap="PRY"
+                                d="m293 499 1-3v-1l1-3 5-1h2l2 2v1l1 1v4h5l1 1v4h3v3l-1 2v2l-2 2-2 1-3-1h-3l3-5-1-1-2-1-3-2h-2Z"
+                                class="PRY"></path>
+                            <path data-wmap="QAT" d="M577 378v-2l1-1v-1l1 1v3l-1 1Z" class="QAT"></path>
+                            <path data-wmap="ROU"
+                                d="m507 305 1-1 1 1h2l1 1 1-1h2l1-1h1l1 1 1 2 1 2 1 2-1 1 1 2 1 1 1-1 1 1v1h-2v4h-2l-2-1h-3l-1 1h-7v-2h-1l1-1h-1l-1 1-1-1v-2l-2-1v-1l-1-1 2-1 1-3 1-2Z"
+                                class="ROU"></path>
+                            <path data-wmap="RWA" d="m526 445 1 1v2h-2l-1 1h-1v-3l1-1 1 1Z" class="RWA"></path>
+                            <path data-wmap="ESH"
+                                d="M428 370v5h-8v7h-2l-1 2 1 3h-10l-1 1v-1h6v-1l1-1 1-4 4-3 1-3 1-1v-2h5l2-1v-1Z"
+                                class="ESH"></path>
+                            <path data-wmap="SAU"
+                                d="M557 401v-2h-1v-1l-2-1-1-3-1-2-1-1-1-1-2-2v-4l-2-3-1-1-1-1-1-1v-1l-1-1v-1l-1-2-2-2-1-2h-1v-4l3 1 1-1 1-1 2-1v-1h1l-2-3 5-2 3 1 4 2 7 6h7v2l2-1 1 3 1 1 1 1 1 1 1 1-1 1 1 1 1 1v1l1 1 1-1v2l1 3 8 1 1 2-1 5-8 3-7 1-2 1-2 3h-1l-1-1h-7l-1-1-1 2v1Z"
+                                class="SAU"></path>
+                            <path data-wmap="SDN"
+                                d="M535 418v-1l-1-1-1-1v-4h-1v1h-2l1 1v1l-1 2-2 1-1 1-2-2-1 1-1 1h-7l-1-1v-1h-2l-1 1-1 3h-2v-3l-1-2-1-1v-1h-1v-3h-1v-1l1-1v-4l2-2h2v-11h3v-5h29l1 2-1 1 1 2 1 4h1l1 1-1 2h-2l-1 1v2l-1 4v3l-1 2-2 2-1 2v1h-1l-1 3Z"
+                                class="SDN"></path>
+                            <path data-wmap="SSD"
+                                d="M535 418v3h-2l-1 2h2l1 1 1 1 1 1 1 2-1 2-2 1-1 2h-7l-2-1-1-1h-4l-1-2-1-1-2-1v-1l-1-1-2-2v-1l-2-1-1-1h1l1-3 1-1h2v1l1 1h7l1-1 1-1 2 2 1-1 2-1 1-2v-1l-1-1h2v-1h1v4l1 1 1 1v1Z"
+                                class="SSD"></path>
+                            <path data-wmap="SEN"
+                                d="m408 408-1-2-1-1 1-1 1-2 1-1 1-1 1 1 1-1h2l1 1h1l2 2 1 2 1 2v1l1 1v2h-2l-2-1h-7l-2 1v-2h3l1-1h1l1 1 1-1v-1l-1 1h-1l-1-1h-1v1Z"
+                                class="SEN"></path>
+                            <path data-wmap="SLB"
+                                d="M856 468v1h-1l-1-1h1Zm-3-1h-3v-2l1 1h1Zm2-1-1 1-2-3v-1h1l1 2Zm-5-3v1l-2-2h-1l-1-1v-1l2 1 2 1Zm-6-2-1-1-1-1 1 1Z"
+                                class="SLB"></path>
+                            <path data-wmap="SLE" d="m421 425-2-1-1-2h-1v-2l1-1 1-1v-1h3l1 1v2h1v1l-1 1-1 2Z"
+                                class="SLE"></path>
+                            <path data-wmap="SLV" d="M230 408v1h-2l-1-1h-2v-2h3v1h2Z" class="SLV"></path>
+                            <path data-wmap="SOM2"
+                                d="M570 422h-3l-8-3-1-1-1-1v-2l1-2 1 1v1l1 1h2l2-1h3l2-1h1l1-1h2v5l-2 2Z" class="SOM2">
+                            </path>
+                            <path data-wmap="SOM"
+                                d="m554 446-1-2v-9l2-3v-1h2l2-1h4l7-8 1-2 2-2v-5h3l1-1h1v3l-1 1v3l-2 3-1 3-2 4-2 2-3 4-3 2-4 2-2 2-3 3v2Z"
+                                class="SOM"></path>
+                            <path data-wmap="SRB"
+                                d="m507 318-1 1v1l2 2-1 1-1 1v1h-2v-2h-1v-1h-1l-1 1-1-1h-1v-1h-1 1v-2l-1-1v-2l1-1-1-1-1-2h4l1 1v1l2 1v2l1 1 1-1h1l-1 1Z"
+                                class="SRB"></path>
+                            <path data-wmap="SUR"
+                                d="m307 427 3 1v-1h2l3 1-1 2v2l1 1-1 1v2h-4v2l-2-1-1-2v-1h-1l-1-2v-2l2-1Z" class="SUR">
+                            </path>
+                            <path data-wmap="SVK"
+                                d="M497 299h1l2 1 1-1 1 1 2-1 2 2v1l-1 1v1l-3-2-1 1v1h-4v1l-2 1-1-1-2-1v-1l1-1h1l1-1v-1h1v-1Z"
+                                class="SVK"></path>
+                            <path data-wmap="SVN" d="m485 310 2 1 1-1h2l1-1v1l-2 1v2h-1v1h-1v-1l-1 1h-2 1l-1-2Z"
+                                class="SVN"></path>
+                            <path data-wmap="SWE"
+                                d="m478 259 1-3 2-3 1-6-2-3v-7l1-5h3l1-3-1-2 4-8 2-7 2-5h2l1-4 5 1v-4h2l3 3 4 5v10l1 2-4 2-3 4v3l-3 5-5 5-2 7 2 4 2 3-2 5-3 2-1 7-1 5-3-1-2 4h-3v-4l-2-5Z"
+                                class="SWE"></path>
+                            <path data-wmap="SWZ" d="M530 512v1h-2l-1-1v-2l1-1h2v1Z" class="SWZ"></path>
+                            <path data-wmap="SYR"
+                                d="m547 353-5 4-3-2h1v-3l2-1-1-1h-1v-3l1-1v-1h1v-2h7l3-1h4l-1 2h-2l1 3-1 3Z"
+                                class="SYR"></path>
+                            <path data-wmap="TCD"
+                                d="m486 410 1-2h-2v-1l-1-1 1-4 3-2v-4l1-5 1-1-1-1v-1l-1-1-1-4 3-1 10 5 10 5v10h-2l-2 2v4l-1 1v1h1v3h1v1h-1l-2 1-1 3-3 1h-2l-1 1-1 1-1 1-3 1h-4 1l-1-2v-1h-2l-1-2v-1h4l-2-2v-4Z"
+                                class="TCD"></path>
+                            <path data-wmap="TGO" d="M455 427h-2l-1-1-1-1v-2l1-2-1-1v-4l-1-1v-1h2v2h1l1 1v8Z"
+                                class="TGO"></path>
+                            <path data-wmap="THA"
+                                d="m707 411-2-1h-3l1-2h-2l-1 3-1 4-1 2v2h2l1 2v2l2 2h1l2 1-1 1-2 1v-1l-2-2-1 1-1-1v-1l-1-2-2-1v1-2l1-3 1-3 1-2-1-2v-3l-2-2v-1l1-1 1-2-2-2-1-2-1-2h1l1-3h2l1-2h2l1 1v1h2l-1 3v3l3-2h2v-1l2 1 2 2v2l2 3v2l-1 1h-5l-2 2Z"
+                                class="THA"></path>
+                            <path data-wmap="TJK"
+                                d="m628 332-1 1-3-1v2h3l3 1h4l1 3 1-1 1 1v1l1 2h-5l-1 1h-1l-1 1-1-1v-3h-1l1-1h-2l-1 1v1h-2l-1 2-1-1-1 1h-1l1-3v-3l-2-1v-1h3l1-2 1-2h3l-1 1 1 1Z"
+                                class="TJK"></path>
+                            <path data-wmap="TKM"
+                                d="M603 346v-2h-2l-3-3h-2l-3-2h-4l-2 2-2 1-1-3 1-3-2-1 1-2h-2v-3l3 1 2-1-2-2-1-2h-2v3l-1-2 2-1 2-1 2 1 2 3 1-1h3v-1l2-2 2-2 3 2v3l1 1h4l1 3 3 3 2 1 2 2 4 1-1 2-1-1-1 1-2 1v2l-2 1-2 1v1l-2 1Z"
+                                class="TKM"></path>
+                            <path data-wmap="TLS" d="m763 464 2-1h4l-1 1-3 1-2 1v-1Z" class="TLS"></path>
+                            <path data-wmap="TTO" d="M296 415h2l-1 2h-2l1-1Z" class="TTO"></path>
+                            <path data-wmap="TUN"
+                                d="m474 362-1-5-2-1v-1l-2-2v-2l1-2 1-2v-5l3-1 2 1-1 1 3-1v1l-1 1v5l-2 1 1 2h1l1 2h1v2l-2 1v1l-2 1v3Z"
+                                class="TUN"></path>
+                            <path data-wmap="TUR"
+                                d="m554 328 3-1 2 2 1 1-1 2 2 1 1 1-2 1 1 3v1l1 3h-1l-1-1h-3l-1 1h-4l-3 1h-7v2h-1v1l-1-1 1-2-2 1-2-1-2 2h-4l-2-2h-2l-1 2h-2l-2-2h-3l-1-3-2-2 1-2-2-2 3-3h4l1-2h5l3-2 3-1h4l4 2 4 2 3-1h2Zm-39 2h1l1-3h-2l3-1h2v1l3 1-1 1h-3l-1 1-2 2-1-1Z"
+                                class="TUR"></path>
+                            <path data-wmap="TWN" d="m755 379-2 4-1 3-1-3v-2l1-2 2-2h1Z" class="TWN"></path>
+                            <path data-wmap="TZA"
+                                d="M535 444v1l9 5v1l4 3-1 3v1l2 1v1l-1 1v2l1 2 1 2 1 1-2 1-3 1h-1l-1 1h-2l-1 1-3-1h-2v-3l-1-2h-1l-2-1h-1l-2-1h-1l-1-1-1-3-2-2v-2l-1-3h1l1-1 1-1 1-1-1-1v-1h1v-2l-1-1h4Z"
+                                class="TZA"></path>
+                            <path data-wmap="UGA"
+                                d="m526 445-1 1-1-1v-1l1-1v-4l1-1 1-1h1l-1-1v-3h7l1-2 1 2 1 1 1 3-1 2-1 2-1 1v2l-5 1h-3Z"
+                                class="UGA"></path>
+                            <path data-wmap="UKR"
+                                d="M530 289h1v-1h3l2 2-1 1 1 1h2l1 2v1l3 1h2l1 1h2l3 2v1l-1 2 1 2-1 1h-2l-1 1v2h-2l-2 2h-2l-2 1v2l1 1h2v1l-3 1-3 2-2-1 1-1-3-1 1-1 2-1-1-1-4-1v-1h-2l-1 2-2 3-1-1-1 1-1-1 1-2v-1l1-1v1h2v-1l-1-1v-2h-1v-2l-1-1h-1l-2-1h-2v1h-1l-1 1h-2l-1 1-1-1h-2l-1-1-1 1v-1l-2-1 1-1v-1h1l-1-2 3-3h1v-2l-1-3h1l1-1h5l3 1h4v1h3l1-2v-1Z"
+                                class="UKR"></path>
+                            <path data-wmap="URY"
+                                d="M306 521h1l3 2h1l2 2 2 2 2 2-1 1v2l-1 2-2 2-2-1h-2l-2-1h-2l-1-2v-2h1v-6Z"
+                                class="URY"></path>
+                            <path data-wmap="USA"
+                                d="m61 393-1 1v-1l-1-1 1-1v-1l1 1h1l1 1h-1l-1 1Zm-2-4h-1v-1l1 1h1Zm-1-1h-2Zm-3-1v1l-1-1v-1l1 1Zm-4-1-1-1h1Zm231-71v1l-2 2-3 1-2 1-2 2v3l1 2h1l-1-1h1v1l-2 1h-4l-1 1-2 1 3-1 1 1-4 1h-1v-1l-1 1h1l-1 3-1 2-1-1-1-1v2l1 1v1l-1 1-1 3v-3l-1-1v-3l-1 2 1 2-2-1 2 1v3l1 1v4l-1 2-3 1-1 2h-2l-1 1v1l-3 2-1 1-2 2v4l1 3 1 2v1l2 3v2l-1 1v2h-2l-1-1-1-1-1-2-1-3v-3l-1-1-2-3-3 1-2-1-1-1-3 1-2-1h-2l-1 1v2h1l-1 1-1-1-1 1h-1l-2-2-3 1-1-1h-2l-2 1-2 2-3 1-1 1-1 2v3l1 1h-1l-2-1h-2l-1-2v-2l-2-1v-2l-2-2-1-1h-2l-2 2-2-1h-1l-1-2-1-2-1-1-2-1-1-1h-4v1h-7l-6-2-3-1v-1l-3 1h-3l-1-2-1-1-1-1-1-1h-1l-1-1h-3v-2l-3-3-2-4v-1l-1-1-2-3v-3l-1-1v-6l-1-3 1-3 1-3v-3l-1-5v-3l-1-2v-1l4 2 1 3 1-1-1-3v-3h69v-1h1v2h3l2 1 3 1h2l3 1h1l2-1 2 1 3 1 2 2 2 1v2h1v-1l1 1v1h1v1l2 1 1 4v5l-1 2-1 1v1h2l3-2h2l3-2v-2l1-1h5l1-1 3-3h9v-1h1l1-1 1-2 1-2 2-3 1 1 1-1 1 1v5ZM67 267l-2 2-2-1v-3l2-1 2-1h1l1 2Zm-31-13h-2l-2-1-1-1 2-1 2 1Zm-16-21 2 1h1l2 1 3 1-2 2-2-2-1-1-2 1-1-1Zm77-38v57h3l2 1 2 2 2 4 2-3 3-2 1 3 2 2 2 2 2 3 2 6 5 2v3l-2 2-1-1-2-2-1-4-3-3-2-5h-6l-3-1-5-5-2-1-5-2h-3l-5-2-3-2-3 1 1 3-2 1-3 1-2 1-3 1v-3l1-4 3-2-1-1-3 3-2 3-3 3 1 3-2 3-3 2-2 2-1 2-4 2-1 2-2 2h-2l-2 1-3 1-2 2-4 1-1-1 3-2 2-1 3-2 3-1 1-2 4-2v-1l2-2 1-4 1-2-3 1-1-1-1 2-2-3v2l-1-2-3 2h-1l-1-3 1-2-2-2-3 1-2-2-2-1v-3l-2-2 1-4 2-3 1-2 2-1 2 1 2-3 2 1 2-2-1-2-1-1 2-3h-2l-3 2v1l-2-1h-4l-4-1-1-3-3-3 4-3 5-3h2v4l5-1-2-4-3-2-2-3-2-3-3-2 1-4h4l4-3v-4l3-3 2-1 5-4 2 1 4-4 4 2 2 3 1-1h4v2l4 1 2-1 6 3h4l2 1 4-1 3 2Z"
+                                class="USA"></path>
+                            <path data-wmap="UZB"
+                                d="m616 341 1-2-4-1-2-2-2-1-3-3-1-3h-4l-1-1v-3l-3-2-2 2-2 2v1h-3v-12l6-2h1l4 2 2 2 2 3 3-1h4l3 3v3h1l1 3h3l1 1h1l1-2 3-2 2-1-2 3 2 1 2-1 3 2-3 2h-3l-1-1 1-1h-3l-1 2-1 2h-3v1l2 1v3l-1 3-2-1Z"
+                                class="UZB"></path>
+                            <path data-wmap="VEN"
+                                d="M271 412v1h-1l1 1v2l-1 1 1 2h1v-2l-1-1v-2l3-1v-1l1-1 1 2h2l1 2v1h3l2-1 2 1 2 1 1-1v-1h6l-2 1 1 1h2l2 1v3l1-1 1 1-2 2 1 1-1 1h-1v1l-1 1 2 2v1l-1 1-2 1h-2l-1 1-2-1h-2l1 1v3h2v1h-1l-1 1-1 1h-2v1h-2l-1-1-1-3h-1l-1-1 2-1-1-1v-1l-1-1v-2l1-1v-2l-2 1h-3l-1-2-2-1-3 1-1-1v-3l-1-1v-1h-2l1-1 1-2v-1l1-1 1-1Z"
+                                class="VEN"></path>
+                            <path data-wmap="VNM"
+                                d="m720 387-3 2-2 3-1 1 2 3 3 4 2 1 2 2 1 5-1 5-2 1-3 2-2 2-3 2-1-1 1-2-2-1 2-1 3-1-1-1 4-2v-9l-2-2-2-2-2-3-3-2 1-1 1-1-1-2h-3l-1-3-1-2h3l2-1 3-1 1 1h2v2l1 1Z"
+                                class="VNM"></path>
+                            <path data-wmap="VUT" d="M870 484h-1l-1-1 1-1Zm-2-4 1 2h-2v-3Z" class="VUT"></path>
+                            <path data-wmap="PSE" d="M539 356v3h-2 1v-3Z" class="PSE"></path>
+                            <path data-wmap="YEM"
+                                d="m583 400-2 1v2l-3 1-4 1-2 2h-2l-1 1h-5v1h-1v1h-4l-1-1v-2l-1-2v-4l1-1v-1l1-2 1 1h7l1 1h1l2-3 2-1 7-1 2 4Z"
+                                class="YEM"></path>
+                            <path data-wmap="ZAF"
+                                d="m491 517 1-2 1 1v1l2 1h3l2-2v-10l1 1 1 2v3h2l1-2 2-1v-1l1-1 1 1 2 1h2l1-1v-1l1-1h1l1-1 1-2 2-2 4-2h4l1 4 1 2-1 3 1 1h-2l-1 1v2l1 1h2v-1h2v2l-1 2v1l-2 2h-1l-1 2v1l-2 2-3 3-1 2-2 1-3 1-1 1h-2l-1 1-3-1h-3l-2 1-2 1-2 1h-1l-1-1h-1l-1-1v-2l-1-3h1v-2l-2-3-1-2v-1Zm31 1-1-1-1 1-1 1-1 1 1 3 1-1 1-1h1l1-1v-1Z"
+                                class="ZAF"></path>
+                            <path data-wmap="ZMB"
+                                d="m532 465 1 1 1 3h-1v5l-1 3h1l-7 3v1l-2 1-2 1v1h-1l-2 2-1 2h-1l-1-1h-3l-1-1h-2l-2 1-2-2-1-2v-8h5v-5h2l2 1v1h2l2-1 1 2h2v1l1 2h2v-3h-1l-1-1h-1v-3l1-3-1-1 1-2h5l1 1h1l2 1Z"
+                                class="ZMB"></path>
+                            <path data-wmap="ZWE"
+                                d="M528 499h-4l-2-1-2-1-1-2-1-1-3-3v-1l-1-1-1-2h3l1 1h1l1-2 2-2h1v-1l2-1 2-1v1h2l1 1h1l1 1 1 1v9h-1v2Z"
+                                class="ZWE"></path>
+                            <path data-wmap="RUS"
+                                d="m809 294 3 7-4-1-1 5 2 4v3l-2-3-1 3-1-3v-7l1-3v-6l-2-4 1-5 2-2-1-2 1-1 1 3 1 4-1 4Zm-302-15-5 1-3-1 1-2 3-1h3l1 1v1ZM0 201l6 5 6 6v4l2 2-1-5 7 1 5 6-3 3h-4v6l-1 1h-2l-2-2-3-2-1-2-3-1-2 1-2-2 1-3-3 2 1 3-1 2Zm901-17-1 3h-2l-1-2 4-3v2ZM0 182v2-2Zm0 0v-1h2l4 3-1 1-2 1-3 1Zm809-14h-3l-6-1v-1l2-3 4-1 3 3Zm18-17-3 3-4-1-4-3v-4l5 2Zm-14-5-2 7h-9l-4 2-5-6 1-7 4-2h6Zm-219 42-1 1-9-1v-4l-5-2v-4l2-2v-5l5-7-2-1 6-8-1-4 6-6 8-6 8-2 5-4 5-2 1 4-1 4-9 5-8 5-8 9-3 9-4 8v6Zm307 38-4 3-3-1 2 3 2 5 1 2v3l-5-1-7 4-2 1-4 3-4 4-1 2-3-4-7 4-1-2-2 3-4-1v3l-3 5v2l2 1v6l-2 1-1 3 1 2-5 2-1 5-3 1-1 4-4 4-1-3-1-6-1-9 1-6 2-3v-2l4-1 5-6 4-5 5-5 2-7h-3l-2 5-6 5-2-6-7 2-6 8 2 3-6 2h-3v-3l-4-1-3 2h-8l-8 1-8 9-10 11h4l1 3 3 1 1-2h3l4 5v3l-2 4v5l-1 6-4 5-1 3-3 4-4 4-1 2-4 2h-1l-2-1-3 2-1 1v-2h1l1-4-1-3 2-1h3l2-3 1-4 1-2 1-3-4 1-2 2h-4l-1-4-3-3-5-1v-4l-1-2-1-2-2-4-2-2-4-1h-3l-3 1-2 2 1 1v2l-1 2-3 4 1 2-4 2-3-1h-3l-1-1-2-1-3 3-4 1h-8l-1-2-3-2h-5l-3 1-3-2-1-3-2-1h-3l-3-2-2 4 1 3-3 2-3-1h-3l-1-2h-3l-2-1-4 2-5 3-2 1h-1l-2-2h-3l-1-1-2-1-1-2-1-1-4 1-3-2-2 2-5-11-3-3v-1l-6 4h-2v-2l-3-2-3 1-1-4-4-1-2 2-7 1-1 1-9 2-1 1 1 3-2 1 1 1-3 2 4 3v2h-4l-1 1-3-2h-4l-3 2-3-2-5-3h-4l-5 5v3l-3-3-2 5h1l-2 3 2 3h2l2 2v2l1 1-1 2h-3l-2 4 2 3v3l3 4-2 1v1h-1l-2-2-1-1h-1l-1-2h-4v-1l-4-1-4-1h-2l-3-3-3-1-2-2 2-1 2-3-2-1 4-2v-1l-2 1v-2l1-1h2l1-1-1-2 1-2v-1l-3-2h-2l-1-1h-2l-3-1v-1l-1-2h-2l-1-1 1-1-2-2h-3v1h-1l-1-3-1-1 1-1 2 1 1-1-1-2h-2l1-1-1-1-2-3 1-1-1-2-2-1-2 1v-2l-2-1-1-2v-3l-2-1 1-1v-5l1-2v-1l3-3-3-2 6-7 2-3 1-3-4-4 1-3-2-5 2-5-3-7 2-5-4-4 1-5 2-1 4-3 2-2 5 4 6 2 10 8 2 3v4l-3 3-4 2-11-5-2 1 4 5v8l4 2 2 2v-3l-2-3 2-2 6 4 2-2-1-4 5-6h3l2 3 1-5-2-3 2-5-2-4 7 2 1 4-3 1v4l2 2 4-2 1-4 5-3 8-6 2 1-2 4 3 1 2-3h4l4-3 3 4 3-4-3-4 2-3 7 3 3 2 9 8 2-4-2-4v-1l-4-1 1-3-1-6v-3l5-7 1-7 2-2 7 2v5l-2 7 1 2 1 5v10l2 4-1 5-5 9 3 1 1-2 3-2 1-3 2-3-2-4 2-5h-3l-1-4 2-7-3-7 4-5v-6h1l1 4-1 8 3 2-1-6 4-3 5-1 5 5-2-7v-9l4-2h6l5-1-2-4 3-7h3l5-5 7-1v-3l7-1 2 2 6-5h4l1-5 2-5 6-4 5 3-4 3 6 2v5l3-2h7l6 5 2 4-1 5-3 3-6 5-2 3 3 1 4 3 2-2 1 6 1-3 4-1 8 1 1 4 10 2v-7l6 2h4l4 4 1 6-2 3 4 6 4 3 2-8 4 4 4-2 5 2 2-2 4 1-2-8 4-3 22 5 2 5 7 6 10-2 5 2 2 3v5l3 2 3-1h5l4 1 5-1 4 6 4-2-3-4 2-4 8 3 5-1 7 4 4 3v25ZM0 201v25-25Zm713-86-14 5 4-17 3-1 1 1 7 7ZM578 85l-3 2-3 1v2l-3 3-3-4 2-5h-6l5-3h4v4l2-4 2-2 4 3Zm122 23-5 2-7-4-4-5-2-10-4-3 7-11 5-4 5 8 6 15Z"
+                                class="RUS"></path>
+                        </svg>
+                    </div>
+                    <div class="clientmap-dots">
+                        <ul>
+                            <li>
+                                <button type="button" data-wmap-dot="usa"></button>
+                            </li>
+                            <li>
+                                <button type="button" data-wmap-dot="europe"></button>
+                            </li>
+                            <li>
+                                <button type="button" data-wmap-dot="canada"></button>
+                            </li>
+                            <li>
+                                <button type="button" data-wmap-dot="middle_east"></button>
+                            </li>
+                            <li>
+                                <button type="button" data-wmap-dot="africa"></button>
+                            </li>
+                            <li>
+                                <button type="button" data-wmap-dot="australia"></button>
+                            </li>
+                            <li>
+                                <button type="button" data-wmap-dot="asia"></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <template data-nitro-marker-id="f5fa0ec9c3d826b86c840b63cd8c15d3-1"></template>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------- Start a Project with Redwerk -------------------------  -->
+    <section class="bg_theme">
+        <div class="container p-md-5 p-2 ">
+            <div class="d-flex justify-content-center flex-md-row flex-column p-xl-5 px-3 py-4" style="gap:38px">
+                <div>
+                    <p class="text-white font-weight-normal h2 d-md-block d-none m-0 text-center ">Start a Project with
+                        Redwerk </p>
+                    <p class="text-white font-weight-normal h5 d-block d-md-none m-0 text-center ">Start a Project with
+                        Redwerk </p>
+                </div>
+                <div class="text-center">
+                    <button class="bg-transparent px-4 py-2 text-white border border-white btn_contact_now">Contact
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="company_logo_section" class="py-5 bg-white ">
+        <div class="container">
+            <div class="row d-flex">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/Borjomi_logo.svg" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/logo_encode.svg" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/newlogo_blue.png" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/penthouse.png" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/Babeldat.png" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/dotgov.png" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/logo_eurel.svg" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/GEMS_Education_new_logo_version-e1452680582375.png"
+                            class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/Borjomi_logo.svg" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/logo_encode.svg" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/newlogo_blue.png" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/penthouse.png" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/Babeldat.png" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/dotgov.png" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/logo_eurel.svg" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/GEMS_Education_new_logo_version-e1452680582375.png"
+                            class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/Borjomi_logo.svg" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                    <div
+                        class="py-5 position-relative company_logo_box bg-white  d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/customers/logo_encode.svg" class="img-fluid px-3" alt="">
+                        <div class="company_logo_invisible_part position-absolute bg-white px-3">
+                            <div class="top-wrapper text-center py-3 ">
+                                <b> Borjomi </b>
+                                <br>
+                                <i> <a href="#" class="text-warning font-weight-light">Tbilisi</a>, <a href="#"
+                                        class="text-warning font-weight-light">Georgia</a> </i>
+                            </div>
+                            <div class="font-weight-light">
+                                Borjomi is a brand of naturally carbonated mineral water from springs in the Borjomi
+                                Gorge of central Georgia. It also has a subsidiary, Restoguide, familiarizing tourists
+                                and locals with the Georgian national cuisine.
+                            </div>
+                            <div class=" py-4 text-center">
+                                <a href="#"
+                                    class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme text_decoration_none">
+                                    Case Study </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------- insta lider ----------  -->
+    <section class="bg_light_grey py-5">
+        <div class="container">
+
+        <div id="insta-slider">
+            <p></p>
+            <div class="insta-post show-iframe"> <iframe class="instagram-media instagram-media-rendered"
+                    id="instagram-embed-0"
+                    src="https://www.instagram.com/p/Bpy-MzlBW_o/embed/captioned/?cr=1&amp;v=9&amp;wp=675&amp;rd=https%3A%2F%2Fredwerk.com&amp;rp=%2Fcustomers%2F#%7B%22ci%22%3A0%2C%22os%22%3A7017.699999809265%7D"
+                    allowtransparency="true" allowfullscreen="true" frameborder="0" height="783"
+                    data-instgrm-payload-id="instagram-media-payload-0" scrolling="no"
+                    style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"
+                    data-lf-yt-playback-inspected-xbp1oaegmjz7edvj="true"
+                    data-lf-vimeo-playback-inspected-xbp1oaegmjz7edvj="true"></iframe> 
+            </div>
+           
+            <p></p>
+            <div class="insta-post"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-1"
+                    src="https://www.instagram.com/p/BWai1qUFz2U/embed/captioned/?cr=1&amp;v=9&amp;wp=675&amp;rd=https%3A%2F%2Fredwerk.com&amp;rp=%2Fcustomers%2F#%7B%22ci%22%3A1%2C%22os%22%3A7023.099999904633%7D"
+                    allowtransparency="true" allowfullscreen="true" frameborder="0" height="794"
+                    data-instgrm-payload-id="instagram-media-payload-1" scrolling="no"
+                    style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"
+                    data-lf-yt-playback-inspected-xbp1oaegmjz7edvj="true"
+                    data-lf-vimeo-playback-inspected-xbp1oaegmjz7edvj="true"></iframe> </div>
+            <p></p>
+            <div class="insta-post"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-2"
+                    src="https://www.instagram.com/p/BazM2t3FyKZ/embed/captioned/?cr=1&amp;v=9&amp;wp=675&amp;rd=https%3A%2F%2Fredwerk.com&amp;rp=%2Fcustomers%2F#%7B%22ci%22%3A2%2C%22os%22%3A7027.299999952316%7D"
+                    allowtransparency="true" allowfullscreen="true" frameborder="0" height="882"
+                    data-instgrm-payload-id="instagram-media-payload-2" scrolling="no"
+                    style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"
+                    data-lf-yt-playback-inspected-xbp1oaegmjz7edvj="true"
+                    data-lf-vimeo-playback-inspected-xbp1oaegmjz7edvj="true"></iframe> </div>
+            <p></p>
+            <div class="insta-post"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-3"
+                    src="https://www.instagram.com/p/BVFbWi_FzMO/embed/captioned/?cr=1&amp;v=9&amp;wp=675&amp;rd=https%3A%2F%2Fredwerk.com&amp;rp=%2Fcustomers%2F#%7B%22ci%22%3A3%2C%22os%22%3A9438.399999856949%7D"
+                    allowtransparency="true" allowfullscreen="true" frameborder="0" height="616"
+                    data-instgrm-payload-id="instagram-media-payload-3" scrolling="no"
+                    style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"
+                    data-lf-yt-playback-inspected-xbp1oaegmjz7edvj="true"
+                    data-lf-vimeo-playback-inspected-xbp1oaegmjz7edvj="true"></iframe> </div>
+            <p></p>
+            <div class="insta-post"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-4"
+                    src="https://www.instagram.com/p/ByghqilhX43/embed/captioned/?cr=1&amp;v=9&amp;wp=675&amp;rd=https%3A%2F%2Fredwerk.com&amp;rp=%2Fcustomers%2F#%7B%22ci%22%3A4%2C%22os%22%3A9620%7D"
+                    allowtransparency="true" allowfullscreen="true" frameborder="0" height="1035"
+                    data-instgrm-payload-id="instagram-media-payload-4" scrolling="no"
+                    style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"
+                    data-lf-yt-playback-inspected-xbp1oaegmjz7edvj="true"
+                    data-lf-vimeo-playback-inspected-xbp1oaegmjz7edvj="true"></iframe> </div>
+            <p></p>
+            <div class="insta-post"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-5"
+                    src="https://www.instagram.com/p/BFeQLvKzb0C/embed/captioned/?cr=1&amp;v=9&amp;wp=675&amp;rd=https%3A%2F%2Fredwerk.com&amp;rp=%2Fcustomers%2F#%7B%22ci%22%3A5%2C%22os%22%3A9808.099999904633%7D"
+                    allowtransparency="true" allowfullscreen="true" frameborder="0" height="882"
+                    data-instgrm-payload-id="instagram-media-payload-5" scrolling="no"
+                    style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"
+                    data-lf-yt-playback-inspected-xbp1oaegmjz7edvj="true"
+                    data-lf-vimeo-playback-inspected-xbp1oaegmjz7edvj="true"></iframe> </div>
+            <p></p>
+            <div class="insta-post"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-6"
+                    src="https://www.instagram.com/p/BajWJKqFJd7/embed/captioned/?cr=1&amp;v=9&amp;wp=675&amp;rd=https%3A%2F%2Fredwerk.com&amp;rp=%2Fcustomers%2F#%7B%22ci%22%3A6%2C%22os%22%3A11015.299999952316%7D"
+                    allowtransparency="true" allowfullscreen="true" frameborder="0" height="771"
+                    data-instgrm-payload-id="instagram-media-payload-6" scrolling="no"
+                    style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"
+                    data-lf-yt-playback-inspected-xbp1oaegmjz7edvj="true"
+                    data-lf-vimeo-playback-inspected-xbp1oaegmjz7edvj="true"></iframe> </div>
+            <p></p>
+            <div class="insta-post"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-7"
+                    src="https://www.instagram.com/p/BB9OPUrTIBK/embed/captioned/?cr=1&amp;v=9&amp;wp=675&amp;rd=https%3A%2F%2Fredwerk.com&amp;rp=%2Fcustomers%2F#%7B%22ci%22%3A7%2C%22os%22%3A12364.299999952316%7D"
+                    allowtransparency="true" allowfullscreen="true" frameborder="0" height="864"
+                    data-instgrm-payload-id="instagram-media-payload-7" scrolling="no"
+                    style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"
+                    data-lf-yt-playback-inspected-xbp1oaegmjz7edvj="true"
+                    data-lf-vimeo-playback-inspected-xbp1oaegmjz7edvj="true"></iframe> </div>
+            <p style="height:0;"> <img id="control_next"
+                    nitro-lazy-src="https://cdn-incjn.nitrocdn.com/YiJqAkzLnrtSuyaPgzVoFoSvzguzObnS/assets/images/optimized/rev-5876c28/redwerk.com/wp-content/uploads/2019/06/next_arrow.png"
+                    class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty=""
+                    src="https://cdn-incjn.nitrocdn.com/YiJqAkzLnrtSuyaPgzVoFoSvzguzObnS/assets/images/optimized/rev-5876c28/redwerk.com/wp-content/uploads/2019/06/next_arrow.png"><br>
+                <img id="control_prev"
+                    nitro-lazy-src="https://cdn-incjn.nitrocdn.com/YiJqAkzLnrtSuyaPgzVoFoSvzguzObnS/assets/images/optimized/rev-5876c28/redwerk.com/wp-content/uploads/2019/06/prev_arrow.png"
+                    class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty=""
+                    src="https://cdn-incjn.nitrocdn.com/YiJqAkzLnrtSuyaPgzVoFoSvzguzObnS/assets/images/optimized/rev-5876c28/redwerk.com/wp-content/uploads/2019/06/prev_arrow.png">
+            </p>
+        </div>
+        
+    </div>
+    </section>
+
+    <!-- -------------------------Tell Us About Your Project --------  -->
+    <section class=" py-5 bg_light_grey">
+        <div class="container-sm container-fluid">
+                    <p class="d-md-block d-none pb-4 h1 font-weight-normal">Join the ranks of our satisfied customers!</p>
+                    <p class="d-md-none d-block pb-4 h2 font-weight-normal">Join the ranks of our satisfied customers!</p>
+                    <p>No matter where you are: in New York, Denver or Ontario, or in London, Berlin or Helsinki, Redwerk is always happy to be at hand for you.</p>
+            <div class="row pt-4">
+                <div class="col-md-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 px-3">
+                            <input type="text" class="w-100 px-2 py-1" placeholder="Name">
+                        </div>
+                        <div class="col-lg-6 col-12 px-3 mt-xl-0 mt-4">
+                            <div class="w-100 px-2 py-1 disabled text-success font-weight-light text-center border border-success"><i class="fa-solid fa-shield-halved mr-1" style="color: #28a745;"></i> Your privacy is protected</div>
+                        </div>
+                        <div class="col-lg-6 col-12 px-3 mt-4">
+                            <input type="email" class="w-100 px-2 py-1 border border-secondary" placeholder="Enter business email">
+                        </div>
+                        <div class="col-lg-6 col-12 px-3 mt-4">
+                            <input type="text" class="w-100 px-2 py-1" placeholder="Phone / Skype">
+                        </div>
+                        <div class="col-12">
+                            <textarea name="" class="w-100 mt-4" id="" cols="30" rows="7"></textarea>
+                        </div>
+                        <div class="col-12 d-flex justify-content-between mt-4">
+                            <input type="file" id="actual-btn" hidden/>
+                            <label for="actual-btn" id="add_file" class="choose_file px-4 py-2 bg-white font_color cursor_pointer m-0 border_theme">Add File <i class="fa-solid fa-file-arrow-up ml-2"></i> </label>
+                            <a id="btn_send" class="text-decoration-none text-white cursor_pointer px-5 py-2 bg_theme border_theme m-0">Send</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+
+                    <div class="row  mt-xl-0 mt-4">
+                        <div class="col-6 mb-3">
+                            <h1 class="text-center d-lg-block d-none">70</h1>
+                            <h2 class="text-center d-block d-lg-none">70</h2>
+                            <p class="text-center">PROFESSIONALS <br> IN TEAM</p>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <h1 class="text-center d-lg-block d-none">250+</h1>
+                            <h2 class="text-center d-block d-lg-none">250</h2>
+                            <p class="text-center">PROJECTS <br> ACCOMPLISHED</p>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <h1 class="text-center d-lg-block d-none">550k+</h1>
+                            <h2 class="text-center d-block d-lg-none">550k</h2>
+                            <p class="text-center">DEVELOPMENT <br> HOURS</p>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <h1 class="text-center d-lg-block d-none">50m+</h1>
+                            <h2 class="text-center d-block d-lg-none">50m+</h2>
+                            <p class="text-center">USERS OF SOLUTIONS <br> WE DEVELOP</p>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------- achievements logos --------------------  -->
+    <section id="achievements" class="bg-white py-5 ">
+        <div class="container achievements_container ">
+            
+            <div class="achievements_container_div d-flex w-100 flex-wrap align-items-center justify-content-between " >
+                <div class="d-flex align-items-center justify-content-center ">
+                    <img src="./assets/images/clutch-circle_retina.png" class="img-fluid" alt="">
+                </div>
+                <div class="d-flex align-items-center justify-content-center ">
+                    <img src="./assets/images/reliable-company.png" class="img-fluid" alt="">
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./assets/images/bage-good-firms.png" class="img-fluid" alt="">
+                </div>
+                <div class="d-flex align-items-center justify-content-center ">
+                    <img src="./assets/images/image-2021-03-19-10-39-10-362.png" class="img-fluid" alt="">
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./assets/images/svg.svg" class="img-fluid" alt="">
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./assets/images/5stars-badge.svg" class="img-fluid" alt="">
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./assets/images/software_developers.svg" class="img-fluid"d alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ----------- new footer section  ----------------->
+<section class="footer foot_cont w-100 ">
+    <div class="container w-100 ">
+        <div class="row foot_row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <p class="foot_hero">NANLOGICAL</p>
+                <div class="row mt-3 ml-0">
+                    <i class="fa-solid fa-location-dot" style="color: #fff;">&nbsp;Address</i>
+                </div>
+                <div class="container flex_cont mt-2 font-weight-light mr-5">
+                    Ukraine, Kyiv<br>
+                    Ivana Franka St 20b, 01030<br>
+                    Estonia, Tallinn<br>
+                    Tornimae 7-36, 10145
+                </div>
+                <div class="mt-5"> <i class="fa-solid fa-envelope mb-2" style="color: #fff;">&nbsp Email</i></div>
+                <div class="font-weight-light px-2 foot_mail">&nbsp sales@NanLogical.com </div>
+                <div class="mt-5 font-weight-light foot_mail"><i class="fa-solid fa-phone mb-2"
+                        style="color: #fff;">&nbsp Contact</i><br>
+                </div>
+                <div class="container flex_cont font-weight-light mr-5">
+                    Skype<br>
+                    WhatsApp<br>
+                    + 372 617 0338<br>
+                    +1 347-3291444</div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Services</p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="web_development.html">Web Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="saas_development.html">SaaS Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="mobile_app_development.html">Mobile Applications</a>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="desktop_app_development.html">Desktop
+                                Applications</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="code_review.html">Code Review</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="augmented_reality.html">Augmented Reality</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="machine_learning_development services.html">ML, AI,
+                                and Data Science</a></li>
+                        <li class="mt-4"><a class="flist_clr" class="flist_clr"
+                                href="business_process_outsourcing.html">Business Process Outsourcing</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="dev_ops.html">DevOps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Solutions</p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="startup_innovation.html">Startups & Innovation</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="business_process_automation.html">Business Process
+                                Automation</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="e_commerce.html">E-Commerce</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="data_mining.html">Data Mining</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="elearning.html">E-Learning</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="e_government.html">E-Government</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="healthcare.html">Healthcare</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="media _entertainment.html">Media & Entertainment</a>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="game_development.html">Game Development</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="open_source.html">Open Source</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> About us </p>
+                <div class="ser_box mt-3">
+                    <ul class="ser_items">
+                        <li><a class="flist_clr" href="project_delivery.html">Project Delivery</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="customers.html">Customers</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="technologies.html">Technologies</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="press.html">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-5 mt-xl-0">
+                <p class="foot_hero_sub"> Blog</p>
+                <div class="ser_box">
+                    <ul class="ser_items mt-3">
+                        <li><a class="flist_clr" href="#web-development">Top Tech Events in 2024: Quarter 1 Ultimate
+                                Guide &nbsp
+                            </a><a class="new_highlight px-1">New</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#saas-development">IT Traveler with Carlos Sirias,
+                                CEO at
+                                Pernix Solutions &nbsp</a><a class="new_highlight px-1">New</a></li>
+                        </li>
+                        <li class="mt-4"><a class="flist_clr" href="#mobile-applications">Corporate Social
+                                Responsibility Report
+                                2023</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#desktop-applications">Metaverse Use Cases: 15
+                                Real-Life
+                                Examples Across Industries</a></li>
+                        <li class="mt-4"><a class="flist_clr" href="#code-review">Top Tech Events in 2023: Quarter 4
+                                Ultimate
+                                Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ----------- new social media section  ----------------->
+<section class="social_media">
+    <div class="container">
+        <div class="social_items mt-5">
+            <ul class="social_elememts">
+                <li><a><img class="soc_img" src="./assets/images/social1.webp" alt=""></a></li>
+            </ul>
+            <ul class="lgo_container d-flex justify-content-md-around flex-wrap">
+                <li class="d-inline-block"><a href="#"><i class="fa-brands fa-facebook social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-instagram social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-pinterest social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-linkedin social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-youtube social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-github social_fnt"></i></a></li>
+                <li class="d-inline-block ml-2"><a href="#"><i class="fa-brands fa-stack-overflow social_fnt "></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="social_items">
+            <div class="end_items">
+                <div class=""><a href="https://www.flaticon.com/free-icons/india" title="india icons"></a></div>
+                <div style="opacity: 0.5; color: #fff;" class="pb-3">© 2024 Nanlogical
+                </div>
+                <ul class="end_elements">
+                    <li class="d-inline-block"><a href="#">Privacy Policy</a></li>
+                    <li class="d-inline-block"><a href="#">Our Locations</a></li>
+                </ul>
+            </div>
+        </div>
+</section>
+  <!--------------------------- scroll arrow------------- -->
+  <div class="scroll_container">
+    <div class="scroll_rotate"></div>
+      <div class="scroll_arrow"><i class="fa-solid fa-arrow-up"></i></div>
+    </div>
+
+    <link rel="stylesheet" onload="NPRL.onLoadStyle(this)" onerror="NPRL.onErrorStyle(this)"
+        href="https://cdn-incjn.nitrocdn.com/YiJqAkzLnrtSuyaPgzVoFoSvzguzObnS/assets/static/optimized/rev-7750b04/redwerk.com/combinedCss/nitro-min-noimport-efa84f9c9f7778058cba068cff726415-stylesheet.css" />
+
+    <style onload="NPRL.onLoadStyle(this)" onerror="NPRL.onErrorStyle(this)">
+        .clientmap-svg-and-ttips path.USA,
+        .clientmap-svg-and-ttips path.DEU,
+        .clientmap-svg-and-ttips path.NLD,
+        .clientmap-svg-and-ttips path.GBR,
+        .clientmap-svg-and-ttips path.DNK,
+        .clientmap-svg-and-ttips path.FIN,
+        .clientmap-svg-and-ttips path.GEO,
+        .clientmap-svg-and-ttips path.GRC,
+        .clientmap-svg-and-ttips path.ITA,
+        .clientmap-svg-and-ttips path.PRT,
+        .clientmap-svg-and-ttips path.ROU,
+        .clientmap-svg-and-ttips path.ESP,
+        .clientmap-svg-and-ttips path.CHE,
+        .clientmap-svg-and-ttips path.AUT,
+        .clientmap-svg-and-ttips path.FRA,
+        .clientmap-svg-and-ttips path.IRL,
+        .clientmap-svg-and-ttips path.CAN,
+        .clientmap-svg-and-ttips path.ISR,
+        .clientmap-svg-and-ttips path.SAU,
+        .clientmap-svg-and-ttips path.ARE,
+        .clientmap-svg-and-ttips path.NGA,
+        .clientmap-svg-and-ttips path.KEN,
+        .clientmap-svg-and-ttips path.ZMB,
+        .clientmap-svg-and-ttips path.NZL,
+        .clientmap-svg-and-ttips path.AUS,
+        .clientmap-svg-and-ttips path.JPN {
+            fill: #6ba2c0;
+        }
+
+        .clientmap-svg-and-ttips path.USA:hover,
+        .clientmap-svg-and-ttips path.DEU:hover,
+        .clientmap-svg-and-ttips path.NLD:hover,
+        .clientmap-svg-and-ttips path.GBR:hover,
+        .clientmap-svg-and-ttips path.DNK:hover,
+        .clientmap-svg-and-ttips path.FIN:hover,
+        .clientmap-svg-and-ttips path.GEO:hover,
+        .clientmap-svg-and-ttips path.GRC:hover,
+        .clientmap-svg-and-ttips path.ITA:hover,
+        .clientmap-svg-and-ttips path.PRT:hover,
+        .clientmap-svg-and-ttips path.ROU:hover,
+        .clientmap-svg-and-ttips path.ESP:hover,
+        .clientmap-svg-and-ttips path.CHE:hover,
+        .clientmap-svg-and-ttips path.AUT:hover,
+        .clientmap-svg-and-ttips path.FRA:hover,
+        .clientmap-svg-and-ttips path.IRL:hover,
+        .clientmap-svg-and-ttips path.CAN:hover,
+        .clientmap-svg-and-ttips path.ISR:hover,
+        .clientmap-svg-and-ttips path.SAU:hover,
+        .clientmap-svg-and-ttips path.ARE:hover,
+        .clientmap-svg-and-ttips path.NGA:hover,
+        .clientmap-svg-and-ttips path.KEN:hover,
+        .clientmap-svg-and-ttips path.ZMB:hover,
+        .clientmap-svg-and-ttips path.NZL:hover,
+        .clientmap-svg-and-ttips path.AUS:hover,
+        .clientmap-svg-and-ttips path.JPN:hover {
+            fill: #d33;
+        }
+
+        [data-tranform="usa"] {
+            transform: scale(1.5) translateX(32%) translateY(21%);
+        }
+
+        [data-tranform="europe"] {
+            transform: scale(2.3) translateX(-4%) translateY(15%);
+        }
+
+        [data-tranform="canada"] {
+            transform: scale(1.4) translateX(32%) translateY(28%);
+        }
+
+        [data-tranform="middle_east"] {
+            transform: scale(3.9) translateX(-12%) translateY(-4%);
+        }
+
+        [data-tranform="africa"] {
+            transform: scale(2.6) translateX(-5%) translateY(-13%);
+        }
+
+        [data-tranform="australia"] {
+            transform: scale(2.6) translateX(-41%) translateY(-27%);
+        }
+
+        [data-tranform="asia"] {
+            transform: scale(2.3) translateX(-37%) translateY(8%);
+        }
+
+        @media (min-width: 992px) {
+            .clientmap-tooltip[data-slug="usa"] {
+                top: 4%;
+                left: 36%;
+            }
+
+            .clientmap-tooltip[data-slug="europe"] {
+                top: 8%;
+                left: auto;
+                right: 54%;
+            }
+
+            .clientmap-tooltip[data-slug="canada"] {
+                top: 3%;
+                left: 37%;
+            }
+
+            .clientmap-tooltip[data-slug="middle_east"] {
+                top: 28%;
+                left: auto;
+                right: 41%;
+            }
+
+            .clientmap-tooltip[data-slug="africa"] {
+                top: 43%;
+                left: 64%;
+            }
+
+            .clientmap-tooltip[data-slug="australia"] {
+                top: 49%;
+                left: auto;
+                right: 20%;
+            }
+
+            .clientmap-tooltip[data-slug="asia"] {
+                top: 23%;
+                left: auto;
+                right: 16%;
+            }
+        }
+    </style>
+
+    <style type="text/css" onload="NPRL.onLoadStyle(this)" onerror="NPRL.onErrorStyle(this)">
+
+        #insta-slider {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        #insta-slider p {
+            margin: 0;
+        }
+
+        #insta-slider .insta-post {
+            opacity: 0;
+            margin: 0 auto;
+            width: 56%;
+            height: 0;
+            transition: opacity .3s;
+        }
+
+        #insta-slider .insta-post.show-iframe {
+            opacity: 1;
+            height: auto;
+        }
+
+        img#control_prev,img#control_next {
+            top: 215px;
+            transform: translate(0%,50%);
+        }
+
+        img#control_next {
+            right: 10%;
+        }
+
+        img#control_prev {
+            left: 10%;
+        }
+
+        img#control_prev,img#control_next {
+            position: absolute;
+            width: 20px;
+            height: auto;
+            opacity: .4;
+            cursor: pointer;
+        }
+
+        img#control_prev:hover,img#control_next:hover {
+            opacity: .8;
+            -webkit-transition: all .3s ease;
+        }
+
+        img.control_prev {
+            border-radius: 0 2px 2px 0;
+        }
+
+        img.control_next {
+            right: 0;
+            border-radius: 2px 0 0 2px;
+        }
+
+        .insta-post iframe {
+            min-width: 100px !important;
+            width: 100% !important;
+            margin: 0 auto !important;
+        }
+
+        @media (max-width: 500px) {
+            .insta-post iframe {
+                width:100% !important;
+            }
+        }
+
+        @media (max-width: 1199px) {
+            #insta-slider .insta-post {
+                width:86%;
+            }
+
+            img#control_prev,img#control_next {
+                top: 300px;
+            }
+
+            img#control_prev {
+                left: 0%;
+            }
+
+            img#control_next {
+                right: 0%;
+            }
+        }
+
+        .in-progress img {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+
+        .in-progress .logo-text {
+            font-size: 30px;
+            font-weight: bold;
+            margin: auto;
+        }
+
+        @media (max-width: 420px) {
+            img#control_prev {
+                left:-1%;
+            }
+
+            img#control_next {
+                right: -1%;
+            }
+        }
+
+        @media (max-width: 330px) {
+            #insta-slider .insta-post {
+                width:83%;
+            }
+
+            #insta-slider .insta-post {
+                max-width: 243px;
+            }
+        }
+
+    </style>
+
+    <!-- ------------ scrop bottom to top ------  -->
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script> -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="assets/owl/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/owl/js/owl.carousel.js"></script>
+    <!-- ----------- light-box------------ -->
+    <script src="assets/lightbox2-dev/dist/js/lightbox.js"></script>
+    <!-- --------------- aos script ------------------- -->
+    <script src="assets/aos/js/aos.js"></script>
+    <script>
+        // scroll arrow script
+        document.addEventListener("DOMContentLoaded", function() {
+        var scrollContainer = document.querySelector('.scroll_container');
+        window.addEventListener('scroll', function() {
+          if (window.scrollY > window.innerHeight / 2) {
+            scrollContainer.style.display = 'flex';
+          } else {
+            scrollContainer.style.display = 'none';
+          }
+        });
+        scrollContainer.addEventListener('click', function() {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        });
+      });
+      </script>
+     
+
+</body>
+
+</html>

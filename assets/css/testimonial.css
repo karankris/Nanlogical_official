@@ -1,0 +1,110 @@
+*{
+    transition: 0.4s;
+}
+#testimonial_body{
+    background: url(../images/testimonials/DSC_9613-min-3-scaled.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* should change below 1225px  */
+    background-repeat: no-repeat;
+}
+
+.bg_black_transparent{
+    background-color: rgb(17 17 17 / 36%);
+}
+
+#testimonial_main_section .testimonial_development_hub .testimonial_development p{
+    font-size: 1.6rem;
+} 
+#testimonial_main_section .testimonial_contents_section .container .testimonial_contents .testimonial_content_wordings img{
+    height: 38px;
+    width: 38px;
+}
+.quote_img{
+    height: 38px;
+    width: 38px;
+}
+#testimonial_main_section .testimonial_contents_section .container .testimonial_contents .testimonial_content_img_section .testimonial_content_img span{
+    bottom: 7%;
+    left: 6%;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+#testimonial_main_section .testimonial_contents_section .container .testimonial_contents .testimonial_content_img_section .testimonial_content_img:hover .client_img{
+    transform: scale(1.15);
+}
+#testimonial_main_section .testimonial_contents_section .container .testimonial_contents .testimonial_content_img_section .testimonial_content_img .play_btn{
+    height: 76px;
+    width: 76px;
+    position: absolute;
+    cursor: pointer;
+    transition: opacity .3s;
+    opacity: .72;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 4;
+}
+#testimonial_main_section .testimonial_contents_section .container .testimonial_contents .testimonial_content_img_section .testimonial_content_img .play_btn:hover{
+    opacity: 1;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+    #about_top_img_section{
+        background: url(../images/testimonials/DSC_9613-min-3-scaled.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+    #testimonial_main_section .testimonial_development_hub .testimonial_development p{
+        font-size: 1.3rem;
+    } 
+    #testimonial_main_section .testimonial_contents_section .container .testimonial_contents .testimonial_content_img_section .testimonial_content_img span{
+        font-size: 3rem;
+    }
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+}

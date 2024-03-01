@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2 ,h3 ,h4 ,h5 ,h6{
+    color: rgb(52, 71, 103) !important
+}
+p,blockquote{
+    color: rgb(103, 116, 142) !important;
+}
+.solution_top_section1{
+    width:100%;
+}
+.solution_top_section2{
+    height: 400px !important;
+    width: 100%;
+}
+.we_start_sec, .contact_us,.consulting,.selected_cases,.off_on_site_sec,.serv_last_sec{
+        display: flex;
+        flex-direction: column;   
+        padding-bottom:22px;   
+        width: 100%;
+}
+a,a:hover{
+    text-decoration: none !important;
+   color: #fff !important;
+}
+.bg_color_white{
+    width:100% !important;
+    background-color: #FFF;
+    margin: 0 !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+.bg_color_grey{
+    width:100% !important;
+    background-color: #f6f6f6;
+    margin: 0 !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.bg_color2{
+    background-color:#f6f6f6 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.bg_theme{
+    background: linear-gradient(310deg, rgb(20, 23, 39), rgb(58, 65, 111)) !important;
+}
+.btn-primary,.btn-primaryg:hover{
+    background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+    border: none !important;
+    color:white !important;
+    box-shadow: rgba(20, 20, 20, 0.12) 0rem 0.25rem 0.375rem -0.0625rem, rgba(20, 20, 20, 0.07) 0rem 0.125rem 0.25rem -0.0625rem;
+    border-radius: 0 !important;
+}
+
+/* --------------------------background image for solutions page----------------------------- */
+.solution_bg_image1{
+    background-position: center center !important;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/solutions/solution_hero.webp);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover !important;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.theme_font_color{
+    color:rgb(33, 82, 255) !important;
+}
+/*---------------------------- solution_top_section1----------------------------------*/
+.solution_top_section1 .container .row .right .serv_right a .fa-house:hover{
+color: rgb(33, 82, 255) !important;
+}
+/*---------------------------- solution_top_section2 --------------------------------*/
+.solution_top_section2{
+    height:350px;
+}
+
+.solution_top_section2 .padding_top{
+    padding: 35px !important;
+    align-items: center;
+}
+.solution_top_section2 .padding_top .text_bg{
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background: rgba(0,0,0,.4);
+    padding: 3px 15px 3px;
+    line-height: 55px;
+    color: #ebe7e7;
+}
+
+.solution_top_section2 .padding_top .text_bg_p{
+  line-height: 30px;
+}
+/* ----------------------- How project made solution-------------------------------------- */
+.solution_top_section4{
+    display: flex;
+    flex-direction: column;   
+    padding-bottom:20px;   
+}
+.solution_top_section4 .sol_logo{
+    height: auto;
+    width: auto;
+    max-height: 60px !important;
+    max-width: 179px !important;
+    margin: auto auto 0;
+}
+.solution_top_section4 .sol_video .playicon{
+    font-size: 60px;
+    position: relative;
+    top: 34%;
+    left: 48%;
+    color: rgb(103, 116, 142) !important;
+}
+.solution_top_section4 .sol_video{
+    max-width: 465px;
+    width: 100%;
+    aspect-ratio: 465/290;
+    background-size: cover;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+.solution_top_section4 .quote{
+    margin: 20px 0 0;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.solution_top_section4 blockquote::before {
+    content:  "🙷";
+    color:#a8a8a8;
+    font-size: xx-large !important;
+    padding:3px;
+}
+
+.solution_top_section4 blockquote::after {
+    content:  "🙷";
+    color:#a8a8a8;
+    font-size: xx-large !important;
+    padding-left: 2px !important;
+}
+
+/*-------------------- how we start section----------------- */
+.we_start_sec .start_box{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+    justify-content: space-between;
+    margin: auto;
+}
+.we_start_sec .start_box .icons_container{
+    width: 150px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.we_start_sec .start_box .icons_container:after{
+    content: "";
+    position: absolute;
+    width: 77%;
+    top: 89px;
+    left: 70px;
+    height: 4px;
+    background: linear-gradient(90deg,rgb(20, 23, 39),  0%,rgb(20, 23, 39) 15%,rgba(20, 23, 39, 0.519) 32%,rgb(20, 23, 39) 52%,rgb(58, 65, 111) 60%, rgb(33, 82, 255)65%, rgb(33, 82, 255) 76%, rgb(33, 82, 255) 69%, rgb(33, 82, 255) 100%);
+}
+
+.we_start_sec .start_box .icons_container .icon_circle{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    margin: 21px 0 25px 0;
+    background: rgb(20, 23, 39);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.we_start_sec .start_box .icons_container .icon_circle_blue{
+    background: rgb(33, 82, 255);
+}
+.we_start_sec .start_box .icons_container .color_blue2{
+    background:rgb(33, 82, 255);
+
+}
+.we_start_sec .start_box .icons_container .color_blue1{
+    background:rgb(41, 189, 223);
+}
+.we_start_sec .start_box .icons_container i{
+    font-size: 30px !important;
+    z-index:9;
+}
+/* ----------------contact_us section------------------------- */
+.contact_us .btn-primary,.consulting .btn-primary{
+    border-radius: 0 !important;
+    border: 1px solid white;
+    color: white;
+    font-weight: 400 !important;
+}
+.contact_us .btn-primary:hover,.consulting .btn-primary:hover{
+    background-color: white;
+    color:black !important;
+}
