@@ -1,6 +1,6 @@
 # BT-Official
 
-# site is live at [https://karankris.github.io/Nanlogical_official/]
+## site is live at [https://karankris.github.io/Nanlogical_official/]
 
 ## Getting started
 
